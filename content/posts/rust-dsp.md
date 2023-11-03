@@ -300,7 +300,7 @@ As you can see, in each of our implementations we've defined a generic parameter
 
 Importantly, if in our `Processor` implementation, the `F` wasn't constrained to be a `Float`, the compiler wouldn't let us multiply the input with the gain value since the generic parameter wouldn't be guaranteed to be a type that can be multiplied.
 
-## Buffer Improvements
+### Buffer Improvements
 
 Let's implement a few useful methods to our buffer type that take advantage of some useful trait bounds. 
 
@@ -352,7 +352,7 @@ The second example...
 
 ---
 
-## Stepping Back
+## Implementing our Library
 
 At this point we've been introduced to the basic language features we're going to need to develop our library. So we're going to take a moment to step back and think about some of the what we want this library to accomplish.
 
@@ -365,7 +365,7 @@ As mentioned earlier, we want users of our library to be able to write DSP code 
 
 Note that our goals of expressivity, flexibility, and composability are for *users* of our library. Implementing the library itself is going to require some fairly abstract uses of the Rust type system. So prepare to look at some gnarly code, knowing at the end that using our library will be much more friendly and flexible.
 
-## Sample Trait
+### Sample Trait
 
 We've already seen how to write code that is generic over multiple float types, and our next task will be to make our library generic over multiple sample types as well. By sample here I mean a single snapshot of some continuous-time signal that may have multiple channels. So the sample might be in mono, stereo, or even spatial formats. By making our code generic over these sample types we'll be able to re-use the same DSP elements in all these scenarios.
 
@@ -444,7 +444,7 @@ impl<F: Float> Sample for Stereo<F> {
 
 And you could continue expanding this list to include support for spatial audio formats or any othr kind of sample you like.
 
-## Block Trait
+### Block Trait
 
 Now that we've got the basic building blocks for making our library generic over different sample types, we're going to use this while implementing the trait that will make our library generic over different *buffer* types. To do this we're going to implement a `Block` trait, which will represent a non-owned frame of samples or some other data. Here's a first implementation.
 
@@ -563,8 +563,17 @@ impl<S> Block for (*mut S, usize) {
 Now that we've got a couple methods implemented on our traits, we can get a sense of the payoff to these more abstract implementations when using the library. Take a look at the following example.
 
 ```rust
-pub fn test_mono(buffer_1: (*mut f32, usize), buffer_2: &mut [f32]) {
-    let mut buffer_3 = Buffer::init(0.0, count);
+pub fn test_mono(
+        buffer_1: (*mut f32, usize),
+        buffer_2: &[f32]
+        buffer_3: &Buffer<f32>
+    ) -> Buffer<f32> {
+
+    let mut sum = Buffer::init(0.0, count);
+
+    sum.copy_from(&buffer_1);
+    sum.copy_from(&buffer_2);
+    sum.copy_from(&buffer_3);
 
     buffer_3.copy_from(&buffer_1);
     buffer_2.copy_from(&buffer_3);
@@ -590,15 +599,6 @@ pub fn test_generic<S: Sample>(
 }
 ```
 
+The next thing you'd want to do is implement a laundry list of useful functions on our block and float traits. These could include methods for adding blocks, equilibrating a block, applying a function across a block, and more. These implementation will automatically become supported on all the different block types, and will be also supported *between* all the different combinations of block types.
 
-
-### Type Inference
-
-The rust compiler makes heavy use of `let` expressions and type inferencing. This will be important later when we'll construct stack-allocated types whose types are too complex to be witten out, but the basic syntax of these declarations is below.
-
-```rust
-fn main() {
-    let a = 5;
-    let b = 4;
-}
-```
+For the sake of time, that will be left as an exercise to the reader. Next, we're going to take another look at the DSP elements that use these processors.

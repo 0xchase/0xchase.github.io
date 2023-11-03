@@ -12,13 +12,15 @@ params:
     subtitle: Graduate student at UMD
     imageUrl: https://lumiere-a.akamaihd.net/v1/images/character_themuppets_kermit_b77a431b.jpeg
     imageTitle: Kermit the Frog
-    imageWidth: 200 # custom size
-    imageHeight: 200 # custom size
+    imageWidth: 250 # custom size
+    imageHeight: 250 # custom size
     buttons:
-      - name: Archive
-        url: "/archive"
+      - name: Search
+        url: "/search"
       - name: Posts
         url: "/posts"
+      - name: Archive
+        url: "/archive"
 
   socialIcons: # optional
     - name: github
@@ -29,3 +31,8 @@ params:
       url: https://spotify.com
     - name: reddit
       url: https://www.reddit.com/user/chase1635321
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
