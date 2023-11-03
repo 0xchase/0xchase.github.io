@@ -2,6 +2,9 @@
 title: 'The Path to Compatibilism'
 date: 2023-11-01T00:00:02-04:00
 draft: true
+showToc: true
+showReadingTime: true
+showWordCount: true
 ---
 
 ## Introduction

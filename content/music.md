@@ -1,5 +1,4 @@
 ---
-menu: main
 title: Music
 draft: false
 ---

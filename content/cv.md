@@ -1,5 +1,4 @@
 ---
-menu: main
 title: CV
 draft: false
 ---

@@ -4,6 +4,7 @@ date: 2023-08-01T00:00:02-04:00
 draft: false
 showToc: true
 showReadingTime: true
+showWordCount: true
 ---
 
 ## Context

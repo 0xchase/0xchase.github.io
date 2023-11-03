@@ -4,7 +4,32 @@ title: Chase Kanipe
 theme: papermod
 defaultContentLanguage: en
 sectionPagesMenu: main
-
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: cv
+      name: CV
+      url: /cv/
+      weight: 20
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 30
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 40
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 50
+#    - identifier: github
+#      name: Github
+#      url: https://example.org
+#      weight: 60
 params:
   profileMode:
     enabled: true
@@ -21,7 +46,6 @@ params:
         url: "/posts"
       - name: Archive
         url: "/archive"
-
   socialIcons: # optional
     - name: github
       url: https://github.com/0xchase
