@@ -353,7 +353,7 @@ The second example...
 
 ---
 
-## Implementing our Library
+## Floats, Samples, and Buffers
 
 At this point we've been introduced to the basic language features we're going to need to develop our library. So we're going to take a moment to step back and think about some of the what we want this library to accomplish.
 
@@ -408,7 +408,19 @@ pub trait Sample: Copy + Clone + Add<Self, Output = Self> {
 
 As you can see here, we have declared a simple sample trait, which has an associated `Float` type, which must implement trait `Float`. It also has two associated constant values, `CHANNELS` and `EQUILIBRIUM`, which define the number of channels associated with that sample, and the "zero" value of it. It also has a bunch of functions that may be used on that sample type.
 
-You may also have noticed at the top, that the sample trait is further constrained so it must implement the `Copy`, `Clone`, and `Add` traits (where `Add` takes a `Self` value and outputs another `Self`). If you implement a library like this for yourself you'll want to add a bunch of other constraints for operations like `Sub`, `Mul`, `Div`, and so on.
+You may also have noticed at the top, that the sample trait is further constrained so it must implement the `Copy`, `Clone`, and `Add` traits (where `Add` takes a `Self` value and outputs another `Self`). If you implement a library like this for yourself you'll want to add a bunch of other constraints for operations like `Sub`, `Mul`, `Div`, and so on. Here's how you might implement the add trait for a sample.
+
+```rust
+// TODO: Implement add trait
+// TODO: Implement add with float trait
+```
+
+This will allow us to add these floats as is shown below.
+
+```rust
+// Example adding two samples
+// Example adding sample with float
+```
 
 The next step would be to implement this sample trait for every sample type we want to support. I'm not going to do that now but the process would look something like this.
 
@@ -600,6 +612,283 @@ pub fn test_generic<S: Sample>(
 }
 ```
 
-The next thing you'd want to do is implement a laundry list of useful functions on our block and float traits. These could include methods for adding blocks, equilibrating a block, applying a function across a block, and more. These implementation will automatically become supported on all the different block types, and will be also supported *between* all the different combinations of block types.
+### More Methods
 
-For the sake of time, that will be left as an exercise to the reader. Next, we're going to take another look at the DSP elements that use these processors.
+The final thing you'll want to do is implement a laundry list of useful functions on our block and float traits. These could include methods for adding blocks, equilibrating a block, applying a function across a block, and more. These implementation will automatically become supported on all the different block types, and will be also supported *between* all the different combinations of block types. Here's a few examples.
+
+```rust
+    /// Apply a function to each sample
+    fn apply<F: Fn(Self::Item) -> Self::Item>(&mut self, f: F) where Self::Item: Copy {
+        for v in self.as_slice_mut() {
+            *v = f(*v);
+        }
+    }
+
+    /// Apply a gain to the buffer
+    fn gain(&mut self, db: <Self::Item as Sample>::Float) where Self::Item: Sample {
+        self.apply(| v | v.gain(db))
+    }
+
+    /// Fill the buffer with a value
+    fn fill(&mut self, value: Self::Item) where Self::Item: Copy {
+        self.apply(| _ | { value } );
+    }
+
+    /// Equilibrate the buffer
+    fn equilibrate(&mut self) where Self::Item: Sample {
+        self.fill(Self::Item::EQUILIBRIUM);
+    }
+```
+
+And these methods can be used as shown below.
+
+```rust
+/// Test on a buffer of stereo 32 bit floats
+pub fn test_1(buffer: Buffer<Stereo<f32>>) {
+    buffer.fill(Stereo::from(0.0));
+    buffer.gain(10.0);
+    buffer.fill(Stereo::from(0.5));
+    buffer.apply(| s | s + 1.0);
+}
+
+/// Test on a raw pointer to 32 bit floats
+pub fn test_2(buffer: (*mut f32, usize)) {
+    buffer.fill(0.0);
+    buffer.gain(10.0);
+    buffer.fill(0.5);
+    buffer.apply(| s | s + 1.0);
+}
+```
+
+Okay. I think that covers how to implement abstract methods over all the combinations of float, sample, and buffer types. Regardless of if you thought any of the abstract code was complicated, I hope these final examples made it clear how simple and flexible the end result is. Remember, these functions can now be used with any permutation of float type, channel formats, and buffer type.
+
+## Processors and Generators
+
+Next we're going to take a closer look at DSP processors, and how they can be represented in a way that's abstract and composable. Just a reminder from earlier, we represented processors with the following trait, which consumes an input and yields an output.
+
+```rust
+pub trait Processor {
+    type Input;
+    type Output;
+
+    fn prepare(&mut self, sample_rate: f64, block_size: usize);
+    fn process(&mut self, input: Self::Input) -> Self::Output;
+}
+```
+
+And while we're add it we'll also create a generator trait, which only produces an output.
+
+```rust
+pub trait Generator {
+    type Output;
+
+    fn prepare(&mut self, sample_rate: f64, block_size: usize);
+    fn generate(&mut self) -> Self::Output;
+}
+```
+
+What we're going to try to do is use the trait system to allow types that implement these traits to be composed into audio graphs with operators, similar to the faust programming language. Here's a preview of where we're going.
+
+```rust
+pub fn main() {
+    let dsp = noise() >> gain(lfo(10.0) >> gain(-20.0));
+    let output: f32 = dsp.generate();
+}
+```
+
+There's two main elements to this method of graph initialization. First there's the audio node initialization, which is done with `const` functions, and second there's how we're composing these elements into the graph with operators. We'll start by considering the node composition.
+
+### Node Composition
+
+We'll start by implementing chain composition, which will be accomplished by the `>>` right shift operator. To support this we'll need to implement the `Shr` trait. Two elements composed with this operator will feed into each other from left to right.
+
+```rust
+pub trait Shr<Rhs = Self> {
+    type Output;
+
+    fn shr(self, rhs: Rhs) -> Self::Output;
+}
+```
+
+We're going to implement the `Shr` trait on a single type, but we want to be able to compose a variety of different processors and generators. So for this to work we'll need to create a `Node` wrapper type that can be composd with our operators, and these node types should be able to play back any processor or generator that it contains.
+
+Here's a simple declaration of our node type.
+
+```rust
+#[derive(Copy, Clone)]
+pub struct Node<P>(pub P);
+```
+
+To drive the conceptual point home, you can see the following diagram, which shows how each generator and processor is wrapped in a `Node` type, and how each of these nodes is being composed with operators.
+
+```
+    Node( Generator1 ) >> Node( Processor2 ) >> Node( Processor3 )
+```
+
+Now consider each of the operators. How can we use the `Shr` trait to get the desired chaining functionality? We'll use the trait to generate a `struct Chain`, which wraps the elements on either side of the operator and calls them in the appropriate order. A `struct Chain` will contain two elements that are fed into one other, as shown in the diagram below. These chains may be composed recursively.
+
+```
+    Chain( Node( Generator1 ), Chain( Node( Processor1 ), Node( Processor2 ) ) )
+```
+
+This diagram represents the data structure that we want our operators to generate. Since we already implemented the `Node` struct, we'll need to implement the `Chain` struct next.
+
+```rust
+#[derive(Copy, Clone)]
+pub struct Chain<P1, P2>(pub P1, pub P2);
+
+impl<In, Between, Out, P1, P2> Processor for Chain<P1, P2> 
+    where
+        P1: Processor<Input = In, Output = Between>,
+        P2: Processor<Input = Between, Output = Out> {
+
+    type Input = In;
+    type Output = Out;
+
+    fn prepare(&mut self, sample_rate: f64, block_size: usize) {
+        self.0.prepare(sample_rate, block_size);
+        self.1.prepare(sample_rate, block_size);
+    }
+
+    fn process(&mut self, input: Self::Input) -> Self::Output {
+        self.1.process(self.0.process(input))
+    }
+}
+
+impl<Between, Out, G, P> Generator for Chain<G, P> 
+    where
+        G: Generator<Output = Between>,
+        P: Processor<Input = Between, Output = Out> {
+
+    type Output = Out;
+
+    fn reset(&mut self) {}
+    fn prepare(&mut self, _sample_rate: f64, _block_size: usize) {}
+
+    fn generate(&mut self) -> Self::Output {
+        self.1.process(self.0.generate())
+    }
+}
+```
+
+The heavy use of generics in this example may look intimidating, but it's actually fairly simple. Take a look at our implementation of `Generator` for `Chain`. you can see that there are generic parameters `G` and `P` for the generator at the beginning of the chain and the processor next in the chain. then their are two generic parameters `Between` and `Out`, which represent the data types between the two elements and the output of the whole chain. These type constraints you see here are meant to ensure that the output of the first element is the same as the input to the second element. Then you can see the process method will first call member `0`, then feed the output into the call to member `1`, exactly what we'd expect from a chain.
+
+Now that we have the `Node` and `Chain` types, we can implement the code that will generate these types from our operators. We'll start with the `Shr` operator for creating chains.
+
+```rust
+impl<A, B> std::ops::Shr<Node<B>> for Node<A> {
+    type Output = Node<Chain<A, B>>;
+
+    fn shr(self, rhs: Node<B>) -> Self::Output {
+        Node(Chain(self.0, rhs.0))
+    }
+}
+```
+
+When the `>>` is applied, it will tranform the nodes on either side into a single node, containing a chain of the previous nodes. Now we've implemented the code we need to compose audio nodes. Our next step is to create the functions that will produce these nodes from our processors and generators.
+
+### Node Initialization
+
+We're going to start with a implementation of a `struct Gain`, which implements `Processor` generically over all samples.
+
+```rust
+pub struct Gain<S: Sample>(S::Float);
+
+impl<S: Sample> Gain<S> {
+    pub fn from(db: S::Float) -> Gain<S> {
+        Gain(db)
+    }
+}
+
+impl<S: Sample> Processor for Gain<S> {
+    type Input = S;
+    type Output = S;
+
+    fn prepare(&mut self, _sample_rate: f64, _block_size: usize) {}
+
+    fn process(&mut self, input: Self::Input) -> Self::Output {
+        input.gain(self.0)
+    }
+}
+```
+
+We can create a const function that creates an audio node from this struct as shown below.
+
+```rust
+pub const fn gain<S: Sample>(db: S::Float) -> Node<Gain<S>> {
+    Node(Gain(db))
+}
+```
+
+Now we should have everything we need to start composing nodes. You can assume I repeated this process for some other processors and generators.
+
+```rust
+pub fn main() {
+    let noise = noise();        // Creates Node(Noise)
+    let gain = gain(10.0);      // Creates Node(Gain(10.0))
+
+    let dsp = noise >> gain_1;  // Creates Node(Chain(Node(Noise), Node(Gain(10.0))))
+}
+```
+
+The last thing we want is to be able to call the generator and processor methods on our nodes. To do this we need to implement these traits on `Node`.
+
+
+```rust
+impl<Out, G> Generator for Node<G>
+    where
+        G: Generator<Output = Out> {
+
+    type Output = Out;
+
+    fn prepare(&mut self, sample_rate: f64, block_size: usize) {
+        self.0.prepare(sample_rate, block_size);
+    }
+
+    fn generate(&mut self) -> Self::Output {
+        self.0.generate()
+    }
+}
+
+impl<In, Out, P> Processor for Node<P>
+    where
+        P: Processor<Input = In, Output = Out> {
+
+    type Input = In;
+    type Output = Out;
+
+    fn prepare(&mut self, sample_rate: f64, block_size: usize) {
+        self.0.prepare(sample_rate, block_size);
+    }
+
+    fn process(&mut self, input: Self::Input) -> Self::Output {
+        self.0.process(input)
+    }
+}
+```
+
+As you can see, each trait is only implemented if the element contained by the node also implements the trait. So, for example, the processor trait will only be implemented for the node if the containing member is also a processors.
+
+
+Now we can freely compose our nodes as is shown below.
+
+```rust
+pub fn main() {
+    let block = Block::init(0.0, 512);
+    let graph = noise() >> gain(10.0) >> gain(-10.0);
+
+    graph.generate_block(&mut block);
+}
+```
+
+Since this graph starts with a generator, and ends with processors, the generator methods are avaliable on the whole chain. If I switch the first element to a processor, however, then you'll see the generator methods are no longer available and I can intead call the processor methods. This is the magic of type inteference.
+
+```rust
+pub fn main() {
+    let input = Block::init(0.0, 512);
+    let output = Block::init(0.0, 512);
+    let graph = distotion(10.0) >> gain(10.0) >> gain(-10.0);
+
+    graph.process_block(&input, &mut output);
+}
+```
