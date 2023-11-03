@@ -8,8 +8,8 @@ sectionPagesMenu: main
 params:
   profileMode:
     enabled: true
-    title: This is a title
-    subtitle: Hello 👋 This is a subtitle
+    title: Chase Kanipe
+    subtitle: Graduate student at UMD
     imageUrl: https://lumiere-a.akamaihd.net/v1/images/character_themuppets_kermit_b77a431b.jpeg
     imageTitle: Kermit the Frog
     imageWidth: 200 # custom size

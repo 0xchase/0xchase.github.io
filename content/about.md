@@ -4,13 +4,13 @@ title: About
 draft: false
 ---
 
-This is **bold** text, and this is *emphasized* text.
+Hello 👋 Welcome to my about page.
 
-Visit the [Hugo](https://gohugo.io) website!
+I'm currently studying machine learning as a graduate student at UMD, working in computer security research, and spending my free time developing platforms for procedural and generative music. 
 
 ### Interests
 
-My list of interests over the years has gotten fairly long. My level of expertise varies in each of these areas.
+The list of interests I've accumulated over the years has gotten fairly long. My level of expertise varies in each of these areas.
 
 - **Cybersecurity**: Reversing, binary exploitation, cryptography, symbolic execution
 - **Computer Science**: Programming, compilers, machine learning, DSP
