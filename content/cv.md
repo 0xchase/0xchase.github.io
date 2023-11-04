@@ -99,7 +99,7 @@ OSCP (Offensive Security Certified Professional)
 
 - **HACS408L** (Digital Forensics): Explores the various fields of digital forensics, such as memory, hard drive, and network traffic analysis. This course covered the legalities involved with forensic investigations and the wide variety of digital forensics tools, including both open source and proprietary.
 
-## UMD CMNS Department
+### UMD CMNS Department
 
 - **CMSC412** (Operating Systems): An in-depth understanding of how an operating system virtualizes computer hardware and provides programmers with a machine and device independent interface. Topics covered includes: pipes, fork, signals, semaphores, CPU scheduling, memory paging, file system, etc.
 
