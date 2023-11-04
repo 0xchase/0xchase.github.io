@@ -43,12 +43,12 @@ params:
     imageWidth: 250 # custom size
     imageHeight: 250 # custom size
     buttons:
-      - name: Archive
-        url: "/archives"
-      - name: Tags
-        url: "/tags"
       - name: Search
         url: "/search"
+      - name: Contact
+        url: "/contact"
+      - name: Tags
+        url: "/tags"
   socialIcons: # optional
     - name: github
       url: https://github.com/0xchase
