@@ -45,10 +45,10 @@ params:
     buttons:
       - name: Search
         url: "/search"
-      - name: Contact
-        url: "/contact"
       - name: Tags
         url: "/tags"
+      - name: Contact
+        url: "/contact"
   socialIcons: # optional
     - name: github
       url: https://github.com/0xchase
