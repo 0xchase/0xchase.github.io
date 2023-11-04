@@ -5,7 +5,7 @@ draft: true
 showToc: true
 showReadingTime: true
 showWordCount: true
-tags: ["Rust", "DSP"]
+tags: ["Rust", "Audio Programming"]
 ---
 
 ## Introduction
