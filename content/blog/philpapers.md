@@ -1,9 +1,10 @@
 ---
 title: 'Philpapers Survey'
-date: 2023-07-01T00:00:02-04:00
+date: 2022-01-01T00:00:02-04:00
 draft: false
 showToc: true
 showReadingTime: true
+tags: ["Philosophy"]
 ---
 
 These are my answers to the [2020 philpapers survey](https://survey2020.philpeople.org/). This is a living document that I'll update as I continue to learn about each debate.

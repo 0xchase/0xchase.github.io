@@ -5,53 +5,69 @@ draft: true
 showToc: true
 showReadingTime: true
 showWordCount: true
+tags: ["Rust", "DSP"]
 ---
 
 ## Introduction
 
 In this post I’m going to attempt to show some of the advantages the rust type system brings to writing more elegant DSP code. We're going to start with a crash course on the relevant parts of the rust type system, and then we'll see how this can be applied to constructing the types and traits that will be the foundation of a Rust audio processing library. We'll then see how to apply some more abstract features of the Rust type system to make these elements more composable and modular. 
 
-But first, as a point of clarification, what exactly do I mean by elegant?
-- **Expressive**: code that’s concise and readable
-- **Flexible**: code that can be used in a variety of contexts
-- **Composable**: code that can interface with itself???
-- **Safe**: code that’s guaranteed not to have undefined behavior and other errors
-- **Performant**: these aren’t at the expense of performance
+But first, as a point of clarification, what exactly do I mean by elegant? Well, for the purposes of this talk, I'm going to define it with the following list.
+
+- **Expressive**: Concise and readable
+- **Flexible**: Usable in a variety of contexts
+- **Composable**: Elements can be easily combined into graphs
+
+We want to accomplish this without there being much of a cost in terms of **safety** and **performance**.
 
 ## Preview
 
-Start knowing nothing about Rust.
-
-End with enough understanding of the type system to interpret this.
+Just to preview what will be covered in this article. The expectation is that you start knowing something about programming and very little about Rust spcifically. By the middle of this talk you'll have enough understanding of the Rust type system to decipher cryptic looking abstract types like this one.
 
 ```rust
-impl<T, B> AddAssign<&B> for Buffer<T> 
-    where:
-        T: Add<Output = T> + Copy + B: Block<Item = T>> {
+#[derive(Copy, Clone)]
+pub struct Chain<P1, P2>(pub P1, pub P2);
 
-    fn add_assign(&mut self, rhs: &B) {
-        for (a, b) in self
-            .as_slice_mut()
-            .iter_mut()
-            .zip(rhs.as_slice()) {
+impl<In, Between, Out, P1, P2> Processor for Chain<P1, P2> 
+    where
+        P1: Processor<Input = In, Output = Between>,
+        P2: Processor<Input = Between, Output = Out> {
 
-            *a = *a + *b;
-        }
+    type Input = In;
+    type Output = Out;
+
+    fn prepare(&mut self, sample_rate: f64, block_size: usize) {
+        self.0.prepare(sample_rate, block_size);
+        self.1.prepare(sample_rate, block_size);
+    }
+
+    fn process(&mut self, input: Self::Input) -> Self::Output {
+        self.1.process(self.0.process(input))
     }
 }
 ```
 
-See how these features can be used to build DSP elements in a functional way like this.
+Which we'll be using in the process of developing the backend of our DSP library. When this process is done we'll have created most of the fundemental data structures needed for DSP programming, and we'll have a simple interface to our library with elements that can be composed using a faust-like syntax. Our goal is to achieve this simple syntax without the need of a domain-specific language. Here's an example.
+
+```rust
+pub fn main() {
+    let input = Block::init(0.0, 512);
+    let output = Block::init(0.0, 512);
+
+    let lfo = lfo(0.5) >> gain(-10.0);
+    let graph = distortion(10.0) >> gain(lfo) >> gain(-10.0);
+
+    graph.process_block(&input, &mut output);
+}
+```
+
+
 
 To make sure the rest of this talk is broadly accessible to non rustaceans, I'm going to introduce new aspects of the Rust types system as they become relevant to the feature we're implementing. We're going to start with the simple, naive implementation of vaious library features like buffers and processors, and then gradually iterate on them to take advantage of more advanced features of the Rust type system.
 
 ---
 
 ## Rust Basics
-
-### Basic Types
-
-Primitives, slices, etc. Remember the slices because they're going to come up again in about 30 minutes.
 
 ### Structs and Methods
 
@@ -662,6 +678,8 @@ pub fn test_2(buffer: (*mut f32, usize)) {
 
 Okay. I think that covers how to implement abstract methods over all the combinations of float, sample, and buffer types. Regardless of if you thought any of the abstract code was complicated, I hope these final examples made it clear how simple and flexible the end result is. Remember, these functions can now be used with any permutation of float type, channel formats, and buffer type.
 
+--- 
+
 ## Processors and Generators
 
 Next we're going to take a closer look at DSP processors, and how they can be represented in a way that's abstract and composable. Just a reminder from earlier, we represented processors with the following trait, which consumes an input and yields an output.
@@ -820,6 +838,8 @@ pub const fn gain<S: Sample>(db: S::Float) -> Node<Gain<S>> {
 }
 ```
 
+### Testing
+
 Now we should have everything we need to start composing nodes. You can assume I repeated this process for some other processors and generators.
 
 ```rust
@@ -892,3 +912,7 @@ pub fn main() {
     graph.process_block(&input, &mut output);
 }
 ```
+
+This general strategy can be expaneded to include splitting and combining streams of data, using the `|` and the `&` operatos, for example. Remember, these nodes we've created are generic over all the float, sample, and buffer types we created previously.
+
+## Summary

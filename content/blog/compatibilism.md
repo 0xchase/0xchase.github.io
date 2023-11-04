@@ -5,6 +5,7 @@ draft: true
 showToc: true
 showReadingTime: true
 showWordCount: true
+tags: ["Philosophy", "Free Will"]
 ---
 
 ## Introduction
