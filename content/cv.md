@@ -43,7 +43,7 @@ Contributed to a web application to facilitate the configuration and sale of lin
 
 ## Skills
 - **Programming (Fluent)**: Rust, C++, C, Dart, Python, Java
-- **Programming (Proficient)**: x86 and ARM assembly, OCaml, Ruby, Racket, Javascript, HTML
+- **Programming (Proficient)**: x86 and ARM assembly, OCaml, Ruby, Racket, Javascript
 - **Static Analysis**: Radare2/Rizin, Ghidra, BinaryNinja, IDA Pro, Capstone
 - **Debugging**: x64dbg, WinDbg, GDB
 - **Penetration Testing**: Metasploit, Nmap, Wireshark, Burp Suite, etc

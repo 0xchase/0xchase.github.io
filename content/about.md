@@ -12,7 +12,8 @@ I'm currently studying [machine learning](https://cmns.umd.edu/graduate/science-
 The list of interests I've accumulated over the years has gotten fairly long. My level of expertise varies in each of these areas.
 
 - **Cybersecurity**: Reversing, binary exploitation, cryptography, symbolic execution
-- **Computer Science**: Programming, compilers, machine learning, DSP
+- **Computer Science**: Programming, compilers, machine learning, computer systems
+- **Music Technology**: Digital signal processing, desktop and modular synthesizers
 - **Physics**: Foundations of physics, space and time, statistical mechanics
 - **Philosophy**: Epistemology, mind, metaphysics, modality, religion, language
 - **Cognitive Science**: Semantic representation, global workspace theory
