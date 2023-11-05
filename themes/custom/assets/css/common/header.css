@@ -1,4 +1,5 @@
 .nav {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",  Helvetica, Arial, sans-serif;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
