@@ -1,7 +1,7 @@
 baseURL: https://example.org/
 languageCode: en-us
 title: Chase Kanipe
-theme: papermod
+theme: custom
 defaultContentLanguage: en
 sectionPagesMenu: main
 taxonomies:
