@@ -50,15 +50,15 @@
 
 .post-content h2 {
     margin: 32px auto 24px;
-    font-size: 32px;
+    font-size: 28px; /* was 32px */
 }
 
 .post-content h3 {
-    font-size: 24px;
+    font-size: 22px; /* was 24px */
 }
 
 .post-content h4 {
-    font-size: 16px;
+    font-size: 16px; /* was 16px */
 }
 
 .post-content h5 {
@@ -67,6 +67,17 @@
 
 .post-content h6 {
     font-size: 12px;
+}
+
+.post-content p {
+    font-size: 16px;
+    line-height: 1.54;
+    font-weight: 500;
+}
+
+.post-content ul li {
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .post-content a,
@@ -193,7 +204,8 @@
 .post-content code {
     margin: auto 4px;
     padding: 4px 6px;
-    font-size: 0.78em;
+    /* font-size: 0.78em; */
+    font-size: 13px;
     line-height: 1.5;
     background: var(--code-bg);
     border-radius: 2px;
@@ -259,6 +271,7 @@
     background: var(--code-bg);
     border-radius: var(--radius);
     padding: 0.4em;
+    font-size: 16px;
 }
 
 .dark .toc {
