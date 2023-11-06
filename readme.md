@@ -13,3 +13,4 @@
  - Show tags on homepage
    - Support search like PaperMod
    - Support tags like PaperMod
+ - Rich content like https://hugo-coder.netlify.app/posts/more-rich-content/
