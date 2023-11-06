@@ -2,7 +2,7 @@ baseURL: https://example.org/
 languageCode: en-us
 title: Chase Kanipe
 author: Chase Kanipe
-theme: hugo-theme-hello-friend-ng
+theme: custom_2
 # theme: custom
 defaultContentLanguage: en
 sectionPagesMenu: main
@@ -31,6 +31,16 @@ menu:
     - identifier: music
       name: Music
       url: /music/
+      weight: 30
+    - identifier: music2
+      parent: music
+      name: Music2
+      url: /music2/
+      weight: 30
+    - identifier: music3
+      parent: music
+      name: Music3
+      url: /music3/
       weight: 30
     - identifier: blog
       name: Blog

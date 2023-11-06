@@ -75,7 +75,7 @@ h1 {
 
 h2 {
   font-size: 1.625rem;
-  margin-top: 2.5em;
+  margin-top: 1em;
 }
 
 h3 {
@@ -286,7 +286,7 @@ pre {
 
 blockquote {
   border-left: 3px solid #3eb0ef;
-  margin: 40px;
+  margin: 1.5em;
   padding: 10px 20px;
 
   @media #{$media-size-phone} {
