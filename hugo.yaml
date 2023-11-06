@@ -1,9 +1,12 @@
 baseURL: https://example.org/
 languageCode: en-us
 title: Chase Kanipe
+author: Chase Kanipe
 theme: hugo-theme-hello-friend-ng
+# theme: custom
 defaultContentLanguage: en
 sectionPagesMenu: main
+description: Here is a desciption of something
 taxonomies:
   category: categories
   tag: tags
@@ -34,6 +37,15 @@ menu:
       url: /blog/
       weight: 40
 params:
+  homeSubtitle: Graduate student at UMD
+  enableThemeToggle: true
+  logo:
+    logoMark: "$"
+    logoText: "/home/"
+    logoHomeLink: "/"
+    logoCursorColor: "#67a2c9"
+    logoCursorAnimate: "1s"
+    logoCursorPathname: true
   profileMode:
     enabled: true
     title: Chase Kanipe
@@ -58,6 +70,20 @@ params:
       url: https://spotify.com
     - name: reddit
       url: https://www.reddit.com/user/chase1635321
+  social: # optional
+    - name: github
+      url: https://github.com/0xchase
+    - name: youtube
+      url: https://www.youtube.com/channel/UCqzgY2CHXQx_dLwcdq-YlIQyoutube.com
+    - name: spotify
+      url: https://spotify.com
+    - name: reddit
+      url: https://www.reddit.com/user/chase1635321
+  footer:
+    trademark: 2023
+    rss: false
+    copyright: true
+    author: true
 outputs:
   home:
     - HTML
