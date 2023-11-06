@@ -2,7 +2,8 @@
 title: 'My Encounter with Pseudoscience'
 date: 2023-05-19T00:00:02-04:00
 draft: false
-showToc: true
+# showToc: true
+toc: true
 showReadingTime: true
 showWordCount: true
 tags: ["Pseudoscience"]

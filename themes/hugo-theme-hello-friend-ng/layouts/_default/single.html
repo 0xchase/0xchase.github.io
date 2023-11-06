@@ -33,6 +33,10 @@
                 <hr />
             {{ end }}
 
+  {{- if (.Param "ShowToc") }}
+  {{- partial "toc.html" . }}
+  {{- end }}
+
             <div class="post-content">
                 {{ .Content }}
             </div>
