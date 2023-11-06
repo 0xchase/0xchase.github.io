@@ -11,8 +11,6 @@ draft: false
 >
 > To unlock opportunities, let's see what can be.
 
-...
-
 > In **College Park, Maryland**, I reside,
 >
 > Where innovation and ideas collide.
@@ -20,8 +18,6 @@ draft: false
 > If you're close by and wish to chat,
 >
 > Let's share a coffee, how about that?
-
-...
 
 > But if distance keeps us far and wide,
 >
