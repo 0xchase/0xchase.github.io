@@ -52,7 +52,6 @@ params:
     logoMark: "$"
     logoText: "/home/"
     logoHomeLink: "/"
-    logoCursorColor: "#67a2c9"
     logoCursorAnimate: "1s"
     logoCursorPathname: true
   profileMode:

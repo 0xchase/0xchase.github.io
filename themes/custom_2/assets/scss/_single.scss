@@ -39,6 +39,16 @@
 
   &-content {
     margin-top: 30px;
+
+    a {
+      [data-theme=light] & {
+        color: $light-accent-color;
+      }
+
+      [data-theme=dark] & {
+        color: $dark-accent-color;
+      }
+    }
   }
 
   &-cover {

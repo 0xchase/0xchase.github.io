@@ -285,7 +285,13 @@ pre {
 }
 
 blockquote {
-  border-left: 3px solid #3eb0ef;
+  [data-theme=light] & {
+    border-left: 3px solid $light-accent-color;
+  }
+
+  [data-theme=dark] & {
+    border-left: 3px solid $dark-accent-color;
+  }
   margin: 1.5em;
   padding: 10px 20px;
 
