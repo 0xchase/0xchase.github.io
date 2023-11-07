@@ -55,3 +55,20 @@ if (themeToggle) {
 } else {
   localStorage.removeItem("theme");
 }
+
+
+const darkModeToggle = document.getElementById('dark-mode-toggle');
+
+if (darkModeToggle) {
+  darkModeToggle.addEventListener("click", switchTheme, false);
+  window
+    .matchMedia("(prefers-color-scheme: dark)")
+    .addEventListener("change", (e) => e.matches && detectOSColorTheme());
+  window
+    .matchMedia("(prefers-color-scheme: light)")
+    .addEventListener("change", (e) => e.matches && detectOSColorTheme());
+
+  detectOSColorTheme();
+} else {
+  localStorage.removeItem("theme");
+}

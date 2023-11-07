@@ -3,7 +3,6 @@ languageCode: en-us
 title: Chase Kanipe
 author: Chase Kanipe
 theme: custom_2
-# theme: custom
 defaultContentLanguage: en
 sectionPagesMenu: main
 description: Here is a desciption of something
@@ -48,7 +47,7 @@ menu:
       weight: 40
 params:
   homeSubtitle: Graduate student at UMD
-  enableThemeToggle: true
+  enableThemeToggle: false
   logo:
     logoMark: "$"
     logoText: "/home/"

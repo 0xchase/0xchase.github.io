@@ -1,0 +1,7 @@
+{{ if not .Site.Params.hideColorSchemeToggle }}
+<div class="float-container">
+    <a id="dark-mode-toggle">
+        <i class="theme-toggle not-selectable">{{ partial "theme-toggle-icon.html" . }}</i>
+    </a>
+</div>
+{{ end }}
