@@ -8,45 +8,20 @@ showWordCount: true
 tags: ["Philosophy", "Free Will"]
 ---
 
-## Introduction
-
 (create a variant of this essay that's a review of Robert Sapolsky's book, "why scientists need philosophers")
 (he doesn't take naturalism all the way to the end)
 
-While many factual questions remain unanswered, for most of these issues, there is a consensus about the higher-order and related meta-questions.
+### Introduction
 
-While many factual questions remain unanswered, for most of these questions there is a general consensus about what would resolve them.
-
- - Many problems it’s clear when they’re resolved
-   - Like in math or biology
-   - For most problems in the sciences, it’s clear what would constitute an answer
-   - Even if there’s not agreement, people generally agree on what a solution would look like
-   - Expected that when the right solution surfaces, people will come to agree on it
-   - Generally agreed what counts as evidence for and against the proposition
-   - It’s clear what constitute an answer
-   - What would resolve the debate is generally agreed upon
-
-###  Free will isn’t like this
-
-The question of whether humans have free will is not like this. Like many questions that have been left for philosophers, the points of contention include not only the question itself, but also the meaning and nature of all the concepts presupposed by the question. And though it takes the form of a factual question, there’s not a consensus about what empirical results are relevant to resolving it, nor what the various candidates demonstrate. People with mutually contradictory positions have high confidence in their views, and even people who nominally share a stance often still disagree about the *reasons* that view is correct. These layers of confusion no-doubt explain why this issue remains fraught after centuries of debate.
+Like many disputes that have been left for philosophers, the question of whether humans have *free will* is particularlly fraught. The points of contention include not only the question itself, but also the meaning and nature of all the concepts presupposed by the question, and though it superficially takes the form of an empirical question about human psychology, it's unclear if any experiment would resolve it, or even if empirical results are relevant evidence in principal. These layers of confounds have created a landscape where people with mutually contradictory positions have high confidence in their views, and even people who nominally share a stance often still disagree about the *reasons* that view is correct. The issue remains fraught after centuries of debate.
 
 ### What I’ll cover
 
-I’m going to offer my perspective on the free will debate, with a particular focus on why it seems intractable, what explains people’s conflicting intuitions about the issue, and the foundational reasons people continue to disagree and talk past each other.
+I’m going to offer my perspective on the free will debate, with a particular focus on explaining why it seems intractable, what explains people’s conflicting intuitions about the issue, and the foundational reasons people continue to disagree and talk past each other.
 
-In the end I will conclude that compatibilism is correct, and that much opposition to it arises from a failure to repudiate our pre-scientific "folk" theory of mind and a failure take naturalism to its final conclusion.
+In the end I will conclude that compatibilism is correct, and that the apparent incompatibliity between determinism and free will comes from misguided intutions people have about how their minds relate to the world due to the stranglhold our pre-scientific "folk" theory of mind has on our intuitions. I'll attempt to show that selectively repudiating the false aspects of this theory and extending the naturalistic project to cover own decision making processes clears up many demonstrably false misconceptions people have about the implications of determinism, and dissolves the apparent threat it poses to human freedom.
 
-Arises from the stranglehold our pre-scientific "folk" theory of mind has on our intuitions.
-A failure to extend naturalism to our own minds.
-I'll attempt to show how the stranglehold this theory has over our intuitions explains both a variety of common and demonstrably false misconceptions, and show how repudiating this theory significanly clears up the debate.
-
-The right way to *reason* about the debate, so as to resolve it in principal.
-
-I'm not going to jump to the right 
-
-My intention is to walk the reader through my own thinking about free will, and why I eventually landed as a compatibilist.
-
-However, I don’t think one can fully understand this issue by jumping to the final conclusion, so I intend to walk the reader through the landscape of views, successively showing the confusions implicit in the previous view. In explaining the alternative views I'll sometimes repeat assertions I think are *false* or based on common *misconceptions*, which we'll clear up as we go along.
+Given how fraught this debate is, this post will be substantially devoted to investigating the right way to *reason* about the debate, so as to resolve it in principal. I don’t think one can fully understand this issue by jumping to what I consider to be the correct view, so I intend to walk the reader through the landscape of perspectives, successively showing the confusions implicit in each one. In explaining the alternative views I'll sometimes repeat assertions I think are *false* or based on common *misconceptions*, which we'll clear up as we go along.
 
 <chart of possible positions>
 
@@ -80,7 +55,7 @@ And now we're ready to see, that though the sciences provided a powerful validat
 
 The image of ourselves and the world as a kind of mechanical device is difficult to reconcile with our intuitive conception of ourselves as free agents. The future is fixed by the past. The decision you'll make are fixed by the past. The factors that influence your decisions are beyond your control, and it's impossible as a logical matter to even *concieve* of a world where such a freedom would be possible. This difficulty has led many to accept *incompatibilism* - the view that determinism and free will are incompatible. While this incompatibility has led a few to reject determinism, the vast majority accept the arguments for determinism and conclude that *there is no free will*.
 
-I hope I've painted the arguments for determinism in a sufficiently compelling light, and I hope you feel the intuitive pull of this perspective even if you didn't before. We'll eventually see how the entire narrative above is laden with subtle confusions, but first we'll need to take a detour into some of the foundational issues that underly this issue, and briefly examine *how* to htink about this debate.
+I hope I've painted the arguments for determinism in a sufficiently compelling light, and I hope you feel the intuitive pull of this perspective even if you didn't before. We'll eventually see how the entire narrative above is laden with subtle confusions, but first we'll need to take a detour into some of the foundational issues that underly this issue, and briefly examine *how* to think about this debate.
 
 ## Definitions
 
@@ -95,9 +70,9 @@ Can we write down a definition of free will as most people understand it? Doing 
 
 Some of these definitions (like 1 and 2) are taken to be incompatible with determinism. Some definitions (like 3 and 4) are taken to compatible with determinism. Some are disputed. Hard determinists will likely have one of the first definitions in mind, and compatibilists will likely have one of the latter ones. Given that they may concieve of the debate in different ways, is there any reason to say one of them is *right* and the other *wrong*? Or is this only an issue of semantics?
 
-### Aristotelian Chemistry
-
 I’d like to suggest a general strategy for resolving disagreements about definitions, but first we need to examine the concept of a definition itself. Most importantly, there’s a distinction between *intensional* and *extensional* definitions. An intensional definition specifies the meaning of a term using necessary and sufficient conditions, or in other words, listing the properties an object needs to have in order to be counted as a referent of the term. For example, you might say that to be a “bachelor” is to be “unmarried” and a “man”. This is in contrast to the extensional definition, which is given using a list of all the objects that satisfy the definition. So an extensional definition of a bachelor would be the list “Bob”, “Ike”, “Jim” and all the other bachelors. Another way to put this is that the intension of a term gives it's *meaning*, while the extension of a term gives its *referant*.
+
+### Aristotelian Physics
 
 (maybe change this example to not introduce the chemist until the end)
 

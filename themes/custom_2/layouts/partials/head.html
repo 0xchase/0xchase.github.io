@@ -8,6 +8,8 @@
 <meta name="theme-color" content="{{ .Site.Params.themeColor }}" />
 <link rel="canonical" href="{{ .Permalink }}" />
 
+{{ if .Params.math }}{{ partial "katex.html" . }}{{ end }}
+
 {{ block "title" . }}
     <title>
         {{ if .IsHome }}
