@@ -243,6 +243,20 @@
   }
 }
 
+.post-meta {
+  font-size: 0.8em;
+  margin-bottom: 1em;
+
+  [data-theme=light] & {
+    color: $light-color-secondary
+  }
+
+  [data-theme=dark] & {
+    color: $dark-color-secondary
+  }
+
+}
+
 .toc {
     margin: 0 2px 40px 2px;
     border: 1px solid var(--border);
