@@ -2,12 +2,14 @@
 title: 'The Path to Compatibilism'
 date: 2023-11-01T00:00:02-04:00
 draft: true
-showToc: true
-toc: true
+# showToc: true
+# toc: true
 showReadingTime: true
 showWordCount: true
 tags: ["Philosophy", "Free Will"]
 ---
+
+{{< image-banner src="/images/doors.jpg" >}}
 
 (create a variant of this essay that's a review of Robert Sapolsky's book, "why scientists need philosophers")
 (he doesn't take naturalism all the way to the end)

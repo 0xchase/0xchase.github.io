@@ -129,6 +129,14 @@ img {
     max-width: 25%;
     margin: auto;
   }
+
+  &.banner {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    // box-shadow: 3px 6px 5px 5px #00000044;
+  }
 }
 
 figure {
@@ -248,7 +256,7 @@ pre {
     background-color: $light-background-secondary;
   }
 
-  padding: 10px 10px 10px 20px;
+  padding: 10px 10px 10px 10px;
   border-radius: 8px;
   font-size: 0.95rem;
   overflow: auto;
