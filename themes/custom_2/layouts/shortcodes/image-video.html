@@ -1,0 +1,6 @@
+{{ if .Get "img" }}
+    <span class="video-img">
+        <a href="{{ .Get "url" | safeURL }}" target="_blank"><img src="{{ .Get "img" | safeURL }}"></img></a>
+        <p><b>{{ .Get "title"}}</b>{{ .Get "description"}}</p>
+    </span>
+{{ end }}
