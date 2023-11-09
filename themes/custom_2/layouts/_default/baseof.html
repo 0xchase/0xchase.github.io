@@ -4,6 +4,8 @@
         {{ partial "head.html" . }}
     </head>
 
+    {{ partial "float" . }}
+
     {{ block "body" . }}
         <body>
     {{ end }}
@@ -18,7 +20,6 @@
             {{ block "footer" . }}
                 {{ partial "footer.html" . }}
             {{ end }}
-            {{ partial "float" . }}
         </div>
 
         {{ partial "javascript.html" . }}
