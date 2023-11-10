@@ -77,15 +77,15 @@ I am very active on Github, with over 1500 commits in the last year. Below you c
 ## Education
 ### Degrees
 
-University of Maryland, College Park (Fall 2017 - Winter 2022)
+#### University of Maryland, College Park (Fall 2017 - Winter 2022)
 
 - Bachelor of Science in Computer Science
 - Minor in ACES (Advanced Cybersecurity Experience for Students)
 - Additional coursework in physics
 
-Certifications
+### Certifications
 
-OSCP (Offensive Security Certified Professional)
+#### OSCP (Offensive Security Certified Professional)
 
 - Completed 3 months of penetration testing training in a lab with 50+ targets
 - Mastered tools like nmap, metasploit, wireshark, burp suite, john the ripper, etc

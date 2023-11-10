@@ -60,3 +60,12 @@
         width: 100%;
     }
 }
+
+.youtube {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    aspect-ratio: 16/9;
+    border: none;
+}
