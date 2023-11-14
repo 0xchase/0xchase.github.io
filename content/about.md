@@ -7,7 +7,15 @@ Hello 👋 Welcome to my about page.
 
 I'm currently studying [machine learning](https://cmns.umd.edu/graduate/science-academy/machine-learning) as a graduate student at UMD, working in [computer security research](https://www.defense.gov/), and spending my free time [developing platforms](https://github.com/procedural-audio) for procedural and generative music. 
 
-### Interests
+## Basics
+
+- **Age**: 25
+- **Location**: College Park, Maryland 🇺🇸
+- Something else here
+- Something else here
+- Something else here
+
+## Interests
 
 The list of interests I've accumulated over the years has gotten fairly long. My level of expertise varies in each of these areas.
 
