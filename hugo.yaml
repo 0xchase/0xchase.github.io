@@ -46,7 +46,9 @@ menu:
       url: /blog/
       weight: 40
 params:
-  homeSubtitle: Graduate student at UMD
+  # homeSubtitle: Graduate student at UMD
+  portrait:
+    path: "/images/doors.jpg"
   enableThemeToggle: false
   dateform: "Jan 2, 2006"
   dateformShort: "Jan 2"
