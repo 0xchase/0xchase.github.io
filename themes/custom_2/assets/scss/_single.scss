@@ -52,11 +52,11 @@
   }
 
   &-cover {
-    border-radius: 8px;
-    margin: 40px -50px;
-    width: $max-width;
-    max-width: $max-width;
-    overflow: hidden;
+    // border-radius: 20px;
+    width: 100%;
+    // margin: 40px -50px;
+    // width: $max-width;
+    // max-width: $max-width;
     @media #{$media-size-tablet} {
       margin: 20px 0;
       width: 100%;
