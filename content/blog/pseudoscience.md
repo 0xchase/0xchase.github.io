@@ -7,11 +7,11 @@ draft: false
 showReadingTime: true
 showWordCount: true
 tags: ["Pseudoscience"]
+cover: /images/math-1.jpg
 ---
 
-{{< image-banner src="/images/math-1.jpg" >}}
-
 ## Context
+
 *At one of the monthly meetings for my cohort at work, an inspirational speaker was invited to present on how to thrive in the workplace. Unfortunately, the presentation was laden with various forms of new-age pseudoscience. When several of us complained to the administrators who had organized the speech, we were told that the speaker had "evidence" to back up his claims, and that he was certified by an accredited university. Given the absurdity of the presentation and the intention of a certain administrator to invite this speaker back, I decided to write an email explaining why the speaker's claims were not, in fact, backed up by evidence. The rest of this article is that email.*
 
 ## Introduction

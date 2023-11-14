@@ -7,9 +7,8 @@ draft: true
 showReadingTime: true
 showWordCount: true
 tags: ["Philosophy", "Free Will"]
+cover: /images/doors.jpg
 ---
-
-{{< image-banner src="/images/doors.jpg" >}}
 
 (create a variant of this essay that's a review of Robert Sapolsky's book, "why scientists need philosophers")
 (he doesn't take naturalism all the way to the end)

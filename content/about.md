@@ -9,11 +9,10 @@ I'm currently studying [machine learning](https://cmns.umd.edu/graduate/science-
 
 ## Basics
 
-- **Age**: 25
 - **Location**: College Park, Maryland 🇺🇸
-- Something else here
-- Something else here
-- Something else here
+- **Occupation**: Security researcher and audio developer
+- **Education**: Bachelor's of Science in CS at UMD
+- **Other**: Something goes here
 
 ## Interests
 
