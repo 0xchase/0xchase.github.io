@@ -3,7 +3,7 @@ title: Music
 draft: false
 ---
 
-## Sections
+## Dropdown Sections
 
 - Albums
 - Hybrid Piano

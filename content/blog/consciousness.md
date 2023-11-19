@@ -7,7 +7,9 @@ tags: ["Philosophy", "Consciousness"]
 
 ## Introduction
 
-This is **bold** text, and this is *emphasized* text.
-
-Visit the [Hugo](https://gohugo.io) website!
-
+### Resources
+- Human and Animal Minds
+- The Feeling of Life Itself
+- Consciousness Explaind
+- Being You
+- Rethinking Consciousness

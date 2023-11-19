@@ -13,7 +13,6 @@ How you use the word truth is determined by your web of beliefs
 Therefore truth is belief dependent
 Relativism hold that truth claims is fundementally indexical.
 
-Plato stanford pragmatism
 Plato stanford relativism
 Plato stanford propositions
 Plato stanford structured propositions
@@ -22,6 +21,7 @@ Plato stanford definition
 Plato stanford assertion
 Plato stanford belief and assertion
 Plato stanford reference
+Plato stanford pragmatism
 
 ---
 
@@ -62,6 +62,7 @@ It's just speaker relativism
 
 - Overlap between assertions and truth claims is explained by the *belief norm*
 - Are there no mind-independant mathematical truths? Physical truths?
+- It makes the same mistake as the other theories of truth. Some assertions are indexical (e.g. I have blue eyes), not it's not fundemental to what truth is.
 
 ### Counterexamples
 

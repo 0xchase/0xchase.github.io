@@ -32,20 +32,16 @@ The list of interests I've accumulated over the years has gotten fairly long. My
 
 ### Books
 
-Linked here, maybe with button.
+[Favorite books](/favorite-books)
 
 ### Videos
 
-Linked here, maybe with button.
+[Favorite videos](/favorite-videos)
 
 ### Papers
 
-Linked here, maybe with button.
+[Favorite papers](/favorite-papers)
 
 ### Music
 
-Linked here, maybe with button.
-
-### Movies
-
-Linked here, maybe with button.
+[Favorite music](/favorite-music)
