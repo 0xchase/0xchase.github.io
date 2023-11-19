@@ -1,6 +1,6 @@
 ---
 title: 'Philpapers Survey'
-date: 2022-04-01T00:00:02-04:00
+date: 2022-03-01T00:00:02-04:00
 draft: false
 showToc: true
 showReadingTime: true

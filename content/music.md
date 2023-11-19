@@ -3,6 +3,13 @@ title: Music
 draft: false
 ---
 
+## Sections
+
+- Albums
+- Hybrid Piano
+- Media Composing
+- Modular Synthesis
+
 ## Synthesizers
 
 ### Fragments 1 - Novation Peak and Ambient Guitar

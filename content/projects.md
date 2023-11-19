@@ -25,6 +25,9 @@ Hello 👋 Welcome to my projects page.
 
 ### Writeups
 
+- Machine Learning
+  - Mathematics for Machine Learning
+  - Other textbooks
 - Cybersecurity
   - Cryptopals challenges
   - Practical Malware Analysis Challenges
@@ -41,3 +44,4 @@ Hello 👋 Welcome to my projects page.
 - Wikipedia contributions
   - HeartMath Institute
   - 2008 financial crisis maybe
+  - Philosophy articles on propositions, assertion, reference, etc

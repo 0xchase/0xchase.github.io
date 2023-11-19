@@ -10,8 +10,8 @@ I'm currently studying [machine learning](https://cmns.umd.edu/graduate/science-
 ## Basics
 
 - **Location**: College Park, Maryland 🇺🇸
-- **Occupation**: Security researcher and audio developer
-- **Education**: Bachelor's of Science in CS at UMD
+- **Occupation**: Computer security researcher, audio developer
+- **Education**: Bachelor's of Science in compute science at UMD
 - **Other**: Something goes here
 
 ## Interests
@@ -27,3 +27,25 @@ The list of interests I've accumulated over the years has gotten fairly long. My
 - **Economics**: The great recession, monetary policy, trade imbalances
 - **Music**: Piano, acoustic guitar, electric guitar, desktop synthesizers, pedalboards
 - **VFX**: Unreal Engine 5, Blender 3D, Houdini (a little bit)
+
+## Favorite
+
+### Books
+
+Linked here, maybe with button.
+
+### Videos
+
+Linked here, maybe with button.
+
+### Papers
+
+Linked here, maybe with button.
+
+### Music
+
+Linked here, maybe with button.
+
+### Movies
+
+Linked here, maybe with button.
