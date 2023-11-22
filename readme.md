@@ -17,3 +17,6 @@
  - Show tags on homepage like PaperMod
  - Rich content like https://hugo-coder.netlify.app/posts/more-rich-content/
  - Works/project page like [this](https://filipkrw.github.io/gatsby-theme-hello-friend-ng/works)
+ - Photo gallery like [this](https://themes.gohugo.io/themes/gallerydeluxe/)
+   - (Or use instagram, maybe)
+   - Embed instagram?
