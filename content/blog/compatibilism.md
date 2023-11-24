@@ -56,6 +56,7 @@ This image of ourselves as a kind of mechanical device may seem difficult to rec
 Here's a useful table that re-iterates these positions.
 
 | | Compatibilism | Incompatibilism |
+| --- | --- | --- |
 | Accept Determinism | Yes free will (soft determinism)| No free will (hard determinism) |
 | Reject Determinism | - | Yes free will (libertarianism) |
 

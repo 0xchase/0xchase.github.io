@@ -11,6 +11,8 @@ I'm a recent college graduate with experience in vulnerability research, reverse
 
 Founder and lead developer of Procedural Audio, which creates novel audio generation and processing tools for musicians, sound designers, and audio developers.
 
+---
+
 ## Internship Experience
 
 #### Margin Research
@@ -41,6 +43,8 @@ Created virtual environments using tools like Unreal Engine 4, Blender, Maya, Su
 
 Contributed to a web application to facilitate the configuration and sale of linear bearings, XY stages, and more. Developed scripts to automatically generate these web pages.
 
+---
+
 ## Skills
 - **Programming (Fluent)**: Rust, C++, C, Dart, Python, Java
 - **Programming (Proficient)**: x86 and ARM assembly, OCaml, Ruby, Racket, Javascript
@@ -53,9 +57,7 @@ Contributed to a web application to facilitate the configuration and sale of lin
 - **VFX**: Unreal Engine 5, Blender 3D, GIMP, Substance Painter
 - **Version Control**: Git, Subversion
 
-## Selected Projects
-
-Soon information will be added here about the Procedural Audio Workstation, Arrow framework, and an open source compiler.
+---
 
 ## Presentations
 
@@ -71,17 +73,22 @@ Soon information will be added here about the Procedural Audio Workstation, Arro
 
 {{< youtube F35El30Jj80 >}}
 
-## Repositories
-I am very active on Github, with over 1500 commits in the last year. Below you can see some of my open-source projects and activity over the last year. Click the image for more information.
+---
 
 ## Education
 ### Degrees
 
-#### University of Maryland, College Park (Fall 2017 - Winter 2022)
+#### Bachelor's of Science in Computer Science
 
-- Bachelor of Science in Computer Science
+- University of Maryland, College Park
+- Fall 2017 - Winter 2022
 - Minor in ACES (Advanced Cybersecurity Experience for Students)
 - Additional coursework in physics
+
+#### Masters of Professional Studies in Machine Learning
+
+- University of Maryland, College Park
+- Fall 2023 - Present
 
 ### Certifications
 
@@ -91,8 +98,12 @@ I am very active on Github, with over 1500 commits in the last year. Below you c
 - Mastered tools like nmap, metasploit, wireshark, burp suite, john the ripper, etc
 - Completed a 24 hour practical exam that required the exploitation of 3 targets
 
+---
+
 ## Selected Coursework
+
 ### UMD ACES Program
+
 - **HACS408E** (Reverse Engineering): An introduction to software reverse engineering tools and methodologies. Fundamental topics covered: compilers, linkers, loaders, assembly language, as well as static and dynamic analysis tools. This includes computer architecture and low-level systems programming, as well as an introduction to x86_64 assembly language.
 
 - **HACS408T** (Penetration Testing): A hands-on, technically rigorous experience that prepares students for real-world work in penetration testing and offensive security. This course will allow students to gain proficiency and become comfortable using the tools, techniques, and methodologies that represent the state of the art in penetration testing today.
@@ -109,13 +120,17 @@ I am very active on Github, with over 1500 commits in the last year. Below you c
 
 - **CMSC430** (Compilers): Its major goal was to arm students with the ability to design, implement, and extend a programming language. Throughout the course, students designed and implemented several related languages.
 
+---
 
 ## Conferences
+
 - **ADC**: Audio developer conference, Fall 2022
 - **r2con**: Radare2 Conference, Fall 2020
 - **NACTI**: North American Conference on Trapped Ions, Spring 2019
 - **MAVRIC**: Mixed/Augmented/Virtual Reality Innovation Center Conference, Spring 2019
 - **AIAA**: American Institute of Aeronautics and Astronautics, Winter 2019
+
+---
 
 ## Teaching
 
@@ -123,13 +138,15 @@ I am very active on Github, with over 1500 commits in the last year. Below you c
 
 A semester-long course at the University of Maryland on the Rust programming language. The course followed the rust book, and I was the primary lecturer for one of the sections, in addition to designing and grading the course assignments with another facilitator. The course syllabus can be found on the [course website](https://www.cs.umd.edu/class/fall2021/cmsc388Z/).
 
-### MCWIC: Algorithmic music generation (2020)
+### MCWIC: Algorithmic Music Generation (2020)
 
 An introductory lecture to the Maryland Center for Women in Computing (MCWIC) on how techniques like markov models and recurrent neural networks can facilitate music generation.
 
 ### SEDS: Programming for Satellites (2020)
 
 Led the design and implementation of a "boot-camp" for people joining the software team of SEDS at the University of Maryland, to introduce them to the skills needed to develop software for satellites.
+
+---
 
 ## Other
 

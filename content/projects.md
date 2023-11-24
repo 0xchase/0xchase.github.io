@@ -5,12 +5,51 @@ draft: false
 
 Hello 👋 Welcome to my projects page.
 
-### Applications
+## Applications
 
-- Procedural audio workstation
-- Procedural audio player
+### Procedural Audio Workstation
 
-### Repositories
+{{< image-wide src="/images/workstation-1.png" >}}
+
+A tool for procedurally generated music. Maecenas sit amet justo a diam malesuada pulvinar. Vivamus nec lorem ornare ex facilisis ultricies at pellentesque felis. Aliquam vitae risus nisi. Curabitur a libero vitae mauris dictum eleifend. Curabitur et porttitor sapien.
+
+Tags (no underling). Links to demo, site, source, etc (underlined)
+
+---
+
+### Procedural Audio Player
+
+{{< image-wide src="/images/workstation-1.png" >}}
+
+A tool for procedurally generated music. Maecenas sit amet justo a diam malesuada pulvinar. Vivamus nec lorem ornare ex facilisis ultricies at pellentesque felis. Aliquam vitae risus nisi. Curabitur a libero vitae mauris dictum eleifend. Curabitur et porttitor sapien.
+
+Tags (no underling). Links to demo, site, source, etc (underlined)
+
+---
+
+## Repositories
+
+### CMajor Compiler
+
+Image here
+
+A tool for procedurally generated music. Maecenas sit amet justo a diam malesuada pulvinar. Vivamus nec lorem ornare ex facilisis ultricies at pellentesque felis. Aliquam vitae risus nisi. Curabitur a libero vitae mauris dictum eleifend. Curabitur et porttitor sapien.
+
+Tags (no underling)
+
+Links to demo, site, source, etc (underlined)
+
+### Rust DSP Libary
+
+Image here
+
+A tool for procedurally generated music. Maecenas sit amet justo a diam malesuada pulvinar. Vivamus nec lorem ornare ex facilisis ultricies at pellentesque felis. Aliquam vitae risus nisi. Curabitur a libero vitae mauris dictum eleifend. Curabitur et porttitor sapien.
+
+Tags (no underling)
+
+Links to demo, site, source, etc (underlined)
+
+### Other
 
 - Cybersecurity
   - Arrow framework
@@ -23,18 +62,22 @@ Hello 👋 Welcome to my projects page.
 - AI
   - Neural network in assembly
 
-### Writeups
+---
 
-- Machine Learning
-  - Mathematics for Machine Learning
-  - Other textbooks
-- Cybersecurity
-  - Cryptopals challenges
-  - Practical Malware Analysis Challenges
-  - Ghidra Decompiler Writeup (make this a blog)
-- Physics
-  - Spacetime and geometry solutions
-  - Griffiths solutions
+## Writeups
+
+| Category | Description | Link |
+| --- | --- | --- |
+| Machine Learning | Solutions for the textbook "Mathematics for Machine Learning" | Link |
+| Machine Learning | Solutions for the textbook "Other Textbook" | Link |
+| Machine Learning | Solutions for the textbook "Other Textbook" | Link |
+| Cybersecurity | Solutions for the book "Practical Malware Analysis" | Link |
+| Cybersecurity | Solutions to the cryptopals challenges | Link |
+| Cybersecurity | My first impressions of the Ghidra decompiler | Link |
+| Physics | Solutions for Spacetime and Geometry | Link |
+| Physics | Solutions for Griffiths Quantum Mechanics | Link |
+
+---
 
 ### Other
 

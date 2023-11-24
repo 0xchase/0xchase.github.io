@@ -20,3 +20,7 @@
  - Photo gallery like [this](https://themes.gohugo.io/themes/gallerydeluxe/)
    - (Or use instagram, maybe)
    - Embed instagram?
+   - Post-publications
+     - Integrate CV contents into "About" tab
+     - Have a separate, downloadable, cv pdf
+     - Rename CV tab to Research, have a list of publications
