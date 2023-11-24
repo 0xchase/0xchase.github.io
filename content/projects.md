@@ -49,16 +49,24 @@ Tags (no underling)
 
 Links to demo, site, source, etc (underlined)
 
+### Modality
+
+Image here
+
+A tool for procedurally generated music. Maecenas sit amet justo a diam malesuada pulvinar. Vivamus nec lorem ornare ex facilisis ultricies at pellentesque felis. Aliquam vitae risus nisi. Curabitur a libero vitae mauris dictum eleifend. Curabitur et porttitor sapien.
+
+Tags (no underling)
+
+Links to demo, site, source, etc (underlined)
+
 ### Other
 
 - Cybersecurity
   - Arrow framework
   - Rise framework
   - Rise decompiler
-  - Modality
 - Audio Programming
   - Open source cmajor compiler
-  - Rust DSP library
 - AI
   - Neural network in assembly
 
