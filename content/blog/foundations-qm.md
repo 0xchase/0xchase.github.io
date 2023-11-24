@@ -1,5 +1,5 @@
 ---
-title: 'Experiments and the Foundations of Quantum Mechanics'
+title: 'Experiments and Quantum Mechanics'
 date: 2023-11-11T00:00:02-04:00
 draft: true
 # showToc: true

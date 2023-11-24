@@ -1,5 +1,5 @@
 ---
-title: 'Explanation and the Everett Interpretation of Quantum Mechanics'
+title: 'Explanation and Everettian Quantum Mechanics'
 date: 2023-11-12T00:00:02-04:00
 draft: true
 # showToc: true

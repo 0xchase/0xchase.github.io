@@ -1,5 +1,5 @@
 ---
-title: "Mathematics for Machine Learning Textbook Solutions"
+title: "MML Textbook Solutions"
 date: 2023-11-03T00:00:02-04:00
 draft: true
 math: true
