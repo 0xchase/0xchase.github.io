@@ -2,7 +2,9 @@
     <ul class="menu__inner">
         {{- $currentPage := . -}}
         {{ range .Site.Menus.main -}}
-            <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+            {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
+            {{- $page_url:= $currentPage.Permalink | absLangURL }}
+            <li {{- if eq $menu_item_url $page_url }} class="selected" {{- end }}><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
         {{- end }}
 
         {{- if .Site.Params.EnableGlobalLanguageMenu }}
