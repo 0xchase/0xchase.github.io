@@ -5,11 +5,13 @@
 {{ define "main" }}
     <main aria-role="main">
         <div>
+            <!--
             {{ if .Site.Params.Portrait.Path }}
                <img src="{{ .Site.Params.Portrait.Path }}" class="home" alt="{{ .Site.Params.Portrait.Alt }}" style="max-width:{{ .Site.Params.Portrait.MaxWidth }}" />
             {{ end }}
+            -->
 
-            <h1>{{ .Site.Title }}</h1>
+            <h1 style="margin: 10px">{{ .Site.Title }}</h1>
 
             {{ partial "subtitle.html" . }}
 
@@ -26,9 +28,6 @@
                     </li>
                     <li>
                         <a href="/tags">Tags</a>
-                    </li>
-                    <li>
-                        <a href="archives">Archives</a>
                     </li>
                 </ul>
             </div>

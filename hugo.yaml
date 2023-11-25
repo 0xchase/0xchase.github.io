@@ -46,7 +46,7 @@ menu:
       url: /blog/
       weight: 40
 params:
-  # homeSubtitle: Graduate student at UMD
+  homeSubtitle: Grad student | Security Researcher | Musician
   portrait:
     path: "/images/doors.jpg"
   enableThemeToggle: false
@@ -94,10 +94,10 @@ params:
     - name: reddit
       url: https://www.reddit.com/user/chase1635321
   footer:
+    author: true
     trademark: 2023
     rss: false
     copyright: true
-    author: true
 outputs:
   home:
     - HTML
