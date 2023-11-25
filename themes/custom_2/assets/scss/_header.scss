@@ -7,6 +7,7 @@
   padding-right: 0px;
   // Default
   background: $light-background-header;
+  caret-color: transparent;
 
   @media (prefers-color-scheme: dark) {
     background: $dark-background-header;
