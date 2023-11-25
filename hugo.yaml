@@ -46,7 +46,7 @@ menu:
       url: /blog/
       weight: 40
 params:
-  homeSubtitle: Grad student | Security Researcher | Musician
+  homeSubtitle: Graduate Student | Security Researcher | Musician
   portrait:
     path: "/images/doors.jpg"
   enableThemeToggle: false
