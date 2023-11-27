@@ -7,6 +7,17 @@ tags: ["Books"]
 
 Here's a list of my favorite papers.
 
+### Computer Science
+
+- Heap exploitation papers?
+
+### Philosophy
+
+- Something here
+- More here
+
+### Neuroscience
+
 - [Could a Neuroscientist Understand a Microprocessor?](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5230747/)
 
 ### Funny

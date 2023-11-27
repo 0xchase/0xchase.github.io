@@ -29,35 +29,13 @@ Tags (no underling). Links to demo, site, source, etc (underlined)
 
 ## Repositories
 
-### CMajor Compiler
+{{< project-left img="/images/workstation-1.png" title="CMajor Compiler" description="Here is a description with more text and I am adding more words to make it longer which will make it more like the description I want to put here.">}}
 
-Image here
+{{< project-right img="/images/workstation-1.png" title="Rust DSP Library" description="Here is a description with more text and I am adding more words to make it longer which will make it more like the description I want to put here.">}}
 
-A tool for procedurally generated music. Maecenas sit amet justo a diam malesuada pulvinar. Vivamus nec lorem ornare ex facilisis ultricies at pellentesque felis. Aliquam vitae risus nisi. Curabitur a libero vitae mauris dictum eleifend. Curabitur et porttitor sapien.
+{{< project-left img="/images/workstation-1.png" title="Modality" description="Here is a description with more text and I am adding more words to make it longer which will make it more like the description I want to put here.">}}
 
-Tags (no underling)
-
-Links to demo, site, source, etc (underlined)
-
-### Rust DSP Libary
-
-Image here
-
-A tool for procedurally generated music. Maecenas sit amet justo a diam malesuada pulvinar. Vivamus nec lorem ornare ex facilisis ultricies at pellentesque felis. Aliquam vitae risus nisi. Curabitur a libero vitae mauris dictum eleifend. Curabitur et porttitor sapien.
-
-Tags (no underling)
-
-Links to demo, site, source, etc (underlined)
-
-### Modality
-
-Image here
-
-A tool for procedurally generated music. Maecenas sit amet justo a diam malesuada pulvinar. Vivamus nec lorem ornare ex facilisis ultricies at pellentesque felis. Aliquam vitae risus nisi. Curabitur a libero vitae mauris dictum eleifend. Curabitur et porttitor sapien.
-
-Tags (no underling)
-
-Links to demo, site, source, etc (underlined)
+---
 
 ### Other
 

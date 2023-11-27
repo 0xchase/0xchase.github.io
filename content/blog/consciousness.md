@@ -1,5 +1,5 @@
 ---
-title: The Global Neuronal Workspace is Explanatory
+title: What Consciousness Is
 date: 2023-11-03T00:00:02-04:00
 draft: true
 tags: ["Philosophy", "Consciousness"]

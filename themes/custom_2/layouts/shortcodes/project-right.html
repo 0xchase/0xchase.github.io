@@ -1,0 +1,11 @@
+{{ if .Get "img" }}
+    <div class="project">
+        <div class="image-left">
+            <img src="{{ .Get "img" | safeURL }}"></img>
+        </div>
+        <div class="text-right">
+            <h3>{{ .Get "title" | safeURL }}</h3>
+            <p>{{ .Get "description" | safeURL }}</p>
+        </div>
+    </div>
+{{ end }}

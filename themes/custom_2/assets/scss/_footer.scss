@@ -23,6 +23,9 @@
     align-items: center;
     font-size: 0.8rem;
     color: $light-color-secondary;
+    a {
+      text-decoration: none;
+    }
 
     @media #{$media-size-tablet} {
       flex-direction: column;

@@ -1,0 +1,36 @@
+.project {
+    width: 100%;
+    display: inline-block;
+
+    .image-left {
+       float: left;
+       width: 50%; 
+       padding: 10px;
+
+       img {
+        border-radius: 10px;
+       }
+    }
+
+    .image-right {
+       float: right;
+       width: 50%; 
+       padding: 10px;
+
+       img {
+        border-radius: 10px;
+       }
+    }
+
+    .text-right {
+        float: right;
+        width: 50%;
+        padding: 10px;
+    }
+
+    .text-left {
+        float: left;
+        width: 50%;
+        padding: 10px;
+    }
+}

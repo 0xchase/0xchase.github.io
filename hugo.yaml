@@ -1,10 +1,12 @@
 baseURL: https://example.org/
 languageCode: en-us
 title: Chase Kanipe
-author: Chase Kanipe
+author:
+  name: Chase Kanipe
 theme: custom_2
 defaultContentLanguage: en
 sectionPagesMenu: main
+disableSitemap: false
 description: Here is a desciption of something
 taxonomies:
   category: categories
