@@ -1,6 +1,6 @@
 ---
-title: What Consciousness Is
-date: 2023-11-03T00:00:02-04:00
+title: Answering the Hard Problem of Consciousness
+date: 2023-11-05T00:00:02-04:00
 draft: true
 tags: ["Philosophy", "Consciousness"]
 ---

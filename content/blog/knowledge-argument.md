@@ -1,6 +1,6 @@
 ---
-title: 'Mental Representation in the Knowledge Argument'
-date: 2023-11-02T00:00:02-04:00
+title: 'Mental Representation and the Knowledge Argument'
+date: 2023-11-01T00:00:02-04:00
 draft: true
 tags: ["Philosophy", "Epistemology", "Consciousness"]
 ---

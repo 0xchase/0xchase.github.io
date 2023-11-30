@@ -1,6 +1,6 @@
 ---
-title: 'Explanation and Everettian Quantum Mechanics'
-date: 2023-11-12T00:00:02-04:00
+title: 'Explanation in Everettian Quantum Mechanics'
+date: 2023-11-06T00:00:02-04:00
 draft: true
 # showToc: true
 # toc: true
@@ -8,6 +8,8 @@ showReadingTime: true
 showWordCount: true
 tags: ["Quantum Mechanics", "Physics", "Philosophy"]
 ---
+
+Common misconception that "interpretations" of quantum mechanics
 
 - David deutch book arguing many worlds is correct
 - Sean carroll paper deriving the born rule

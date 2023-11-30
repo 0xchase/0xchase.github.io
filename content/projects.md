@@ -33,7 +33,7 @@ Tags (no underling). Links to demo, site, source, etc (underlined)
 
 {{< project-right img="/images/workstation-1.png" title="Rust DSP Library" description="Here is a description with more text and I am adding more words to make it longer which will make it more like the description I want to put here.">}}
 
-{{< project-left img="/images/workstation-1.png" title="Modality" description="Here is a description with more text and I am adding more words to make it longer which will make it more like the description I want to put here.">}}
+{{< project-left img="/images/modality.gif" title="Modality" description="Here is a description with more text and I am adding more words to make it longer which will make it more like the description I want to put here.">}}
 
 ---
 

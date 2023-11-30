@@ -1,6 +1,6 @@
 ---
-title: 'Against Relativism'
-date: 2023-11-05T00:00:02-04:00
+title: 'Against Truth Relativism'
+date: 2023-11-04T00:00:02-04:00
 draft: true
 showReadingTime: true
 showWordCount: true
@@ -13,6 +13,7 @@ How you use the word truth is determined by your web of beliefs
 Therefore truth is belief dependent
 Relativism hold that truth claims is fundementally indexical.
 
+Plato stanford meaning
 Plato stanford relativism
 Plato stanford propositions
 Plato stanford structured propositions
