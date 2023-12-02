@@ -6,6 +6,7 @@
 ### Todo
  - Rethink home page layout
  - Table of contents like in PaperMod
+ - Display albums like [this](https://www.julianpollack.com/music)
  - Dark/light switcher in bottom left liker coder theme
  - Blue menu highlighting fade like coder theme
  - Underline and bold active page
