@@ -22,5 +22,6 @@ Here's a list of my favorite papers.
 
 ### Funny
 - [What's the Deal with Birds?](https://www.chm.bris.ac.uk/sillymolecules/birds.pdf)
+- [A Demonstration of the Causal Power of Absences](https://philarchive.org/archive/GOLADO-4)
 - Sokal hoax
 - HeartMath paper in scientific reports
