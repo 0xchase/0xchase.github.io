@@ -2,6 +2,8 @@
 title: 'On Meaning and Reference'
 date: 2023-11-03T00:00:02-04:00
 draft: true
+showReadingTime: true
+showWordCount: true
 tags: ["Philosophy", "Epistemology", "Meaning"]
 ---
 

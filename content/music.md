@@ -5,6 +5,7 @@ draft: false
 
 ## Dropdown Sections
 
+- Studio (pictures)
 - Albums
 - Hybrid Piano
 - Media Composing
