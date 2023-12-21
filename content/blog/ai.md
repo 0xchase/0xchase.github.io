@@ -1,5 +1,5 @@
 ---
-title: 'Thoughts on Machine Intelligence'
+title: 'Thoughts on AI Safety'
 date: 2023-11-01T00:00:02-04:00
 draft: true
 tags: ["Philosophy", "Epistemology", "Machine Learning"]
