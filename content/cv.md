@@ -3,7 +3,7 @@ title: CV
 draft: false
 ---
 
-I'm a recent college graduate with experience in vulnerability research, reverse engineering, software development, digital signal processing, and more. I prefer research-oriented work that utilizes, analyzes, or contributes to emerging technologies.
+I'm a graduate of the University of Maryland with experience in vulnerability research, reverse engineering, software development, digital signal processing, and more. I prefer research-oriented work that utilizes, analyzes, or contributes to emerging technologies.
 
 ## Work Experience
 
