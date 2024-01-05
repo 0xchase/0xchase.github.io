@@ -1,7 +1,7 @@
 ---
 title: Favorite Books
 date: 2022-03-03T00:00:02-04:00
-draft: true
+draft: false
 tags: ["Books"]
 ---
 

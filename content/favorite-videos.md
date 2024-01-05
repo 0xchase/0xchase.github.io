@@ -1,7 +1,7 @@
 ---
 title: Favorite Videos
 date: 2022-03-04T00:00:02-04:00
-draft: true
+draft: false
 tags: ["Videos"]
 ---
 
