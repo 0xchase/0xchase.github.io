@@ -21,7 +21,6 @@ Add pictures of me doing things relevant to each category or description?
 - **Location**: College Park, Maryland 🇺🇸
 - **Occupation**: Computer security researcher, audio developer
 - **Education**: Bachelor's of Science in compute science at UMD
-- **Other**: Something goes here
 
 
 ### Interests
