@@ -3,13 +3,14 @@ title: Music
 draft: false
 ---
 
-## Dropdown Sections
+<!--## Dropdown Sections
 
 - Studio (pictures)
 - Albums
 - Hybrid Piano
 - Media Composing
 - Modular Synthesis
+-->
 
 ## Synthesizers
 

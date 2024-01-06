@@ -7,9 +7,10 @@ Hello 👋 Welcome to my about page.
 
 I'm currently studying [machine learning](https://cmns.umd.edu/graduate/science-academy/machine-learning) as a graduate student at UMD, working in [computer security research](https://www.defense.gov/), and spending my free time [developing platforms](https://github.com/procedural-audio) for procedural and generative music. 
 
-### Todo
+<!--### Todo
 
 Add pictures of me doing things relevant to each category or description?
+-->
 
 ---
 
@@ -37,7 +38,7 @@ Here's a list of interests I've accumulated over the years.
 - **Music**: Piano, acoustic guitar, electric guitar, desktop synthesizers, pedalboards
 - **VFX**: Unreal Engine 5, Blender 3D, Houdini (a little bit)
 
-## Interviews
+<!--## Interviews
 
 Coming soon
 
@@ -58,3 +59,5 @@ Coming soon
 ### Music
 
 [Favorite music](/favorite-music)
+
+-->

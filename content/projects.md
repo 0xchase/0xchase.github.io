@@ -3,7 +3,9 @@ title: Projects
 draft: false
 ---
 
-Hello 👋 Welcome to my projects page.
+Coming soon :)
+
+<!--Hello 👋 Welcome to my projects page.
 
 ## Applications
 
@@ -74,3 +76,4 @@ Tags (no underling). Links to demo, site, source, etc (underlined)
   - HeartMath Institute
   - 2008 financial crisis maybe
   - Philosophy articles on propositions, assertion, reference, etc
+-->
