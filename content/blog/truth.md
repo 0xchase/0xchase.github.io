@@ -7,7 +7,7 @@ showWordCount: true
 tags: ["Philosophy", "Truth", "Epistemology"]
 ---
 
-## Notes
+## Against Truth Relativism
 
 How you use the word truth is determined by your web of beliefs
 Therefore truth is belief dependent
