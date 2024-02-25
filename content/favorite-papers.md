@@ -2,19 +2,18 @@
 title: Favorite Papers
 date: 2022-03-05T00:00:02-06:00
 draft: false
-tags: ["Books"]
+tags: ["Research"]
 ---
 
 Here's a list of my favorite papers.
 
 ### Computer Science
 
-- Heap exploitation papers?
+- Todo
 
 ### Philosophy
 
-- Something here
-- More here
+- Todo
 
 ### Neuroscience
 
@@ -23,5 +22,5 @@ Here's a list of my favorite papers.
 ### Funny
 - [What's the Deal with Birds?](https://www.chm.bris.ac.uk/sillymolecules/birds.pdf)
 - [A Demonstration of the Causal Power of Absences](https://philarchive.org/archive/GOLADO-4)
-- Sokal hoax
-- HeartMath paper in scientific reports
+- [Sokal Hoax](https://physics.nyu.edu/sokal/transgress_v2/transgress_v2_singlefile.html)
+- [Long-Term Study of HRV Responses to Changes in the Solar and Geomagnetic Environment](https://www.nature.com/articles/s41598-018-20932-x)
