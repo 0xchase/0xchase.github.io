@@ -9,7 +9,7 @@ Here's a list of my favorite papers.
 
 ### Computer Science
 
-- Todo
+- [Exposing the Perils of Security Oblivious Energy Management](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-tang.pdf)
 
 ### Philosophy
 
@@ -20,6 +20,7 @@ Here's a list of my favorite papers.
 - [Could a Neuroscientist Understand a Microprocessor?](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5230747/)
 
 ### Funny
+
 - [What's the Deal with Birds?](https://www.chm.bris.ac.uk/sillymolecules/birds.pdf)
 - [A Demonstration of the Causal Power of Absences](https://philarchive.org/archive/GOLADO-4)
 - [Sokal Hoax](https://physics.nyu.edu/sokal/transgress_v2/transgress_v2_singlefile.html)
