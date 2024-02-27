@@ -2,7 +2,7 @@
 title: Favorite Videos
 date: 2022-03-04T00:00:02-04:00
 draft: false
-tags: ["Videos"]
+tags: ["List"]
 ---
 
 ## Computer Science
