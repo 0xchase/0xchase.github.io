@@ -9,4 +9,4 @@ tags: ["Research"]
 
 Here's a list of reference words I like to use in essays.
 
-> Ascendant, assertion, counterfactual, voluminous, equilibrate, ephemeral, assesement, exemplar, constitute, recount, constituents, acertain, litany, litigate, subvert, equivocate, litigate, vexacious, extempolraneous, obscure, obfuscate, harrowing, opaque, pontificate, systematic
+> Ascendant, ascertain, assertion, assessment, constituents, constitute, counterfactual, ephemeral, equilibrate, equivocate, exemplar, extemporaneous, harrowing, litany, litigate, obfuscate, obscure, opaque, recount, subvert, systematic, vexatious, voluminous
