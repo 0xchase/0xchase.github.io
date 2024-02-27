@@ -2,7 +2,7 @@
 title: Favorite Papers
 date: 2022-03-05T00:00:02-06:00
 draft: false
-tags: ["Research"]
+tags: ["List"]
 ---
 
 Here's a list of my favorite papers.
