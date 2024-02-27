@@ -2,7 +2,7 @@
 title: Favorite Books
 date: 2022-03-03T00:00:02-04:00
 draft: false
-tags: ["Books"]
+tags: ["List"]
 ---
 
 Here's a list of some of my favorite non-fiction books. I'll continue to update this list as I discover new favories.
