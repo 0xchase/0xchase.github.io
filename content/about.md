@@ -7,7 +7,8 @@ Hello 👋 Welcome to my about page.
 
 I'm currently studying [machine learning](https://cmns.umd.edu/graduate/science-academy/machine-learning) as a graduate student at UMD, working in [computer security research](https://www.defense.gov/), and spending my free time [developing platforms](https://github.com/procedural-audio) for procedural and generative music. 
 
-<!--### Todo
+<!--
+### Todo
 
 Add pictures of me doing things relevant to each category or description?
 -->
@@ -20,8 +21,7 @@ Add pictures of me doing things relevant to each category or description?
 
 - **Location**: College Park, Maryland 🇺🇸
 - **Occupation**: Computer security researcher, audio developer
-- **Education**: Bachelor's of Science in compute science at UMD
-
+- **Education**: Bachelor's of Science in computer science at UMD
 
 ### Interests
 
@@ -37,7 +37,8 @@ Here's a list of interests I've accumulated over the years.
 - **Music**: Piano, acoustic guitar, electric guitar, desktop synthesizers, pedalboards
 - **VFX**: Unreal Engine 5, Blender 3D, Houdini (a little bit)
 
-<!--## Interviews
+<!--
+## Interviews
 
 Coming soon
 
