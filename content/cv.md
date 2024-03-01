@@ -134,7 +134,7 @@ Contributed to a web application to facilitate the configuration and sale of lin
 
 ## Teaching
 
-### CMSC289J: Introduction to Rust (2021)
+### CMSC388Z: Introduction to Rust (2021)
 
 A semester-long course at the University of Maryland on the Rust programming language. The course followed the rust book, and I was the primary lecturer for one of the sections, in addition to designing and grading the course assignments with another facilitator. The course syllabus can be found on the [course website](https://www.cs.umd.edu/class/fall2021/cmsc388Z/).
 
