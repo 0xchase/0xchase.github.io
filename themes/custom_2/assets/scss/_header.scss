@@ -6,7 +6,6 @@
   padding: 20px;
   padding-right: 0px;
   // Default
-  background: $light-background-header;
   caret-color: transparent;
 
   @media (prefers-color-scheme: dark) {
@@ -19,10 +18,12 @@
 
   [data-theme=dark] & {
     background: $dark-background-header;
+    /*box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);*/
   }
 
   [data-theme=light] & {
     background: $light-background-header;
+    /*box-shadow: 0 4px 2px -2px rgba(128, 128, 128, 0.3);*/
   }
 
   &__right {
@@ -43,6 +44,8 @@
     width: 760px;
     max-width: 100%;
   }
+
+  /*border-bottom: 1px solid $light-background-header;*/
 }
 
 .theme-toggle {
