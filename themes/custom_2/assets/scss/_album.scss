@@ -1,5 +1,5 @@
-.book {
-    width: 24%;
+.album {
+    width: 32%;
     height: 320px;
     padding: 8px 8px 8px 8px;
     vertical-align: top;
@@ -8,28 +8,29 @@
 }
 
 @media screen and (max-width: 850px) {
-    .book {
-        width: 24%;
-    }
-}
-
-@media screen and (max-width: 700px) {
-    .book {
-        width: 32%;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .book {
+    .album {
         width: 45%;
     }
 }
 
-.book p {
+@media screen and (max-width: 700px) {
+    .album {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .album {
+        width: 45%;
+    }
+}
+
+.album p {
     margin-top: 2px;
     font-size: 14px;
     text-align: center;
     line-height: 1.25em;
+    font-weight: 800;
 
     [data-theme=dark] & {
         color: $dark-color;
@@ -40,9 +41,8 @@
     }
 }
 
-.book img {
+.album img {
     width: 100%;
-    height: 240px;
     margin: 5px 5px 5px 5px;
     object-fit: cover;
     object-position: center;

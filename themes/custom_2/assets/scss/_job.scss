@@ -1,0 +1,63 @@
+.job {
+    border: 1px solid #e0e0e0;
+    width: 80%;
+    /*height: 320px;*/
+    padding: 0px 20px 20px 20px;
+    margin-left: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    vertical-align: top;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/*@media screen and (max-width: 850px) {
+    .job {
+        width: 24%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .job {
+        width: 32%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .job {
+        width: 45%;
+    }
+}*/
+
+
+.job h4 {
+    margin-top: 20px;
+}
+
+.job h5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    [data-theme=dark] & {
+        color: $dark-color-secondary;
+    }
+    
+    [data-theme=light] & {
+        color: $light-color-secondary;
+    }
+}
+
+.job p {
+    margin-top: 2px;
+    line-height: 1.25em;
+    text-align: left;
+}
+
+.job img {
+    width: 80px;
+    height: 80px;
+    margin: 20px 5px 5px 5px;
+    float: right;
+}

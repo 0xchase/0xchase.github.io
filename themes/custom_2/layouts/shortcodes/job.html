@@ -1,0 +1,10 @@
+{{ if .Get "img" }}
+    <span class="job">
+        <a href="{{ .Get "link" | safeURL }}" target="_blank">
+            <img src="{{ .Get "img" | safeURL }}"></img>
+        </a>
+        <h4>{{.Get "title"}} - {{.Get "subtitle"}}</h4>
+        <h5>{{.Get "dates"}}</h5>
+        <p>{{ .Get "description"}}</p>
+    </span>
+{{ end }}
