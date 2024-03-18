@@ -8,6 +8,18 @@
     max-width: 600px;
   }
 
+  i {
+    padding-right: 10px;
+
+    [data-theme=dark] & {
+      color: $dark-color-secondary;
+    }
+
+    [data-theme=light] & {
+      color: $light-color-secondary;
+    }
+  }
+
   &-date {
     &:after {
       content: '—';

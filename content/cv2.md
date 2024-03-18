@@ -124,21 +124,21 @@ Founder and lead developer of Procedural Audio, which creates novel audio genera
 ## Education
 ### Degrees
 
-#### Bachelor's of Science in Computer Science
+#### {{< icon name="graduation-cap">}} Bachelor's of Science in Computer Science
 
 - University of Maryland, College Park
 - Fall 2017 - Winter 2022
 - Minor in ACES (Advanced Cybersecurity Experience for Students)
 - Additional coursework in physics
 
-#### Masters of Professional Studies in Machine Learning
+#### {{< icon name="graduation-cap">}} Masters of Professional Studies in Machine Learning
 
 - University of Maryland, College Park
 - Fall 2023 - Present
 
 ### Certifications
 
-#### OSCP (Offensive Security Certified Professional)
+#### {{< icon name="certificate">}} OSCP (Offensive Security Certified Professional)
 
 - Completed 3 months of penetration testing training in a lab with 50+ targets
 - Mastered tools like nmap, metasploit, wireshark, burp suite, john the ripper, etc
@@ -180,25 +180,23 @@ Founder and lead developer of Procedural Audio, which creates novel audio genera
 
 ## Teaching
 
-### CMSC388Z: Programming in Rust (2021)
-
-{{< icon name="film" size="large" >}}
+### {{< icon name="book">}} CMSC388Z: Programming in Rust (2021)
 
 A semester-long course at the University of Maryland on the Rust programming language. The course followed the rust book, and I was the primary lecturer for one of the sections, in addition to designing and grading the course assignments with another facilitator. The course syllabus can be found on the [course website](https://www.cs.umd.edu/class/fall2021/cmsc388Z/).
 
-{{< button href="https://gohugo.io/" >}}Course Website{{< /button >}}
+{{< button href="https://gohugo.io/" icon="download" >}}Course Website{{< /button >}}
 
-### MCWIC: Algorithmic Music Generation (2020)
+### {{< icon name="book">}} MCWIC: Algorithmic Music Generation (2020)
 
 An introductory lecture to the Maryland Center for Women in Computing (MCWIC) on how techniques like markov models and recurrent neural networks can facilitate music generation.
 
-{{< button href="https://gohugo.io/" >}}Course Website{{< /button >}}
+{{< button href="https://gohugo.io/" icon="download" >}}Course Website{{< /button >}}
 
-### SEDS: Programming for Satellites (2020)
+### {{< icon name="book">}} SEDS: Programming for Satellites (2020)
 
 Led the design and implementation of a "boot-camp" for people joining the software team of SEDS at the University of Maryland, to introduce them to the skills needed to develop software for satellites.
 
-{{< button href="https://gohugo.io/" >}}Course Website{{< /button >}}
+{{< button href="https://gohugo.io/" icon="download" >}}Course Website{{< /button >}}
 
 ---
 
@@ -207,4 +205,3 @@ Led the design and implementation of a "boot-camp" for people joining the softwa
 ### UMD Philosophy Club - President
 
 I was president of the UMD philosophy club for 2 years. We had weekly meetings covering topics in philosophy and bi-weekly socials. This experience significantly improved my ability to think methodically, reason clearly, form cogent arguments, lead group discussions, and foster substantive conversations.
-
