@@ -182,15 +182,23 @@ Founder and lead developer of Procedural Audio, which creates novel audio genera
 
 ### CMSC388Z: Programming in Rust (2021)
 
+{{< icon name="film" size="large" >}}
+
 A semester-long course at the University of Maryland on the Rust programming language. The course followed the rust book, and I was the primary lecturer for one of the sections, in addition to designing and grading the course assignments with another facilitator. The course syllabus can be found on the [course website](https://www.cs.umd.edu/class/fall2021/cmsc388Z/).
+
+{{< button href="https://gohugo.io/" >}}Course Website{{< /button >}}
 
 ### MCWIC: Algorithmic Music Generation (2020)
 
 An introductory lecture to the Maryland Center for Women in Computing (MCWIC) on how techniques like markov models and recurrent neural networks can facilitate music generation.
 
+{{< button href="https://gohugo.io/" >}}Course Website{{< /button >}}
+
 ### SEDS: Programming for Satellites (2020)
 
 Led the design and implementation of a "boot-camp" for people joining the software team of SEDS at the University of Maryland, to introduce them to the skills needed to develop software for satellites.
+
+{{< button href="https://gohugo.io/" >}}Course Website{{< /button >}}
 
 ---
 

@@ -137,3 +137,39 @@ a.button {
     }
   }
 }
+
+a.markdown-btn {
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  line-height: 2em;
+  font-size: 14px;
+  font-weight: 600;
+
+  [data-theme=dark] & {
+    background: $dark-background-header;
+    color: $dark-color;
+  }
+
+  [data-theme=light] & {
+    background: $light-background-header;
+    color: $light-color;
+  }
+
+  &:hover,
+  &:active {
+    text-decoration: none;
+    [data-theme=dark] & {
+      background: $dark-background-secondary;
+      color: $dark-color-secondary;
+    }
+  
+    [data-theme=light] & {
+      background: $light-background-secondary;
+      color: $light-color-secondary;
+    }
+  }
+}
