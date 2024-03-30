@@ -6,7 +6,6 @@ hidden: true
 
 **Summary**: Graduate of the University of Maryland with experience in vulnerability research, reverse engineering, software development, digital signal processing, and more. I prefer research-oriented work that utilizes, analyzes, or contributes to emerging technologies.
 
-
 ## Work Experience
 
 ### Procedural Audio
