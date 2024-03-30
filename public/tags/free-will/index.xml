@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Free Will on Chase Kanipe</title>
+    <link>http://localhost:1313/tags/free-will/</link>
+    <description>Recent content in Free Will on Chase Kanipe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Nov 2023 00:00:02 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/free-will/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Path to Compatibilism</title>
+      <link>http://localhost:1313/blog/compatibilism/</link>
+      <pubDate>Thu, 02 Nov 2023 00:00:02 -0400</pubDate>
+      <guid>http://localhost:1313/blog/compatibilism/</guid>
+      <description>(create a variant of this essay that&amp;rsquo;s a review of Robert Sapolsky&amp;rsquo;s book, &amp;ldquo;why scientists need philosophers&amp;rdquo;) (he doesn&amp;rsquo;t take naturalism all the way to the end)&#xA;Introduction Like many disputes that have been left for philosophers, the question of whether humans have free will is particularlly fraught. The points of contention include not only the answer to the question itself, but also the meaning and nature of all the concepts presupposed by the question, and though it superficially takes the form of an empirical question about human psychology, it&amp;rsquo;s unclear if any experiment would resolve it, or even if empirical results are relevant evidence in principal.</description>
+    </item>
+  </channel>
+</rss>

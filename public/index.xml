@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chase Kanipe</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Chase Kanipe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Nov 2023 00:00:02 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Explanation in Everettian Quantum Mechanics</title>
+      <link>http://localhost:1313/blog/everett/</link>
+      <pubDate>Mon, 06 Nov 2023 00:00:02 -0400</pubDate>
+      <guid>http://localhost:1313/blog/everett/</guid>
+      <description>Common misconception that &amp;ldquo;interpretations&amp;rdquo; of quantum mechanics&#xA;David deutch book arguing many worlds is correct Sean carroll paper deriving the born rule Sean carroll popular book on quantum mechanics Sean carroll on delayed choice quantum eraser and the MWI David Wallace book on the MWI </description>
+    </item>
+    <item>
+      <title>Answering the Hard Problem of Consciousness</title>
+      <link>http://localhost:1313/blog/consciousness/</link>
+      <pubDate>Sun, 05 Nov 2023 00:00:02 -0400</pubDate>
+      <guid>http://localhost:1313/blog/consciousness/</guid>
+      <description>Introduction Resources Human and Animal Minds The Feeling of Life Itself Consciousness Explaind Being You Rethinking Consciousness Section on mental representation and the knowledge argument</description>
+    </item>
+    <item>
+      <title>Against Truth Relativism</title>
+      <link>http://localhost:1313/blog/truth/</link>
+      <pubDate>Sat, 04 Nov 2023 00:00:02 -0400</pubDate>
+      <guid>http://localhost:1313/blog/truth/</guid>
+      <description>Against Truth Relativism How you use the word truth is determined by your web of beliefs Therefore truth is belief dependent Relativism hold that truth claims is fundementally indexical.&#xA;Plato stanford meaning Plato stanford relativism Plato stanford propositions Plato stanford structured propositions Plato stanford singular propositions Plato stanford definition Plato stanford assertion Plato stanford belief and assertion Plato stanford reference Plato stanford pragmatism&#xA;Introduction In the complex terrain of philosophical theories of truth, one theory stands out</description>
+    </item>
+    <item>
+      <title>Implementing an Open Source CMajor Compiler</title>
+      <link>http://localhost:1313/writeups/compiler/</link>
+      <pubDate>Sat, 04 Nov 2023 00:00:02 -0400</pubDate>
+      <guid>http://localhost:1313/writeups/compiler/</guid>
+      <description>Introduction Something here.</description>
+    </item>
+    <item>
+      <title>MML Textbook Solutions</title>
+      <link>http://localhost:1313/writeups/mml/</link>
+      <pubDate>Fri, 03 Nov 2023 00:00:02 -0400</pubDate>
+      <guid>http://localhost:1313/writeups/mml/</guid>
+      <description>Introduction These are my solutions for the problem sets from the textbook Mathematics for Machine Learning.&#xA;Part 1: Mathematical Foundations Chapter 2: Linear Algebra Here is an inline equation $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$ using the dollar signs.&#xA;This is an equation shown on its own line.&#xA;$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$ $$ y = {-b \pm \sqrt{b^2-4ac}} $$ $$ z = {-b^2-4ac} $$</description>
+    </item>
+    <item>
+      <title>On Meaning and Reference</title>
+      <link>http://localhost:1313/blog/meaning/</link>
+      <pubDate>Fri, 03 Nov 2023 00:00:02 -0400</pubDate>
+      <guid>http://localhost:1313/blog/meaning/</guid>
+      <description>Notes Titles On Meaning and Reference On Propositions, Meaning, Content, and Reference On Propositions, Reference, and Meaning The Meaning of Meaning References Plato stanford Theories of Meaning Plato stanford Definitions Plato stanford Reference Plato stanford Propositions Plato stanford Structured Propositions Plato stanford Singular Propositions Plato stanford Descriptions Plato stanford nonconcepual mental content Plato stanford externalism about mental content Plato stanford mental representation Plato stanford meaning normativity Plato stanford meaning holism Introduction Distinction between what you say, and what you mean.</description>
+    </item>
+    <item>
+      <title>The Path to Compatibilism</title>
+      <link>http://localhost:1313/blog/compatibilism/</link>
+      <pubDate>Thu, 02 Nov 2023 00:00:02 -0400</pubDate>
+      <guid>http://localhost:1313/blog/compatibilism/</guid>
+      <description>(create a variant of this essay that&amp;rsquo;s a review of Robert Sapolsky&amp;rsquo;s book, &amp;ldquo;why scientists need philosophers&amp;rdquo;) (he doesn&amp;rsquo;t take naturalism all the way to the end)&#xA;Introduction Like many disputes that have been left for philosophers, the question of whether humans have free will is particularlly fraught. The points of contention include not only the answer to the question itself, but also the meaning and nature of all the concepts presupposed by the question, and though it superficially takes the form of an empirical question about human psychology, it&amp;rsquo;s unclear if any experiment would resolve it, or even if empirical results are relevant evidence in principal.</description>
+    </item>
+    <item>
+      <title>A Common Fallacy of Moral Reasoning</title>
+      <link>http://localhost:1313/blog/moral/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:02 -0400</pubDate>
+      <guid>http://localhost:1313/blog/moral/</guid>
+      <description>Notes Explain how people sometimes reason using terms.&#xA;Connotative failure, denotative success.</description>
+    </item>
+    <item>
+      <title>A Crash Course in Scholarship for Evangelicals</title>
+      <link>http://localhost:1313/blog/bible/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:02 -0400</pubDate>
+      <guid>http://localhost:1313/blog/bible/</guid>
+      <description>Notes https://youtu.be/30q5hOdgwuc Topics Genesis Relationship between Genesis and Enuma Elish Two creation accounts and their meaning Cain and able and their meaning The flood and its meaning Canonical Gospels What they are, their differences, etc Non-canonical gospels Revalation Nero theory </description>
+    </item>
+    <item>
+      <title>Ethics of Machine Consciousness</title>
+      <link>http://localhost:1313/blog/ai/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:02 -0400</pubDate>
+      <guid>http://localhost:1313/blog/ai/</guid>
+      <description>Notes Stuff goes here </description>
+    </item>
+    <item>
+      <title>What the Data Says About Compatibility</title>
+      <link>http://localhost:1313/blog/compatibility/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:02 -0400</pubDate>
+      <guid>http://localhost:1313/blog/compatibility/</guid>
+      <description>Notes Resources How not to die alone book Redhead tedtalk research Questions Importance of looks, money, politics, shared values, etc Do similar hobbies matter? Do shared big-five traits matter? Does spark matter? Love languages? Attachment theory? Esther Perel</description>
+    </item>
+    <item>
+      <title>Writing Elegant DSP Code in Rust</title>
+      <link>http://localhost:1313/projects/rust-dsp/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:02 -0400</pubDate>
+      <guid>http://localhost:1313/projects/rust-dsp/</guid>
+      <description>Introduction In this post I’m going to attempt to show some of the advantages the rust type system brings to writing more elegant DSP code. We&amp;rsquo;re going to start with a crash course on the relevant parts of the rust type system, and then we&amp;rsquo;ll see how this can be applied to constructing the types and traits that will be the foundation of a Rust audio processing library. We&amp;rsquo;ll then see how to apply some more abstract features of the Rust type system to make these elements more composable and modular.</description>
+    </item>
+    <item>
+      <title>My Encounter with Pseudoscience</title>
+      <link>http://localhost:1313/blog/pseudoscience/</link>
+      <pubDate>Fri, 19 May 2023 00:00:02 -0400</pubDate>
+      <guid>http://localhost:1313/blog/pseudoscience/</guid>
+      <description>Context At one of the monthly meetings for my cohort at work, an inspirational speaker was invited to present on how to thrive in the workplace. Unfortunately, the presentation was laden with various forms of new-age pseudoscience. When several of us complained to the administrators who had organized the speech, we were told that the speaker had &amp;ldquo;evidence&amp;rdquo; to back up his claims, and that he was certified by an accredited university.</description>
+    </item>
+    <item>
+      <title>Philpapers Survey</title>
+      <link>http://localhost:1313/blog/philpapers/</link>
+      <pubDate>Tue, 05 Jul 2022 00:00:02 -0400</pubDate>
+      <guid>http://localhost:1313/blog/philpapers/</guid>
+      <description>These are my answers to the 2020 philpapers survey. This is a living document that I&amp;rsquo;ll update as I continue to learn about each debate.&#xA;Question Options My Answer A priori knowledge Yes or no Undecided Abstract objects Platonism or nominalism Lean towards nominalism Aesthetic value Objective or subjective Lean towards subjective Analytic-synthetic distinction Yes or no Lean towards yes Aim of philosophy Wisdom, truth, understanding, knowledge, happiness, goodness, justice No fact of the matter, prefer truth Eating animals and animal products Vegetarianism, veganism, omnivorism Undecided Epistemic justification Internalism or externalism Accept externalism Experience machine (would you enter) Yes or no Accept no External world Skepticism, non-skeptical realism, idealism Lean towards non-skeptical realism Footbridge (push man off to save five) Push or don&amp;rsquo;t push Undecided Free will Compatibilism, no free will, libertarianism Accept compatibilism Gender Unreal, biological, social, psychological Undecided Knowledge Empiricism or rationalism Empiricism Knowledge Claims Relativism, contextualism, invariantism Insufficiently familiar Laws of Nature Humean or non-humean Accept Humean Logic Classical or non-classical Insufficiently familiar Meaning of life Objective, nonexistent, subjective Accept subjective Mental Content Internalism or externalism Insufficiently familiar Meta-ethics Moral realism or anti-realism Indeterminant Metaphilosophy Naturalism or non-naturalism Accept naturalism Mind Physicalism or non-physicalism Accept physicalism Moral judgement Cognitivism or non-cognitivism Lean towards cognitivism Moral motivation Externalism or internalism Insufficiently familiar Newcomb&amp;rsquo;s problem One box or two boxes Accept one box Normative ethics Consequentialism, virtue ethics, deontology None of these, lean towards contractualism Perceptual experience Sense-datum theory, representationalism, qualia theory, disjunctivism Undecided Personal Identity Biological view, psychological view, further fact view No fact of the matter, prefer psychological Philosophical Methods Conceptual analysis, conceptual engineering, empirical, formal, intuition No fact of the matter, prefer conceptual engineering Philosophical progress A lot, a little, none Accept a lot Political philosophy Communitarianism, egalitarianism, libertarianism Insufficiently familiar Proper Names Millian or Fregean Insufficiently familiar Race Biological, social, unreal Accept social Science Realism or anti-realism Lean towards realism Teletransporter Death or survival No fact of the matter, no preference Time A-theory of B-theory Acccepts B-theory Trolley Problem Switch or don&amp;rsquo;t switch Undecided Truth Epistemic, correspondence, deflationary Accept deflationary Vagueness Epistemic, social, metaphysical Insufficiently familiar Philosophical Zombies Inconceivable, conceivable but not possible, or possible Conceivable but not possible </description>
+    </item>
+    <item>
+      <title>Favorite Papers</title>
+      <link>http://localhost:1313/about/favorite-papers/</link>
+      <pubDate>Sat, 05 Mar 2022 00:00:02 -0600</pubDate>
+      <guid>http://localhost:1313/about/favorite-papers/</guid>
+      <description>Here&amp;rsquo;s a list of my favorite papers.&#xA;Computer Science Exposing the Perils of Security Oblivious Energy Management Philosophy Todo Neuroscience Could a Neuroscientist Understand a Microprocessor? Funny What&amp;rsquo;s the Deal with Birds? A Demonstration of the Causal Power of Absences Sokal Hoax Long-Term Study of HRV Responses to Changes in the Solar and Geomagnetic Environment </description>
+    </item>
+    <item>
+      <title>Favorite Words</title>
+      <link>http://localhost:1313/about/favorite-words/</link>
+      <pubDate>Sat, 05 Mar 2022 00:00:02 -0600</pubDate>
+      <guid>http://localhost:1313/about/favorite-words/</guid>
+      <description>Here&amp;rsquo;s a reference list of words I like to include in essays.&#xA;Ameliorate, ascendant, ascertain, assertion, assessment, constituents, constitute, counterfactual, dispositive, eschaton, ephemeral, equilibrate, equivocate, exemplar, extemporaneous, harrowing, ideation, imperative, litany, litigate, obfuscate, obscure, opaque, parsimonious, recount, subvert, systematic, vexatious, voluminous</description>
+    </item>
+    <item>
+      <title>Favorite Videos</title>
+      <link>http://localhost:1313/about/favorite-videos/</link>
+      <pubDate>Fri, 04 Mar 2022 00:00:02 -0400</pubDate>
+      <guid>http://localhost:1313/about/favorite-videos/</guid>
+      <description>Computer Science Jim Keller on Microprocessors: An interview that discusses Jim&amp;#39;s career history, moore&amp;#39;s law, his hiring philosophy, and more.&#xA;Jim Keller on the future of computing: An interview that discusses Jim&amp;#39;s perspectives on the future of computing, AI, life, consciousness, and more.&#xA;GPT-4, ChatGPT, and the Future of AI: An interview with Sam Altman on OpenAI, GPT4, ChatGPT, DALL-E and many other leading AI technologies.&#xA;AI Safety: A discussion with Scott Aaronson on his work with OpenAI on ChatGPT, AI saftey, AI alignment, and various other topics.</description>
+    </item>
+    <item>
+      <title>Favorite Books</title>
+      <link>http://localhost:1313/about/favorite-books/</link>
+      <pubDate>Thu, 03 Mar 2022 00:00:02 -0400</pubDate>
+      <guid>http://localhost:1313/about/favorite-books/</guid>
+      <description>Here&amp;rsquo;s a list of some of my favorite non-fiction books. I&amp;rsquo;ll continue to update this list as I discover new favories.&#xA;Computer Science The C Programming Language&#xA;The C&amp;#43;&amp;#43; Programming Language&#xA;The Rust Programming Language&#xA;Build Your Own Programming Language&#xA;Learn LLVM 12&#xA;Crafting Interpreters&#xA;Introduction to Static Analysis&#xA;Windows Kernel Programming&#xA;Modern x86 Assembly Language&#xA;Learn You a Haskell for Great Good&#xA;Cybersecurity Reversing: Secrets of Reverse Engineering&#xA;Hacking: The Art of Exploitation</description>
+    </item>
+    <item>
+      <title>Favorite Quotes</title>
+      <link>http://localhost:1313/about/favorite-quotes/</link>
+      <pubDate>Thu, 03 Mar 2022 00:00:02 -0400</pubDate>
+      <guid>http://localhost:1313/about/favorite-quotes/</guid>
+      <description> The line between good and evil runs down the heart of every man You will die but C will live - Unknown professor </description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>Hello 👋 Welcome to my about page.&#xA;I&amp;rsquo;m currently studying machine learning as a graduate student at UMD, working in computer security research, and spending my free time developing platforms for procedural and generative music.&#xA;Overview Basics Location: College Park, Maryland 🇺🇸 Occupation: Computer security researcher, audio developer Education: Bachelor&amp;rsquo;s of Science in computer science at UMD Interests Here&amp;rsquo;s a list of interests I&amp;rsquo;ve accumulated over the years.&#xA;Cybersecurity: Reverse engineering, binary exploitation, cryptography, symbolic execution Computer Science: Programming, compilers, machine learning, operating system internals Music Technology: Digital signal processing, modular synthesizers, plugin development Philosophy: Epistemology, mind, metaphysics, modality, religion, language, analytic philosophy Physics: Foundations of physics, space and time, statistical mechanics Cognitive Science: Mental representation, global workspace theory Economics: The great recession, monetary policy, trade imbalances Music: Piano, acoustic guitar, electric guitar, desktop synthesizers, pedalboards VFX: Unreal Engine 5, Blender 3D, Houdini (a little bit) </description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>For business ventures and consulting to explore,&#xA;Send your inquiries to this email&amp;rsquo;s door&#xA;chasekanipe [at] gmail [dot] com is the key,&#xA;To unlock opportunities, let&amp;rsquo;s see what can be.&#xA;In College Park, Maryland, I reside,&#xA;Where innovation and ideas collide.&#xA;If you&amp;rsquo;re close by and wish to chat,&#xA;Let&amp;rsquo;s share a coffee, how about that?&#xA;But if distance keeps us far and wide,&#xA;No worries, my friend, we&amp;rsquo;ve got a ride.</description>
+    </item>
+    <item>
+      <title>Curriculum Vitae (future)</title>
+      <link>http://localhost:1313/cv2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cv2/</guid>
+      <description>Summary: Graduate of the University of Maryland with experience in vulnerability research, reverse engineering, software development, digital signal processing, and more. I prefer research-oriented work that utilizes, analyzes, or contributes to emerging technologies.&#xA;Work Experience Procedural Audio Founder and lead developer of Procedural Audio, which creates novel audio generation and processing tools for musicians, sound designers, and audio developers.&#xA;Graduate Student - University of Maryland January 2021 - February 2021 Completed a masters in machine learning with a focus on machine learning and projects in machine learning.</description>
+    </item>
+    <item>
+      <title>CV</title>
+      <link>http://localhost:1313/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cv/</guid>
+      <description>I&amp;rsquo;m a graduate of the University of Maryland with experience in vulnerability research, reverse engineering, software development, digital signal processing, and more. I prefer research-oriented work that utilizes, analyzes, or contributes to emerging technologies.&#xA;Work Experience Procedural Audio Founder and lead developer of Procedural Audio, which creates novel audio generation and processing tools for musicians, sound designers, and audio developers.&#xA;Internship Experience Margin Research Performed vulnerability analysis on various IOT devices as part of a &amp;ldquo;winternship&amp;rdquo; program, including several surveillance cameras and webcams.</description>
+    </item>
+    <item>
+      <title>Music</title>
+      <link>http://localhost:1313/music/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/music/</guid>
+      <description>Synthesizers Fragments 1 - Novation Peak and Ambient Guitar The first in a series of song &amp;ldquo;fragments&amp;rdquo;, to be used in the development of a future album.&#xA;Supermoon - Cover A cover of the song Supermoon from the No Man Sky game. A version of this was performed for the Gamer Symphony Orchestra.&#xA;Film Scoring Westworld Scoring Competition Submission for a scoring competition run by HBO and Spitfire Audio. The competition was to write a score for this scene from Westworld Season 3; this was my submission.</description>
+    </item>
+    <item>
+      <title>Music (future)</title>
+      <link>http://localhost:1313/music2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/music2/</guid>
+      <description>Links to spotify, bandcamp, apple music, YouTube, etc.&#xA;Mention distributer.&#xA;Albums First Album&#xA;Second Album&#xA;Thrid Album&#xA;Fourth Album&#xA;Fifth Album&#xA;Sixth Album&#xA;Live Streams Live stream information goes here.&#xA;Studio Images of studio or video of studio tour goes here.&#xA;Film Scores Westworld Scoring Competition Submission for a scoring competition run by HBO and Spitfire Audio. The competition was to write a score for this scene from Westworld Season 3; this was my submission.</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/</guid>
+      <description>Coming soon :)</description>
+    </item>
+    <item>
+      <title>Search</title>
+      <link>http://localhost:1313/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/search/</guid>
+      <description>search</description>
+    </item>
+  </channel>
+</rss>

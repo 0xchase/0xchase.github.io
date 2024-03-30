@@ -5,12 +5,12 @@ author:
   name: Chase Kanipe
 theme: custom_2
 defaultContentLanguage: en
-sectionPagesMenu: main
+# sectionPagesMenu: main
 disableSitemap: false
 description: Here is a desciption of something
 taxonomies:
-  category: categories
   tag: tags
+  category: categories
 menu:
   main:
     - identifier: about

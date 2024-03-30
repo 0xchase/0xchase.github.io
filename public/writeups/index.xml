@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Writeups on Chase Kanipe</title>
+    <link>http://localhost:1313/writeups/</link>
+    <description>Recent content in Writeups on Chase Kanipe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 04 Nov 2023 00:00:02 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/writeups/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Implementing an Open Source CMajor Compiler</title>
+      <link>http://localhost:1313/writeups/compiler/</link>
+      <pubDate>Sat, 04 Nov 2023 00:00:02 -0400</pubDate>
+      <guid>http://localhost:1313/writeups/compiler/</guid>
+      <description>Introduction Something here.</description>
+    </item>
+    <item>
+      <title>MML Textbook Solutions</title>
+      <link>http://localhost:1313/writeups/mml/</link>
+      <pubDate>Fri, 03 Nov 2023 00:00:02 -0400</pubDate>
+      <guid>http://localhost:1313/writeups/mml/</guid>
+      <description>Introduction These are my solutions for the problem sets from the textbook Mathematics for Machine Learning.&#xA;Part 1: Mathematical Foundations Chapter 2: Linear Algebra Here is an inline equation $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$ using the dollar signs.&#xA;This is an equation shown on its own line.&#xA;$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$ $$ y = {-b \pm \sqrt{b^2-4ac}} $$ $$ z = {-b^2-4ac} $$</description>
+    </item>
+  </channel>
+</rss>

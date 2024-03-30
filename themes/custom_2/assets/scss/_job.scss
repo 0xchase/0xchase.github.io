@@ -1,9 +1,65 @@
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 4px;
+    [data-theme=dark] & {
+        background-color: $dark-background-secondary;
+    }
+
+    [data-theme=light] & {
+        background-color: $light-background-secondary;
+    }
+  top: 0;
+  bottom: 0;
+  left: 3%;
+  margin-left: -3px;
+}
+
+.job::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: -10%;
+
+    [data-theme=dark] & {
+        border: 4px solid $dark-background-secondary;
+        // background-color: $dark-accent-color;
+        background-color: $dark-background;
+    }
+
+    [data-theme=light] & {
+        border: 4px solid $light-background-secondary;
+        // background-color: $light-accent-color;
+        background-color: $light-background;
+    }
+
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
 .job {
-    border: 1px solid #e0e0e0;
-    width: 80%;
+    position: relative; /* Needed fo timeline to work */
+    [data-theme=dark] & {
+        border: 1px solid $dark-background-secondary;
+    }
+
+    [data-theme=light] & {
+        border: 1px solid $light-background-secondary;
+    }
+    // border: 1px solid #e0e0e0;
+    width: 90%;
     /*height: 320px;*/
     padding: 0px 20px 20px 20px;
-    margin-left: 20%;
+    margin-left: 10%;
     margin-top: 10px;
     margin-bottom: 10px;
     vertical-align: top;

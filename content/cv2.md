@@ -1,6 +1,7 @@
 ---
 title: Curriculum Vitae (future)
 draft: true
+hidden: true
 ---
 
 **Summary**: Graduate of the University of Maryland with experience in vulnerability research, reverse engineering, software development, digital signal processing, and more. I prefer research-oriented work that utilizes, analyzes, or contributes to emerging technologies.
@@ -26,29 +27,31 @@ Founder and lead developer of Procedural Audio, which creates novel audio genera
 
 ## Internship Experience
 
+{{< timeline_begin >}}
+
 {{< job
-    title="Vulnerability Analyst"
+    title="Margin Research"
     img="/logos/margin.png"
-    subtitle="Margin Research"
-    dates="January 2021 - February 2021"
+    subtitle="Vulnerability Analyst"
+    dates="Winter of 2021"
     url="https://www.google.com/books/edition/C_Programming_Language/Yi5FI5QcdmYC?hl=en&gbpv=0"
     description="Performed vulnerability analysis on various IOT devices as part of a “winternship” program, including several surveillance cameras and webcams. I discovered and documented various potential weaknesses in the camera firmware."
 >}}
 
 {{< job
-    title="Developer"
+    title="Mantech"
     img="/logos/margin.png"
-    subtitle="Mantech"
-    dates="January 2021 - February 2021"
+    subtitle="Developer"
+    dates="Summer of 2021 and Spring of 2022"
     url="https://www.google.com/books/edition/C_Programming_Language/Yi5FI5QcdmYC?hl=en&gbpv=0"
     description="Performed vulnerability analysis and reverse engineering on network devices. Developed an application in C."
 >}}
 
 {{< job
-    title="Developer"
+    title="Correct Computation"
     img="/logos/margin.png"
-    subtitle="Correct Computation"
-    dates="January 2021 - February 2021"
+    subtitle="Developer"
+    dates="Spring of 2021"
     url="https://www.google.com/books/edition/C_Programming_Language/Yi5FI5QcdmYC?hl=en&gbpv=0"
     description="Worked on binary analysis tools built on top of the BAP (binary analysis platform) framework. Contributed to the Checked-C compiler."
 >}}
@@ -57,7 +60,7 @@ Founder and lead developer of Procedural Audio, which creates novel audio genera
     title="Joint Quantum Institute"
     img="/logos/margin.png"
     subtitle="Research Assistant"
-    dates="January 2021 - February 2021"
+    dates="Summer of 2021"
     url="https://www.google.com/books/edition/C_Programming_Language/Yi5FI5QcdmYC?hl=en&gbpv=0"
     description="Programmed ARTIQ (Advanced Real-Time Infrastructure for Quantum Physics) systems to interface with quantum computing experiements. Implemented a laser intensity stabilization system to laser-cool ions. Developed a custom laser safety interface in python called LAGONA."
 >}}
@@ -65,8 +68,8 @@ Founder and lead developer of Procedural Audio, which creates novel audio genera
 {{< job
     title="UMD AUSS Lab"
     img="/logos/margin.png"
-    subtitle="Correct Computation"
-    dates="January 2021 - February 2021"
+    subtitle="Research Assistant"
+    dates="Summer of 2019"
     url="https://www.google.com/books/edition/C_Programming_Language/Yi5FI5QcdmYC?hl=en&gbpv=0"
     description="Developed a custom platform to teach students about developing secure drone firmware. Completed trainings in soldering, programming, and cloud-based machine learning."
 >}}
@@ -75,7 +78,7 @@ Founder and lead developer of Procedural Audio, which creates novel audio genera
     title="MPLEX VR"
     img="/logos/margin.png"
     subtitle="Technical Artist"
-    dates="January 2021 - February 2021"
+    dates="Summer of 2021"
     url="https://www.google.com/books/edition/C_Programming_Language/Yi5FI5QcdmYC?hl=en&gbpv=0"
     description="Created virtual environments using tools like Unreal Engine 4, Blender, Maya, Substance Painter, and GIMP. Designed particle effects and destruction simulations in Houdini and UE4."
 >}}
@@ -84,10 +87,12 @@ Founder and lead developer of Procedural Audio, which creates novel audio genera
     title="Precision Alliance"
     img="/logos/margin.png"
     subtitle="Web Developer"
-    dates="January 2021 - February 2021"
+    dates="Summer of 2021"
     url="https://www.google.com/books/edition/C_Programming_Language/Yi5FI5QcdmYC?hl=en&gbpv=0"
     description="Contributed to a web application to facilitate the configuration and sale of linear bearings, XY stages, and more. Developed scripts to automatically generate these web pages."
 >}}
+
+{{< timeline_end >}}
 
 ---
 

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Consciousness on Chase Kanipe</title>
+    <link>http://localhost:1313/tags/consciousness/</link>
+    <description>Recent content in Consciousness on Chase Kanipe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Nov 2023 00:00:02 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/consciousness/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Answering the Hard Problem of Consciousness</title>
+      <link>http://localhost:1313/blog/consciousness/</link>
+      <pubDate>Sun, 05 Nov 2023 00:00:02 -0400</pubDate>
+      <guid>http://localhost:1313/blog/consciousness/</guid>
+      <description>Introduction Resources Human and Animal Minds The Feeling of Life Itself Consciousness Explaind Being You Rethinking Consciousness Section on mental representation and the knowledge argument</description>
+    </item>
+  </channel>
+</rss>
