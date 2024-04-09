@@ -1,10 +1,24 @@
 ---
-title: Curriculum Vitae (future)
+title: About
 draft: true
 hidden: true
 ---
 
 **Summary**: Graduate of the University of Maryland with experience in vulnerability research, reverse engineering, software development, digital signal processing, and more. I prefer research-oriented work that utilizes, analyzes, or contributes to emerging technologies.
+
+## Interests
+
+- **Cybersecurity**: Reverse engineering, binary exploitation, cryptography, symbolic execution
+- **Computer Science**: Programming, compilers, machine learning, operating system internals
+- **Music Technology**: Digital signal processing, modular synthesizers, plugin development
+- **Philosophy**: Epistemology, mind, metaphysics, modality, religion, language
+- **Physics**: Foundations of physics, space and time, statistical mechanics
+- **Cognitive Science**: Mental representation, global workspace theory
+- **Economics**: The great recession, monetary policy, trade imbalances
+- **Music**: Piano, acoustic guitar, electric guitar, desktop synthesizers, pedalboards
+- **VFX**: Unreal Engine 5, Blender 3D, Houdini
+
+---
 
 ## Work Experience
 
@@ -12,15 +26,19 @@ hidden: true
 
 Founder and lead developer of Procedural Audio, which creates novel audio generation and processing tools for musicians, sound designers, and audio developers.
 
+{{< timeline_begin >}}
+
 {{< job
-    title="Graduate Student"
-    img="/logos/umd.png"
-    subtitle="University of Maryland"
+    title="Department of Defense"
+    img="/logos/lts.jpg"
+    subtitle=""
     dates="January 2021 - February 2021"
     url="https://www.google.com/books/edition/C_Programming_Language/Yi5FI5QcdmYC?hl=en&gbpv=0"
     description="Completed a masters in machine learning with a focus on machine learning and projects in machine learning."
+    list="Item 1 * Item 2 * Item 3 * Item 4"
 >}}
 
+{{< timeline_end >}}
 
 ---
 
@@ -34,7 +52,7 @@ Founder and lead developer of Procedural Audio, which creates novel audio genera
     subtitle="Vulnerability Analyst"
     dates="Winter of 2021"
     url="https://www.google.com/books/edition/C_Programming_Language/Yi5FI5QcdmYC?hl=en&gbpv=0"
-    description="Performed vulnerability analysis on various IOT devices as part of a “winternship” program, including several surveillance cameras and webcams. I discovered and documented various potential weaknesses in the camera firmware."
+    description="Performed vulnerability analysis on various IOT devices as part of a “winternship” program, particularlly a few web cameras by extracting fimware and reverse engineering various binaries."
 >}}
 
 {{< job
@@ -126,21 +144,36 @@ Founder and lead developer of Procedural Audio, which creates novel audio genera
 ---
 
 ## Education
-### Degrees
 
-#### {{< icon name="graduation-cap">}} Bachelor's of Science in Computer Science
+{{< timeline_begin >}}
 
-- University of Maryland, College Park
-- Fall 2017 - Winter 2022
-- Minor in ACES (Advanced Cybersecurity Experience for Students)
-- Additional coursework in physics
+{{< job
+    title="MS in Applied Machine Learning"
+    img="/logos/umd.png"
+    subtitle="UMD"
+    dates="Expected in 2025"
+    url="https://www.google.com/books/edition/C_Programming_Language/Yi5FI5QcdmYC?hl=en&gbpv=0"
+    description="Performed vulnerability analysis on various IOT devices as part of a “winternship” program, including several surveillance cameras and webcams. I discovered and documented various potential weaknesses in the camera firmware."
+    label="Selected Coursework"
+    list="CMSC720: Foundations of Deep Learning * MSML603: Principals of Machine Learning"
+>}}
 
-#### {{< icon name="graduation-cap">}} Masters of Professional Studies in Machine Learning
+{{< job
+    title="BS in Computer Science"
+    img="/logos/umd.png"
+    subtitle="UMD"
+    dates="Fall 2017 - Winter 2022"
+    url="https://www.google.com/books/edition/C_Programming_Language/Yi5FI5QcdmYC?hl=en&gbpv=0"
+    description="Performed vulnerability analysis and reverse engineering on network devices. Developed an application in C."
+    label="Selected Coursework"
+    list="HACS408E: Reverse Engineering * HACS408T: Penetration Testing * HACS408L: Digital Forensics * CMSC412: Operating Systems * CMSC414: Computer and Network Security * CMSC417: Computer Networks * CMSC430: Compilers"
+>}}
 
-- University of Maryland, College Park
-- Fall 2023 - Present
+{{< timeline_end >}}
 
-### Certifications
+---
+
+## Certifications
 
 #### {{< icon name="certificate">}} OSCP (Offensive Security Certified Professional)
 
