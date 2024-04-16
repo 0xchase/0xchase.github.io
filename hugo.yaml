@@ -17,14 +17,14 @@ menu:
       name: About
       url: /about/
       weight: 10
-    - identifier: cv
-      name: CV
-      url: /cv/
-      weight: 20
     - identifier: projects
       name: Projects
       url: /projects/
-      weight: 24
+      weight: 20
+    - identifier: writeups
+      name: Writeups
+      url: /writeups/
+      weight: 25
     - identifier: music
       name: Music
       url: /music/

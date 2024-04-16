@@ -1,0 +1,92 @@
+.writeups {
+  table {
+    border-collapse: collapse;
+    margin: 5px auto;
+    font-size: 0.9em;
+    width: 100%;
+
+    th,
+    td {
+      padding: 5px 10px;
+      // Default
+      // border: 1px solid $light-table-color;
+      border: none;
+      
+      @media (prefers-color-scheme: dark) {
+        // border: 1px solid $dark-table-color;
+      border: none;
+      }
+    
+      @media (prefers-color-scheme: light) {
+        // border: 1px solid $light-table-color;
+      border: none;
+      }
+    
+      [data-theme=dark] & {
+        // border: 1px solid $dark-table-color;
+      border: none;
+      }
+    
+      [data-theme=light] & {
+        // border: 1px solid $light-table-color;
+      border: none;
+      }
+    }
+
+    thead {
+      tr {
+        text-align: left;
+        // Default
+        // background-color: $light-table-color;
+        // color: $light-color;
+
+        @media (prefers-color-scheme: dark) {
+          // background-color: $dark-table-color;
+          //color: $dark-color;
+        }
+      
+        @media (prefers-color-scheme: light) {
+          // background-color: $light-table-color;
+          // color: $light-color;
+        }
+      
+        [data-theme=dark] & {
+            // background-color: $dark-table-color;
+            // color: $dark-color;
+        }
+      
+        [data-theme=light] & {
+          // background-color: $light-table-color;
+          // color: $light-color;
+        }
+      }
+    }
+
+    tbody {
+      tr {
+        // Default
+        border: none;
+        
+        @media (prefers-color-scheme: dark) {
+          border: none;
+          border-bottom: 1px solid $dark-table-color;
+        }
+      
+        @media (prefers-color-scheme: light) {
+          border: none;
+          border-bottom: 1px solid $light-table-color;
+        }
+      
+        [data-theme=dark] & {
+          border: none;
+          border-bottom: 1px solid $dark-table-color;
+        }
+      
+        [data-theme=light] & {
+            border: none;
+            border-bottom: 1px solid $light-table-color;
+        }
+      }
+    }
+  }
+}

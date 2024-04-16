@@ -22,10 +22,6 @@ hidden: true
 
 ## Work Experience
 
-### Procedural Audio
-
-Founder and lead developer of Procedural Audio, which creates novel audio generation and processing tools for musicians, sound designers, and audio developers.
-
 {{< timeline_begin >}}
 
 {{< job
@@ -35,10 +31,22 @@ Founder and lead developer of Procedural Audio, which creates novel audio genera
     dates="January 2021 - February 2021"
     url="https://www.google.com/books/edition/C_Programming_Language/Yi5FI5QcdmYC?hl=en&gbpv=0"
     description="Completed a masters in machine learning with a focus on machine learning and projects in machine learning."
-    list="Item 1 * Item 2 * Item 3 * Item 4"
+    list="Vulnerability Research * Reverse Engineering * Development * Other"
 >}}
 
 {{< timeline_end >}}
+
+---
+
+## Founded Companies
+
+### Procedural Audio
+
+Founder and lead developer of Procedural Audio, which creates novel audio generation and processing tools for musicians, sound designers, and audio developers.
+
+### Arrow Security
+
+Founder and lead developer of Procedural Audio, which creates novel audio generation and processing tools for musicians, sound designers, and audio developers.
 
 ---
 
@@ -155,7 +163,7 @@ Founder and lead developer of Procedural Audio, which creates novel audio genera
     url="https://www.google.com/books/edition/C_Programming_Language/Yi5FI5QcdmYC?hl=en&gbpv=0"
     description="Performed vulnerability analysis on various IOT devices as part of a “winternship” program, including several surveillance cameras and webcams. I discovered and documented various potential weaknesses in the camera firmware."
     label="Selected Coursework"
-    list="CMSC720: Foundations of Deep Learning * MSML603: Principals of Machine Learning"
+    list="CMSC720: Foundations of Deep Learning * MSML610: Deep Learning * MSML603: Principals of Machine Learning"
 >}}
 
 {{< job
@@ -181,28 +189,29 @@ Founder and lead developer of Procedural Audio, which creates novel audio genera
 - Mastered tools like nmap, metasploit, wireshark, burp suite, john the ripper, etc
 - Completed a 24 hour practical exam that required the exploitation of 3 targets
 
----
+#### {{< icon name="certificate">}} HackTheBox Academy
 
-## Selected Coursework
+- Completed 3 months of penetration testing training in a lab with 50+ targets
+- Mastered tools like nmap, metasploit, wireshark, burp suite, john the ripper, etc
+- Completed a 24 hour practical exam that required the exploitation of 3 targets
 
-### UMD ACES Program
+#### {{< icon name="certificate">}} MalDev Academy
 
-- **HACS408E** (Reverse Engineering): An introduction to software reverse engineering tools and methodologies. Fundamental topics covered: compilers, linkers, loaders, assembly language, as well as static and dynamic analysis tools. This includes computer architecture and low-level systems programming, as well as an introduction to x86_64 assembly language.
+- Completed 3 months of penetration testing training in a lab with 50+ targets
+- Mastered tools like nmap, metasploit, wireshark, burp suite, john the ripper, etc
+- Completed a 24 hour practical exam that required the exploitation of 3 targets
 
-- **HACS408T** (Penetration Testing): A hands-on, technically rigorous experience that prepares students for real-world work in penetration testing and offensive security. This course will allow students to gain proficiency and become comfortable using the tools, techniques, and methodologies that represent the state of the art in penetration testing today.
+#### {{< icon name="certificate">}} RingZer0 Capture the Flag
 
-- **HACS408L** (Digital Forensics): Explores the various fields of digital forensics, such as memory, hard drive, and network traffic analysis. This course covered the legalities involved with forensic investigations and the wide variety of digital forensics tools, including both open source and proprietary.
+- Completed 3 months of penetration testing training in a lab with 50+ targets
+- Mastered tools like nmap, metasploit, wireshark, burp suite, john the ripper, etc
+- Completed a 24 hour practical exam that required the exploitation of 3 targets
 
-### UMD CMNS Department
+#### {{< icon name="certificate">}} CryptoHack
 
-- **CMSC412** (Operating Systems): An in-depth understanding of how an operating system virtualizes computer hardware and provides programmers with a machine and device independent interface. Topics covered includes: pipes, fork, signals, semaphores, CPU scheduling, memory paging, file system, etc.
-
-- **CMSC414** (Computer and Network Security) - An introduction to the topic of security in the context of computer systems and networks. Identify, analyze, and solve network-related security problems in computer systems. Fundamentals of number theory, authentication, and encryption technologies, as well as the related practical problems that have to be solved.
-
-- **CMSC417** (Computer Networks): The goal of this course was to introduce students to the core concepts of wired and wireless networking. The primary focus will be on the layered architecture and the protocol stacks. It teaches students several concepts, including the Internet architecture, HTTP, DNS, P2P, Sockets, TCP/IP, BGP, Routing protocols, wireless and sensor networking, and Wi-Fi.
-
-- **CMSC430** (Compilers): Its major goal was to arm students with the ability to design, implement, and extend a programming language. Throughout the course, students designed and implemented several related languages.
-
+- Completed 3 months of penetration testing training in a lab with 50+ targets
+- Mastered tools like nmap, metasploit, wireshark, burp suite, john the ripper, etc
+- Completed a 24 hour practical exam that required the exploitation of 3 targets
 ---
 
 ## Conferences
@@ -234,11 +243,3 @@ An introductory lecture to the Maryland Center for Women in Computing (MCWIC) on
 Led the design and implementation of a "boot-camp" for people joining the software team of SEDS at the University of Maryland, to introduce them to the skills needed to develop software for satellites.
 
 {{< button href="https://gohugo.io/" icon="download" >}}Course Website{{< /button >}}
-
----
-
-## Other
-
-### UMD Philosophy Club - President
-
-I was president of the UMD philosophy club for 2 years. We had weekly meetings covering topics in philosophy and bi-weekly socials. This experience significantly improved my ability to think methodically, reason clearly, form cogent arguments, lead group discussions, and foster substantive conversations.

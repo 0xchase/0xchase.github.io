@@ -149,18 +149,18 @@
       <description>Hello 👋 Welcome to my about page.&#xA;I&amp;rsquo;m currently studying machine learning as a graduate student at UMD, working in computer security research, and spending my free time developing platforms for procedural and generative music.&#xA;Overview Basics Location: College Park, Maryland 🇺🇸 Occupation: Computer security researcher, audio developer Education: Bachelor&amp;rsquo;s of Science in computer science at UMD Interests Here&amp;rsquo;s a list of interests I&amp;rsquo;ve accumulated over the years.&#xA;Cybersecurity: Reverse engineering, binary exploitation, cryptography, symbolic execution Computer Science: Programming, compilers, machine learning, operating system internals Music Technology: Digital signal processing, modular synthesizers, plugin development Philosophy: Epistemology, mind, metaphysics, modality, religion, language, analytic philosophy Physics: Foundations of physics, space and time, statistical mechanics Cognitive Science: Mental representation, global workspace theory Economics: The great recession, monetary policy, trade imbalances Music: Piano, acoustic guitar, electric guitar, desktop synthesizers, pedalboards VFX: Unreal Engine 5, Blender 3D, Houdini (a little bit) </description>
     </item>
     <item>
+      <title>About</title>
+      <link>http://localhost:1313/cv2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cv2/</guid>
+      <description>Summary: Graduate of the University of Maryland with experience in vulnerability research, reverse engineering, software development, digital signal processing, and more. I prefer research-oriented work that utilizes, analyzes, or contributes to emerging technologies.&#xA;Interests Cybersecurity: Reverse engineering, binary exploitation, cryptography, symbolic execution Computer Science: Programming, compilers, machine learning, operating system internals Music Technology: Digital signal processing, modular synthesizers, plugin development Philosophy: Epistemology, mind, metaphysics, modality, religion, language Physics: Foundations of physics, space and time, statistical mechanics Cognitive Science: Mental representation, global workspace theory Economics: The great recession, monetary policy, trade imbalances Music: Piano, acoustic guitar, electric guitar, desktop synthesizers, pedalboards VFX: Unreal Engine 5, Blender 3D, Houdini Work Experience Department of Defense January 2021 - February 2021 Completed a masters in machine learning with a focus on machine learning and projects in machine learning.</description>
+    </item>
+    <item>
       <title>Contact</title>
       <link>http://localhost:1313/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/contact/</guid>
       <description>For business ventures and consulting to explore,&#xA;Send your inquiries to this email&amp;rsquo;s door&#xA;chasekanipe [at] gmail [dot] com is the key,&#xA;To unlock opportunities, let&amp;rsquo;s see what can be.&#xA;In College Park, Maryland, I reside,&#xA;Where innovation and ideas collide.&#xA;If you&amp;rsquo;re close by and wish to chat,&#xA;Let&amp;rsquo;s share a coffee, how about that?&#xA;But if distance keeps us far and wide,&#xA;No worries, my friend, we&amp;rsquo;ve got a ride.</description>
-    </item>
-    <item>
-      <title>Curriculum Vitae (future)</title>
-      <link>http://localhost:1313/cv2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/cv2/</guid>
-      <description>Summary: Graduate of the University of Maryland with experience in vulnerability research, reverse engineering, software development, digital signal processing, and more. I prefer research-oriented work that utilizes, analyzes, or contributes to emerging technologies.&#xA;Work Experience Procedural Audio Founder and lead developer of Procedural Audio, which creates novel audio generation and processing tools for musicians, sound designers, and audio developers.&#xA;Graduate Student - University of Maryland January 2021 - February 2021 Completed a masters in machine learning with a focus on machine learning and projects in machine learning.</description>
     </item>
     <item>
       <title>CV</title>
@@ -196,6 +196,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/search/</guid>
       <description>search</description>
+    </item>
+    <item>
+      <title>Writeups</title>
+      <link>http://localhost:1313/writeups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/writeups/</guid>
+      <description>Hello 👋 Welcome to my about page.&#xA;I&amp;rsquo;m currently studying machine learning as a graduate student at UMD, working in computer security research, and spending my free time developing platforms for procedural and generative music.&#xA;Hack The Box Academy Name Description Solution Stuff Other Other Information Other Other Information Other Other Information Other Other Information Other Other Information Other Other Information Other Other Information Other Other Information Other Other Hack The Box Labs Category Description Download Information Other Other Information Other Other Information Other Other Information Other Other Cryptohack Category Description Download Information Other Other Information Other Other Information Other Other Information Other Other Cryptopals Category Description Download Information Other Other Information Other Other Information Other Other Information Other Other RingZer0 CTF Category Description Download Information Other Other Information Other Other Information Other Other Information Other Other MalDev Academy Category Description Download Information Other Other Information Other Other Information Other Other Information Other Other Practical Malware Analysis Category Description Download Information Other Other Information Other Other Information Other Other Information Other Other </description>
     </item>
   </channel>
 </rss>
