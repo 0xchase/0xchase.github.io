@@ -14,12 +14,6 @@ draft: false
 
 ## Synthesizers
 
-### Fragments 1 - Novation Peak and Ambient Guitar
-
-The first in a series of song "fragments", to be used in the development of a future album.
-
-{{< youtube 1PblZ9Hc5Dk >}}
-
 ### Supermoon - Cover
 
 A cover of the song Supermoon from the No Man Sky game. A version of this was performed for the Gamer Symphony Orchestra.
