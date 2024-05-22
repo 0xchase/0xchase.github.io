@@ -4,7 +4,7 @@
     <title>Blogs on Chase Kanipe</title>
     <link>http://localhost:1313/blog/</link>
     <description>Recent content in Blogs on Chase Kanipe</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 06 Nov 2023 00:00:02 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
@@ -23,7 +23,7 @@
       <description>Introduction Resources Human and Animal Minds The Feeling of Life Itself Consciousness Explaind Being You Rethinking Consciousness Section on mental representation and the knowledge argument</description>
     </item>
     <item>
-      <title>Against Truth Relativism</title>
+      <title>The Category of Truth</title>
       <link>http://localhost:1313/blog/truth/</link>
       <pubDate>Sat, 04 Nov 2023 00:00:02 -0400</pubDate>
       <guid>http://localhost:1313/blog/truth/</guid>
@@ -51,25 +51,11 @@
       <description>Notes Explain how people sometimes reason using terms.&#xA;Connotative failure, denotative success.</description>
     </item>
     <item>
-      <title>A Crash Course in Scholarship for Evangelicals</title>
-      <link>http://localhost:1313/blog/bible/</link>
-      <pubDate>Wed, 01 Nov 2023 00:00:02 -0400</pubDate>
-      <guid>http://localhost:1313/blog/bible/</guid>
-      <description>Notes https://youtu.be/30q5hOdgwuc Topics Genesis Relationship between Genesis and Enuma Elish Two creation accounts and their meaning Cain and able and their meaning The flood and its meaning Canonical Gospels What they are, their differences, etc Non-canonical gospels Revalation Nero theory </description>
-    </item>
-    <item>
       <title>Ethics of Machine Consciousness</title>
       <link>http://localhost:1313/blog/ai/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:02 -0400</pubDate>
       <guid>http://localhost:1313/blog/ai/</guid>
       <description>Notes Stuff goes here </description>
-    </item>
-    <item>
-      <title>What the Data Says About Compatibility</title>
-      <link>http://localhost:1313/blog/compatibility/</link>
-      <pubDate>Wed, 01 Nov 2023 00:00:02 -0400</pubDate>
-      <guid>http://localhost:1313/blog/compatibility/</guid>
-      <description>Notes Resources How not to die alone book Redhead tedtalk research Questions Importance of looks, money, politics, shared values, etc Do similar hobbies matter? Do shared big-five traits matter? Does spark matter? Love languages? Attachment theory? Esther Perel</description>
     </item>
     <item>
       <title>My Encounter with Pseudoscience</title>

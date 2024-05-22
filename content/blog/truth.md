@@ -1,5 +1,5 @@
 ---
-title: 'Against Truth Relativism'
+title: 'The Category of Truth'
 date: 2023-11-04T00:00:02-04:00
 draft: true
 showReadingTime: true

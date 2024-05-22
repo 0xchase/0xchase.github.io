@@ -4,7 +4,7 @@
     <title>Chase Kanipe</title>
     <link>http://localhost:1313/</link>
     <description>Recent content on Chase Kanipe</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 06 Nov 2023 00:00:02 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
@@ -23,18 +23,18 @@
       <description>Introduction Resources Human and Animal Minds The Feeling of Life Itself Consciousness Explaind Being You Rethinking Consciousness Section on mental representation and the knowledge argument</description>
     </item>
     <item>
-      <title>Against Truth Relativism</title>
-      <link>http://localhost:1313/blog/truth/</link>
-      <pubDate>Sat, 04 Nov 2023 00:00:02 -0400</pubDate>
-      <guid>http://localhost:1313/blog/truth/</guid>
-      <description>Against Truth Relativism How you use the word truth is determined by your web of beliefs Therefore truth is belief dependent Relativism hold that truth claims is fundementally indexical.&#xA;Plato stanford meaning Plato stanford relativism Plato stanford propositions Plato stanford structured propositions Plato stanford singular propositions Plato stanford definition Plato stanford assertion Plato stanford belief and assertion Plato stanford reference Plato stanford pragmatism&#xA;Introduction In the complex terrain of philosophical theories of truth, one theory stands out</description>
-    </item>
-    <item>
       <title>Implementing an Open Source CMajor Compiler</title>
       <link>http://localhost:1313/writeups/compiler/</link>
       <pubDate>Sat, 04 Nov 2023 00:00:02 -0400</pubDate>
       <guid>http://localhost:1313/writeups/compiler/</guid>
       <description>Introduction Something here.</description>
+    </item>
+    <item>
+      <title>The Category of Truth</title>
+      <link>http://localhost:1313/blog/truth/</link>
+      <pubDate>Sat, 04 Nov 2023 00:00:02 -0400</pubDate>
+      <guid>http://localhost:1313/blog/truth/</guid>
+      <description>Against Truth Relativism How you use the word truth is determined by your web of beliefs Therefore truth is belief dependent Relativism hold that truth claims is fundementally indexical.&#xA;Plato stanford meaning Plato stanford relativism Plato stanford propositions Plato stanford structured propositions Plato stanford singular propositions Plato stanford definition Plato stanford assertion Plato stanford belief and assertion Plato stanford reference Plato stanford pragmatism&#xA;Introduction In the complex terrain of philosophical theories of truth, one theory stands out</description>
     </item>
     <item>
       <title>MML Textbook Solutions</title>
@@ -65,25 +65,11 @@
       <description>Notes Explain how people sometimes reason using terms.&#xA;Connotative failure, denotative success.</description>
     </item>
     <item>
-      <title>A Crash Course in Scholarship for Evangelicals</title>
-      <link>http://localhost:1313/blog/bible/</link>
-      <pubDate>Wed, 01 Nov 2023 00:00:02 -0400</pubDate>
-      <guid>http://localhost:1313/blog/bible/</guid>
-      <description>Notes https://youtu.be/30q5hOdgwuc Topics Genesis Relationship between Genesis and Enuma Elish Two creation accounts and their meaning Cain and able and their meaning The flood and its meaning Canonical Gospels What they are, their differences, etc Non-canonical gospels Revalation Nero theory </description>
-    </item>
-    <item>
       <title>Ethics of Machine Consciousness</title>
       <link>http://localhost:1313/blog/ai/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:02 -0400</pubDate>
       <guid>http://localhost:1313/blog/ai/</guid>
       <description>Notes Stuff goes here </description>
-    </item>
-    <item>
-      <title>What the Data Says About Compatibility</title>
-      <link>http://localhost:1313/blog/compatibility/</link>
-      <pubDate>Wed, 01 Nov 2023 00:00:02 -0400</pubDate>
-      <guid>http://localhost:1313/blog/compatibility/</guid>
-      <description>Notes Resources How not to die alone book Redhead tedtalk research Questions Importance of looks, money, politics, shared values, etc Do similar hobbies matter? Do shared big-five traits matter? Does spark matter? Love languages? Attachment theory? Esther Perel</description>
     </item>
     <item>
       <title>Writing Elegant DSP Code in Rust</title>
@@ -107,6 +93,13 @@
       <description>These are my answers to the 2020 philpapers survey. This is a living document that I&amp;rsquo;ll update as I continue to learn about each debate.&#xA;Question Options My Answer A priori knowledge Yes or no Undecided Abstract objects Platonism or nominalism Lean towards nominalism Aesthetic value Objective or subjective Lean towards subjective Analytic-synthetic distinction Yes or no Lean towards yes Aim of philosophy Wisdom, truth, understanding, knowledge, happiness, goodness, justice No fact of the matter, prefer truth Eating animals and animal products Vegetarianism, veganism, omnivorism Undecided Epistemic justification Internalism or externalism Accept externalism Experience machine (would you enter) Yes or no Accept no External world Skepticism, non-skeptical realism, idealism Lean towards non-skeptical realism Footbridge (push man off to save five) Push or don&amp;rsquo;t push Undecided Free will Compatibilism, no free will, libertarianism Accept compatibilism Gender Unreal, biological, social, psychological Undecided Knowledge Empiricism or rationalism Empiricism Knowledge Claims Relativism, contextualism, invariantism Insufficiently familiar Laws of Nature Humean or non-humean Accept Humean Logic Classical or non-classical Insufficiently familiar Meaning of life Objective, nonexistent, subjective Accept subjective Mental Content Internalism or externalism Insufficiently familiar Meta-ethics Moral realism or anti-realism Indeterminant Metaphilosophy Naturalism or non-naturalism Accept naturalism Mind Physicalism or non-physicalism Accept physicalism Moral judgement Cognitivism or non-cognitivism Lean towards cognitivism Moral motivation Externalism or internalism Insufficiently familiar Newcomb&amp;rsquo;s problem One box or two boxes Accept one box Normative ethics Consequentialism, virtue ethics, deontology None of these, lean towards contractualism Perceptual experience Sense-datum theory, representationalism, qualia theory, disjunctivism Undecided Personal Identity Biological view, psychological view, further fact view No fact of the matter, prefer psychological Philosophical Methods Conceptual analysis, conceptual engineering, empirical, formal, intuition No fact of the matter, prefer conceptual engineering Philosophical progress A lot, a little, none Accept a lot Political philosophy Communitarianism, egalitarianism, libertarianism Insufficiently familiar Proper Names Millian or Fregean Insufficiently familiar Race Biological, social, unreal Accept social Science Realism or anti-realism Lean towards realism Teletransporter Death or survival No fact of the matter, no preference Time A-theory of B-theory Acccepts B-theory Trolley Problem Switch or don&amp;rsquo;t switch Undecided Truth Epistemic, correspondence, deflationary Accept deflationary Vagueness Epistemic, social, metaphysical Insufficiently familiar Philosophical Zombies Inconceivable, conceivable but not possible, or possible Conceivable but not possible </description>
     </item>
     <item>
+      <title>Favorite Music</title>
+      <link>http://localhost:1313/about/favorite-music/</link>
+      <pubDate>Sat, 05 Mar 2022 00:00:02 -0600</pubDate>
+      <guid>http://localhost:1313/about/favorite-music/</guid>
+      <description>This post attempts to provide a general outline and analysis of my music preferences. I write this post in part with the goal of figuring out if any traits unify the otherwise diverse genres I&amp;rsquo;m interested in, and I hope that anyone else who reads this find in it some new music they like.</description>
+    </item>
+    <item>
       <title>Favorite Papers</title>
       <link>http://localhost:1313/about/favorite-papers/</link>
       <pubDate>Sat, 05 Mar 2022 00:00:02 -0600</pubDate>
@@ -118,7 +111,7 @@
       <link>http://localhost:1313/about/favorite-words/</link>
       <pubDate>Sat, 05 Mar 2022 00:00:02 -0600</pubDate>
       <guid>http://localhost:1313/about/favorite-words/</guid>
-      <description>Here&amp;rsquo;s a reference list of words I like to include in essays.&#xA;Ameliorate, ascendant, ascertain, assertion, assessment, constituents, constitute, counterfactual, dispositive, eschaton, ephemeral, equilibrate, equivocate, exemplar, extemporaneous, harrowing, ideation, imperative, litany, litigate, obfuscate, obscure, opaque, parsimonious, recount, subvert, systematic, vexatious, voluminous</description>
+      <description>Here&amp;rsquo;s a reference list of words I like to include in essays.&#xA;Ameliorate, ascendant, ascertain, assertion, assessment, coextensive, constituents, constitute, counterfactual, dispositive, eschaton, ephemeral, equilibrate, equivocate, exemplar, extemporaneous, harrowing, ideation, imperative, litany, litigate, obfuscate, obscure, opaque, parsimonious, recount, subvert, systematic, vexatious, voluminous</description>
     </item>
     <item>
       <title>Favorite Videos</title>
@@ -146,7 +139,7 @@
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>Hello 👋 Welcome to my about page.&#xA;I&amp;rsquo;m currently studying machine learning as a graduate student at UMD, working in computer security research, and spending my free time developing platforms for procedural and generative music.&#xA;Overview Basics Location: College Park, Maryland 🇺🇸 Occupation: Computer security researcher, audio developer Education: Bachelor&amp;rsquo;s of Science in computer science at UMD Interests Here&amp;rsquo;s a list of interests I&amp;rsquo;ve accumulated over the years.&#xA;Cybersecurity: Reverse engineering, binary exploitation, cryptography, symbolic execution Computer Science: Programming, compilers, machine learning, operating system internals Music Technology: Digital signal processing, modular synthesizers, plugin development Philosophy: Epistemology, mind, metaphysics, modality, religion, language, analytic philosophy Physics: Foundations of physics, space and time, statistical mechanics Cognitive Science: Mental representation, global workspace theory Economics: The great recession, monetary policy, trade imbalances Music: Piano, acoustic guitar, electric guitar, desktop synthesizers, pedalboards VFX: Unreal Engine 5, Blender 3D, Houdini (a little bit) </description>
+      <description>Hello 👋 Welcome to my about page.&#xA;I&amp;rsquo;m currently studying machine learning as a graduate student at UMD, working in computer security research, and spending my free time developing platforms for procedural and generative music.&#xA;DOWNLOAD CV&#xA;A thread that runs through all my interests is my interest in what&amp;rsquo;s fundamental. Can see this through foundations of physics, cybersecuriy (assembly programming), neuroscience and cogniive science, and economics, which I see as a rigorous social science.</description>
     </item>
     <item>
       <title>About</title>
@@ -174,14 +167,7 @@
       <link>http://localhost:1313/music/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/music/</guid>
-      <description>Synthesizers Fragments 1 - Novation Peak and Ambient Guitar The first in a series of song &amp;ldquo;fragments&amp;rdquo;, to be used in the development of a future album.&#xA;Supermoon - Cover A cover of the song Supermoon from the No Man Sky game. A version of this was performed for the Gamer Symphony Orchestra.&#xA;Film Scoring Westworld Scoring Competition Submission for a scoring competition run by HBO and Spitfire Audio. The competition was to write a score for this scene from Westworld Season 3; this was my submission.</description>
-    </item>
-    <item>
-      <title>Music (future)</title>
-      <link>http://localhost:1313/music2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/music2/</guid>
-      <description>Links to spotify, bandcamp, apple music, YouTube, etc.&#xA;Mention distributer.&#xA;Albums First Album&#xA;Second Album&#xA;Thrid Album&#xA;Fourth Album&#xA;Fifth Album&#xA;Sixth Album&#xA;Live Streams Live stream information goes here.&#xA;Studio Images of studio or video of studio tour goes here.&#xA;Film Scores Westworld Scoring Competition Submission for a scoring competition run by HBO and Spitfire Audio. The competition was to write a score for this scene from Westworld Season 3; this was my submission.</description>
+      <description>I compose and produce a hybrid of neo-classical, electronic ambient, and post-rock music. I release music on Bandcamp, Spotify, and Apple Music via the Symphonia distributer..&#xA;Write some longish bio about how I became interested in music, how this developed, and more information about what I&amp;rsquo;m interested in and where I see this work going as I continue to write more music. Say some about my troubles with writing the first album and what it took to overcome those limitations.</description>
     </item>
     <item>
       <title>Projects</title>
@@ -202,7 +188,7 @@
       <link>http://localhost:1313/writeups/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/writeups/</guid>
-      <description>Hello 👋 Welcome to my about page.&#xA;I&amp;rsquo;m currently studying machine learning as a graduate student at UMD, working in computer security research, and spending my free time developing platforms for procedural and generative music.&#xA;Hack The Box Academy Name Description Solution Stuff Other Other Information Other Other Information Other Other Information Other Other Information Other Other Information Other Other Information Other Other Information Other Other Information Other Other Hack The Box Labs Category Description Download Information Other Other Information Other Other Information Other Other Information Other Other Cryptohack Category Description Download Information Other Other Information Other Other Information Other Other Information Other Other Cryptopals Category Description Download Information Other Other Information Other Other Information Other Other Information Other Other RingZer0 CTF Category Description Download Information Other Other Information Other Other Information Other Other Information Other Other MalDev Academy Category Description Download Information Other Other Information Other Other Information Other Other Information Other Other Practical Malware Analysis Category Description Download Information Other Other Information Other Other Information Other Other Information Other Other </description>
+      <description>Hello 👋 Welcome to my about page.&#xA;I&amp;rsquo;m currently studying machine learning as a graduate student at UMD, working in computer security research, and spending my free time developing platforms for procedural and generative music.&#xA;Cybersecurity Hack The Box Academy Name Description Solution Stuff Other Other Information Other Other Information Other Other Information Other Other Information Other Other Information Other Other Information Other Other Information Other Other Information Other Other Hack The Box Labs Category Description Download Information Other Other Information Other Other Information Other Other Information Other Other Cryptohack Category Description Download Information Other Other Information Other Other Information Other Other Information Other Other Cryptopals Category Description Download Information Other Other Information Other Other Information Other Other Information Other Other RingZer0 CTF Category Description Download Information Other Other Information Other Other Information Other Other Information Other Other MalDev Academy Category Description Download Information Other Other Information Other Other Information Other Other Information Other Other Practical Malware Analysis Category Description Download Information Other Other Information Other Other Information Other Other Information Other Other Physics Writeups from physics assignments here.</description>
     </item>
   </channel>
 </rss>

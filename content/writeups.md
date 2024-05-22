@@ -7,6 +7,8 @@ Hello 👋 Welcome to my about page.
 
 I'm currently studying [machine learning](https://cmns.umd.edu/graduate/science-academy/machine-learning) as a graduate student at UMD, working in [computer security research](https://www.defense.gov/), and spending my free time [developing platforms](https://github.com/procedural-audio) for procedural and generative music. 
 
+## Cybersecurity
+
 ### Hack The Box Academy
 
 {{< writeups_begin >}}
@@ -78,6 +80,10 @@ I'm currently studying [machine learning](https://cmns.umd.edu/graduate/science-
 | Information | Other | Other |
 
 {{< writeups_end >}}
+
+## Physics
+
+Writeups from physics assignments here.
 
 
 <!--

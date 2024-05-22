@@ -13,17 +13,19 @@ I'm currently studying [machine learning](https://cmns.umd.edu/graduate/science-
 Add pictures of me doing things relevant to each category or description?
 -->
 
+DOWNLOAD CV
+
+A thread that runs through all my interests is my interest in what's fundamental. Can see this through foundations of physics, cybersecuriy (assembly programming), neuroscience and cogniive science, and economics, which I see as a rigorous social science.
+
 ---
 
-## Overview
+## Biography
 
-### Basics
+Here's a biography about me.
 
-- **Location**: College Park, Maryland 🇺🇸
-- **Occupation**: Computer security researcher, audio developer
-- **Education**: Bachelor's of Science in computer science at UMD
+---
 
-### Interests
+## Interests
 
 Here's a list of interests I've accumulated over the years.
 
@@ -37,27 +39,22 @@ Here's a list of interests I've accumulated over the years.
 - **Music**: Piano, acoustic guitar, electric guitar, desktop synthesizers, pedalboards
 - **VFX**: Unreal Engine 5, Blender 3D, Houdini (a little bit)
 
-<!--
-## Interviews
+INTEGRATE THESE PARAGRAPHS THROUGHOUT WEBSITE
 
-Coming soon
+My career focus on cybersecurity was foreshadowed by an interest in security very young. Interest in fundemenals like assembly. Interest in being clever.
 
-## Favorite
+Became interested in philosophy towards the beginning of college due to a confluence of factors including this talk on free will. Philosophy of religion. Eventually this matured into a focus on contemporary analytic philosophy. Dragged, against all my intuitions, to being a humean about causation and natural laws. Sympathetic to the mentaculus project. I like the rationalist and post-rationalist social movements. Sometimes called eliminative materialism, illusionism, but I just call the global workspace theory, good resources include [1, 2, 3]. Good blogs include SSC and Scott Aaronson.
 
-### Books
+First became interested in economics and finance after watching a PBS documentary on the 2008 financial crisis. Ended up reading several books on he subject which was a good way to learn the mechanics of how the financial system works. I had always known I'd be interested... since it's nerdy, but this kicked it off. This broadened into monetary policy due to federal reserve quantitative easing during COVID (see this documentary). Trade deficits, especially this book by Michael Pettis. I'm no economist but I follow podcasts and occationally read reports by brookings. Good talks by Larry Summers [1, 2, 3, 4]. Other good books on interest rates and other topics.
 
-[Favorite books](/favorite-books)
+---
 
-### Videos
+World view: information here.
 
-[Favorite videos](/favorite-videos)
+Things I'm good at: ...
 
-### Papers
+**Personalty**: interoverted, openness, etc
 
-[Favorite papers](/favorite-papers)
+**Influences**: David Albert, Peter Carruthers, Daniel Dennett, Michael Pettis, 
 
-### Music
-
-[Favorite music](/favorite-music)
-
--->
+Recently, I've been reading

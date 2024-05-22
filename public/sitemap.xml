@@ -29,9 +29,6 @@
     <loc>http://localhost:1313/tags/consciousness/</loc>
     <lastmod>2023-11-05T00:00:02-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/truth/</loc>
-    <lastmod>2023-11-04T00:00:02-04:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/audio-programming/</loc>
     <lastmod>2023-11-04T00:00:02-04:00</lastmod>
   </url><url>
@@ -45,6 +42,9 @@
     <lastmod>2023-11-04T00:00:02-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/rust/</loc>
+    <lastmod>2023-11-04T00:00:02-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/truth/</loc>
     <lastmod>2023-11-04T00:00:02-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/truth/</loc>
@@ -74,13 +74,7 @@
     <loc>http://localhost:1313/blog/moral/</loc>
     <lastmod>2023-11-01T00:00:02-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/bible/</loc>
-    <lastmod>2023-11-01T00:00:02-04:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/blog/ai/</loc>
-    <lastmod>2023-11-01T00:00:02-04:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/compatibility/</loc>
     <lastmod>2023-11-01T00:00:02-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/projects/rust-dsp/</loc>
@@ -94,6 +88,9 @@
   </url><url>
     <loc>http://localhost:1313/blog/philpapers/</loc>
     <lastmod>2022-07-05T00:00:02-04:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about/favorite-music/</loc>
+    <lastmod>2022-03-05T00:00:02-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/favorite-papers/</loc>
     <lastmod>2022-03-05T00:00:02-06:00</lastmod>
@@ -124,8 +121,6 @@
     <loc>http://localhost:1313/cv/</loc>
   </url><url>
     <loc>http://localhost:1313/music/</loc>
-  </url><url>
-    <loc>http://localhost:1313/music2/</loc>
   </url><url>
     <loc>http://localhost:1313/projects/</loc>
   </url><url>

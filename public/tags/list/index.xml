@@ -4,10 +4,17 @@
     <title>List on Chase Kanipe</title>
     <link>http://localhost:1313/tags/list/</link>
     <description>Recent content in List on Chase Kanipe</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 05 Mar 2022 00:00:02 -0600</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/list/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Favorite Music</title>
+      <link>http://localhost:1313/about/favorite-music/</link>
+      <pubDate>Sat, 05 Mar 2022 00:00:02 -0600</pubDate>
+      <guid>http://localhost:1313/about/favorite-music/</guid>
+      <description>This post attempts to provide a general outline and analysis of my music preferences. I write this post in part with the goal of figuring out if any traits unify the otherwise diverse genres I&amp;rsquo;m interested in, and I hope that anyone else who reads this find in it some new music they like.</description>
+    </item>
     <item>
       <title>Favorite Papers</title>
       <link>http://localhost:1313/about/favorite-papers/</link>
@@ -20,7 +27,7 @@
       <link>http://localhost:1313/about/favorite-words/</link>
       <pubDate>Sat, 05 Mar 2022 00:00:02 -0600</pubDate>
       <guid>http://localhost:1313/about/favorite-words/</guid>
-      <description>Here&amp;rsquo;s a reference list of words I like to include in essays.&#xA;Ameliorate, ascendant, ascertain, assertion, assessment, constituents, constitute, counterfactual, dispositive, eschaton, ephemeral, equilibrate, equivocate, exemplar, extemporaneous, harrowing, ideation, imperative, litany, litigate, obfuscate, obscure, opaque, parsimonious, recount, subvert, systematic, vexatious, voluminous</description>
+      <description>Here&amp;rsquo;s a reference list of words I like to include in essays.&#xA;Ameliorate, ascendant, ascertain, assertion, assessment, coextensive, constituents, constitute, counterfactual, dispositive, eschaton, ephemeral, equilibrate, equivocate, exemplar, extemporaneous, harrowing, ideation, imperative, litany, litigate, obfuscate, obscure, opaque, parsimonious, recount, subvert, systematic, vexatious, voluminous</description>
     </item>
     <item>
       <title>Favorite Videos</title>
