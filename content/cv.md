@@ -21,7 +21,7 @@ Performed vulnerability analysis on various IOT devices as part of a "winternshi
 
 #### Mantech Cooperation
 
-Performed vulnerability analysis on routers, including reverse engineering binaries, reporting on firmware behavior, and documenting various weaknesses
+Performed vulnerability analysis on network devices, including reverse engineering binaries, reporting on firmware behavior, and documenting weaknesses.
 
 #### Correct Computation
 
