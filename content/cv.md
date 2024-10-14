@@ -21,7 +21,7 @@ Performed vulnerability analysis on various IOT devices as part of a "winternshi
 
 #### Mantech Cooperation
 
-Performed vulnerability analysis on routers, including reverse engineering binaries, reporting on firmware behavior, and documenting various weaknesses
+Performed vulnerability analysis on network devices, including reverse engineering binaries, reporting on firmware behavior, and documenting weaknesses.
 
 #### Correct Computation
 
@@ -29,7 +29,7 @@ Worked on binary analysis tools built on top of the BAP (binary analysis platfor
 
 #### Joint Quantum Institute
 
-Programmed ARTIQ (Advanced Real-Time Infrastructure for Quantum Physics) systems to interface with quantum computing experiements. Implemented a laser intensity stabilization system to laser-cool ions. Developed a custom laser safety interface in python called LAGONA.
+Programmed ARTIQ (Advanced Real-Time Infrastructure for Quantum Physics) systems to interface with quantum computing experiments. Implemented a laser intensity stabilization system to laser-cool ions. Developed a custom laser safety interface in python called LAGONA.
 
 #### UMD AUSS Lab
 
