@@ -3,8 +3,19 @@
         <a href="{{ .Get "link" | safeURL }}" target="_blank">
             <img src="{{ .Get "img" | safeURL }}"></img>
         </a>
-        <h4>{{.Get "title"}} - {{.Get "subtitle"}}</h4>
+        <h4>{{.Get "title"}} {{ if .Get "subtitle" }}<span style="padding-left: 6px; font-weight: 300; font-size: 18px"> – {{.Get "subtitle"}}</span>{{ end }}</h4>
         <h5>{{.Get "dates"}}</h5>
         <p>{{ .Get "description"}}</p>
+        {{ if .Get "list" }}
+            {{ if .Get "label" }}
+                <p><b> {{ .Get "label" }} </b></p>
+            {{ end }}
+            <ul>
+                {{- $list := .Get "list" -}}
+                {{ range $item := split $list "* " }}
+                    <li>{{ $item }}</li>
+                {{ end }}
+            </ul>
+        {{ end }}
     </span>
 {{ end }}

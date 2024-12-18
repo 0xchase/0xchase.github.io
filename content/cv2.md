@@ -1,54 +1,82 @@
 ---
-title: Curriculum Vitae (future)
+title: About
 draft: true
+hidden: true
 ---
 
 **Summary**: Graduate of the University of Maryland with experience in vulnerability research, reverse engineering, software development, digital signal processing, and more. I prefer research-oriented work that utilizes, analyzes, or contributes to emerging technologies.
 
+## Interests
+
+- **Cybersecurity**: Reverse engineering, binary exploitation, cryptography, symbolic execution
+- **Computer Science**: Programming, compilers, machine learning, operating system internals
+- **Music Technology**: Digital signal processing, modular synthesizers, plugin development
+- **Philosophy**: Epistemology, mind, metaphysics, modality, religion, language
+- **Physics**: Foundations of physics, space and time, statistical mechanics
+- **Cognitive Science**: Mental representation, global workspace theory
+- **Economics**: The great recession, monetary policy, trade imbalances
+- **Music**: Piano, acoustic guitar, electric guitar, desktop synthesizers, pedalboards
+- **VFX**: Unreal Engine 5, Blender 3D, Houdini
+
+---
 
 ## Work Experience
+
+{{< timeline_begin >}}
+
+{{< job
+    title="Department of Defense"
+    img="/logos/lts.jpg"
+    subtitle=""
+    dates="January 2021 - February 2021"
+    url="https://www.google.com/books/edition/C_Programming_Language/Yi5FI5QcdmYC?hl=en&gbpv=0"
+    description="Completed a masters in machine learning with a focus on machine learning and projects in machine learning."
+    list="Vulnerability Research * Reverse Engineering * Development * Other"
+>}}
+
+{{< timeline_end >}}
+
+---
+
+## Founded Companies
 
 ### Procedural Audio
 
 Founder and lead developer of Procedural Audio, which creates novel audio generation and processing tools for musicians, sound designers, and audio developers.
 
-{{< job
-    title="Graduate Student"
-    img="/logos/umd.png"
-    subtitle="University of Maryland"
-    dates="January 2021 - February 2021"
-    url="https://www.google.com/books/edition/C_Programming_Language/Yi5FI5QcdmYC?hl=en&gbpv=0"
-    description="Completed a masters in machine learning with a focus on machine learning and projects in machine learning."
->}}
+### Arrow Security
 
+Founder and lead developer of Procedural Audio, which creates novel audio generation and processing tools for musicians, sound designers, and audio developers.
 
 ---
 
 ## Internship Experience
 
+{{< timeline_begin >}}
+
 {{< job
-    title="Vulnerability Analyst"
+    title="Margin Research"
     img="/logos/margin.png"
-    subtitle="Margin Research"
-    dates="January 2021 - February 2021"
+    subtitle="Vulnerability Analyst"
+    dates="Winter of 2021"
     url="https://www.google.com/books/edition/C_Programming_Language/Yi5FI5QcdmYC?hl=en&gbpv=0"
-    description="Performed vulnerability analysis on various IOT devices as part of a “winternship” program, including several surveillance cameras and webcams. I discovered and documented various potential weaknesses in the camera firmware."
+    description="Performed vulnerability analysis on various IOT devices as part of a “winternship” program, particularlly a few web cameras by extracting fimware and reverse engineering various binaries."
 >}}
 
 {{< job
-    title="Developer"
+    title="Mantech"
     img="/logos/margin.png"
-    subtitle="Mantech"
-    dates="January 2021 - February 2021"
+    subtitle="Developer"
+    dates="Summer of 2021 and Spring of 2022"
     url="https://www.google.com/books/edition/C_Programming_Language/Yi5FI5QcdmYC?hl=en&gbpv=0"
     description="Performed vulnerability analysis and reverse engineering on network devices. Developed an application in C."
 >}}
 
 {{< job
-    title="Developer"
+    title="Correct Computation"
     img="/logos/margin.png"
-    subtitle="Correct Computation"
-    dates="January 2021 - February 2021"
+    subtitle="Developer"
+    dates="Spring of 2021"
     url="https://www.google.com/books/edition/C_Programming_Language/Yi5FI5QcdmYC?hl=en&gbpv=0"
     description="Worked on binary analysis tools built on top of the BAP (binary analysis platform) framework. Contributed to the Checked-C compiler."
 >}}
@@ -57,7 +85,7 @@ Founder and lead developer of Procedural Audio, which creates novel audio genera
     title="Joint Quantum Institute"
     img="/logos/margin.png"
     subtitle="Research Assistant"
-    dates="January 2021 - February 2021"
+    dates="Summer of 2021"
     url="https://www.google.com/books/edition/C_Programming_Language/Yi5FI5QcdmYC?hl=en&gbpv=0"
     description="Programmed ARTIQ (Advanced Real-Time Infrastructure for Quantum Physics) systems to interface with quantum computing experiements. Implemented a laser intensity stabilization system to laser-cool ions. Developed a custom laser safety interface in python called LAGONA."
 >}}
@@ -65,8 +93,8 @@ Founder and lead developer of Procedural Audio, which creates novel audio genera
 {{< job
     title="UMD AUSS Lab"
     img="/logos/margin.png"
-    subtitle="Correct Computation"
-    dates="January 2021 - February 2021"
+    subtitle="Research Assistant"
+    dates="Summer of 2019"
     url="https://www.google.com/books/edition/C_Programming_Language/Yi5FI5QcdmYC?hl=en&gbpv=0"
     description="Developed a custom platform to teach students about developing secure drone firmware. Completed trainings in soldering, programming, and cloud-based machine learning."
 >}}
@@ -75,7 +103,7 @@ Founder and lead developer of Procedural Audio, which creates novel audio genera
     title="MPLEX VR"
     img="/logos/margin.png"
     subtitle="Technical Artist"
-    dates="January 2021 - February 2021"
+    dates="Summer of 2021"
     url="https://www.google.com/books/edition/C_Programming_Language/Yi5FI5QcdmYC?hl=en&gbpv=0"
     description="Created virtual environments using tools like Unreal Engine 4, Blender, Maya, Substance Painter, and GIMP. Designed particle effects and destruction simulations in Houdini and UE4."
 >}}
@@ -84,10 +112,12 @@ Founder and lead developer of Procedural Audio, which creates novel audio genera
     title="Precision Alliance"
     img="/logos/margin.png"
     subtitle="Web Developer"
-    dates="January 2021 - February 2021"
+    dates="Summer of 2021"
     url="https://www.google.com/books/edition/C_Programming_Language/Yi5FI5QcdmYC?hl=en&gbpv=0"
     description="Contributed to a web application to facilitate the configuration and sale of linear bearings, XY stages, and more. Developed scripts to automatically generate these web pages."
 >}}
+
+{{< timeline_end >}}
 
 ---
 
@@ -122,21 +152,36 @@ Founder and lead developer of Procedural Audio, which creates novel audio genera
 ---
 
 ## Education
-### Degrees
 
-#### {{< icon name="graduation-cap">}} Bachelor's of Science in Computer Science
+{{< timeline_begin >}}
 
-- University of Maryland, College Park
-- Fall 2017 - Winter 2022
-- Minor in ACES (Advanced Cybersecurity Experience for Students)
-- Additional coursework in physics
+{{< job
+    title="MS in Applied Machine Learning"
+    img="/logos/umd.png"
+    subtitle="UMD"
+    dates="Expected in 2025"
+    url="https://www.google.com/books/edition/C_Programming_Language/Yi5FI5QcdmYC?hl=en&gbpv=0"
+    description="Performed vulnerability analysis on various IOT devices as part of a “winternship” program, including several surveillance cameras and webcams. I discovered and documented various potential weaknesses in the camera firmware."
+    label="Selected Coursework"
+    list="CMSC720: Foundations of Deep Learning * MSML610: Deep Learning * MSML603: Principals of Machine Learning"
+>}}
 
-#### {{< icon name="graduation-cap">}} Masters of Professional Studies in Machine Learning
+{{< job
+    title="BS in Computer Science"
+    img="/logos/umd.png"
+    subtitle="UMD"
+    dates="Fall 2017 - Winter 2022"
+    url="https://www.google.com/books/edition/C_Programming_Language/Yi5FI5QcdmYC?hl=en&gbpv=0"
+    description="Performed vulnerability analysis and reverse engineering on network devices. Developed an application in C."
+    label="Selected Coursework"
+    list="HACS408E: Reverse Engineering * HACS408T: Penetration Testing * HACS408L: Digital Forensics * CMSC412: Operating Systems * CMSC414: Computer and Network Security * CMSC417: Computer Networks * CMSC430: Compilers"
+>}}
 
-- University of Maryland, College Park
-- Fall 2023 - Present
+{{< timeline_end >}}
 
-### Certifications
+---
+
+## Certifications
 
 #### {{< icon name="certificate">}} OSCP (Offensive Security Certified Professional)
 
@@ -144,28 +189,29 @@ Founder and lead developer of Procedural Audio, which creates novel audio genera
 - Mastered tools like nmap, metasploit, wireshark, burp suite, john the ripper, etc
 - Completed a 24 hour practical exam that required the exploitation of 3 targets
 
----
+#### {{< icon name="certificate">}} HackTheBox Academy
 
-## Selected Coursework
+- Completed 3 months of penetration testing training in a lab with 50+ targets
+- Mastered tools like nmap, metasploit, wireshark, burp suite, john the ripper, etc
+- Completed a 24 hour practical exam that required the exploitation of 3 targets
 
-### UMD ACES Program
+#### {{< icon name="certificate">}} MalDev Academy
 
-- **HACS408E** (Reverse Engineering): An introduction to software reverse engineering tools and methodologies. Fundamental topics covered: compilers, linkers, loaders, assembly language, as well as static and dynamic analysis tools. This includes computer architecture and low-level systems programming, as well as an introduction to x86_64 assembly language.
+- Completed 3 months of penetration testing training in a lab with 50+ targets
+- Mastered tools like nmap, metasploit, wireshark, burp suite, john the ripper, etc
+- Completed a 24 hour practical exam that required the exploitation of 3 targets
 
-- **HACS408T** (Penetration Testing): A hands-on, technically rigorous experience that prepares students for real-world work in penetration testing and offensive security. This course will allow students to gain proficiency and become comfortable using the tools, techniques, and methodologies that represent the state of the art in penetration testing today.
+#### {{< icon name="certificate">}} RingZer0 Capture the Flag
 
-- **HACS408L** (Digital Forensics): Explores the various fields of digital forensics, such as memory, hard drive, and network traffic analysis. This course covered the legalities involved with forensic investigations and the wide variety of digital forensics tools, including both open source and proprietary.
+- Completed 3 months of penetration testing training in a lab with 50+ targets
+- Mastered tools like nmap, metasploit, wireshark, burp suite, john the ripper, etc
+- Completed a 24 hour practical exam that required the exploitation of 3 targets
 
-### UMD CMNS Department
+#### {{< icon name="certificate">}} CryptoHack
 
-- **CMSC412** (Operating Systems): An in-depth understanding of how an operating system virtualizes computer hardware and provides programmers with a machine and device independent interface. Topics covered includes: pipes, fork, signals, semaphores, CPU scheduling, memory paging, file system, etc.
-
-- **CMSC414** (Computer and Network Security) - An introduction to the topic of security in the context of computer systems and networks. Identify, analyze, and solve network-related security problems in computer systems. Fundamentals of number theory, authentication, and encryption technologies, as well as the related practical problems that have to be solved.
-
-- **CMSC417** (Computer Networks): The goal of this course was to introduce students to the core concepts of wired and wireless networking. The primary focus will be on the layered architecture and the protocol stacks. It teaches students several concepts, including the Internet architecture, HTTP, DNS, P2P, Sockets, TCP/IP, BGP, Routing protocols, wireless and sensor networking, and Wi-Fi.
-
-- **CMSC430** (Compilers): Its major goal was to arm students with the ability to design, implement, and extend a programming language. Throughout the course, students designed and implemented several related languages.
-
+- Completed 3 months of penetration testing training in a lab with 50+ targets
+- Mastered tools like nmap, metasploit, wireshark, burp suite, john the ripper, etc
+- Completed a 24 hour practical exam that required the exploitation of 3 targets
 ---
 
 ## Conferences
@@ -197,11 +243,3 @@ An introductory lecture to the Maryland Center for Women in Computing (MCWIC) on
 Led the design and implementation of a "boot-camp" for people joining the software team of SEDS at the University of Maryland, to introduce them to the skills needed to develop software for satellites.
 
 {{< button href="https://gohugo.io/" icon="download" >}}Course Website{{< /button >}}
-
----
-
-## Other
-
-### UMD Philosophy Club - President
-
-I was president of the UMD philosophy club for 2 years. We had weekly meetings covering topics in philosophy and bi-weekly socials. This experience significantly improved my ability to think methodically, reason clearly, form cogent arguments, lead group discussions, and foster substantive conversations.

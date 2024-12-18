@@ -5,44 +5,34 @@ author:
   name: Chase Kanipe
 theme: custom_2
 defaultContentLanguage: en
-sectionPagesMenu: main
+# sectionPagesMenu: main
 disableSitemap: false
 description: Here is a desciption of something
 taxonomies:
-  category: categories
   tag: tags
+  category: categories
 menu:
   main:
     - identifier: about
       name: About
       url: /about/
       weight: 10
-    - identifier: cv
-      name: CV
-      url: /cv/
+    - identifier: research
+      name: Research
+      url: /research/
       weight: 20
     - identifier: projects
       name: Projects
       url: /projects/
-      weight: 24
+      weight: 30
     - identifier: music
       name: Music
       url: /music/
-      weight: 30
-    - identifier: music2
-      parent: music
-      name: Music2
-      url: /music2/
-      weight: 30
-    - identifier: music3
-      parent: music
-      name: Music3
-      url: /music3/
-      weight: 30
+      weight: 40
     - identifier: blog
       name: Blog
       url: /blog/
-      weight: 40
+      weight: 50
 params:
   homeSubtitle: Graduate Student | Security Researcher | Musician
   portrait:
