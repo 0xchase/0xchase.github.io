@@ -34,19 +34,17 @@ hidden: true
     list="Vulnerability Research * Reverse Engineering * Development * Other"
 >}}
 
+{{< job
+    title="Procedural Audio"
+    img="/logos/lts.jpg"
+    subtitle=""
+    dates="January 2021 - February 2021"
+    url="https://www.google.com/books/edition/C_Programming_Language/Yi5FI5QcdmYC?hl=en&gbpv=0"
+    description="Completed a masters in machine learning with a focus on machine learning and projects in machine learning."
+    list="Vulnerability Research * Reverse Engineering * Development * Other"
+>}}
+
 {{< timeline_end >}}
-
----
-
-## Founded Companies
-
-### Procedural Audio
-
-Founder and lead developer of Procedural Audio, which creates novel audio generation and processing tools for musicians, sound designers, and audio developers.
-
-### Arrow Security
-
-Founder and lead developer of Procedural Audio, which creates novel audio generation and processing tools for musicians, sound designers, and audio developers.
 
 ---
 
