@@ -13,6 +13,8 @@ draft: true
 - Media Composing
 - Modular Synthesis
 
+-->
+
 I compose and produce a hybrid of neo-classical, electronic ambient, and post-rock music. I release music on Bandcamp, Spotify, and Apple Music via the Symphonia distributer..
 
 Write some longish bio about how I became interested in music, how this developed, and more information about what I'm interested in and where I see this work going as I continue to write more music. Say some about my troubles with writing the first album and what it took to overcome those limitations.
@@ -86,8 +88,6 @@ Live stream information goes here.
 ## Studio
 
 Images of studio or video of studio tour goes here.
--->
-
 
 ## Film Scores
 

@@ -17,32 +17,22 @@ menu:
       name: About
       url: /about/
       weight: 10
+    - identifier: research
+      name: Research
+      url: /research/
+      weight: 20
     - identifier: projects
       name: Projects
       url: /projects/
-      weight: 20
-    - identifier: writeups
-      name: Writeups
-      url: /writeups/
-      weight: 25
+      weight: 30
     - identifier: music
       name: Music
       url: /music/
-      weight: 30
-    - identifier: music2
-      parent: music
-      name: Music2
-      url: /music2/
-      weight: 30
-    - identifier: music3
-      parent: music
-      name: Music3
-      url: /music3/
-      weight: 30
+      weight: 40
     - identifier: blog
       name: Blog
       url: /blog/
-      weight: 40
+      weight: 50
 params:
   homeSubtitle: Graduate Student | Security Researcher | Musician
   portrait:
