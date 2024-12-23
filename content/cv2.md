@@ -161,7 +161,7 @@ hidden: true
     url="https://www.google.com/books/edition/C_Programming_Language/Yi5FI5QcdmYC?hl=en&gbpv=0"
     description="Performed vulnerability analysis on various IOT devices as part of a “winternship” program, including several surveillance cameras and webcams. I discovered and documented various potential weaknesses in the camera firmware."
     label="Selected Coursework"
-    list="CMSC720: Foundations of Deep Learning * MSML610: Deep Learning * MSML603: Principals of Machine Learning"
+    list="CMSC720: Foundations of Deep Learning * MSML610: Deep Learning * MSML603: Principals of Machine Learning * MSML601: Probability and Statistics"
 >}}
 
 {{< job
