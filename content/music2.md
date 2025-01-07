@@ -3,25 +3,13 @@ title: Music
 draft: true
 ---
 
+I compose and produce original music that I release to YouTube, Spotify, Apple Music, and Bandcamp.
+My style blends elements of the [neo-classical](https://en.wikipedia.org/wiki/Neoclassicism_(music)), [electronic ambient](https://en.wikipedia.org/wiki/Ambient_music), and [post-rock](https://en.wikipedia.org/wiki/Post-rock) genres. The best way to support this work is to purchase one of my albums on Bandcamp and I'd be happy to hear your feedback over [email](/contact). My musical influences include Olafur Arnalds, Hania Rani, Tony Anderson, Max Richter, Jameson Nathan Jones, and Hans Zimmer.
+
 <!--
-
-## Dropdown Sections
-
-- Studio (pictures)
-- Albums
-- Hybrid Piano
-- Media Composing
-- Modular Synthesis
-
+**Biography**: My musical education began with classical piano lessons during primary school. My most formative experience was as a keyboardist at Southbrook Church as a teenager, where I learned to improvise, play by ear, and was introduced to production and sound design. In college, Terrapin Record Label, etc. 5 years of trial-and-error to find my "sound" and learn violin/guitar.
 -->
 
-I compose and produce a hybrid of neo-classical, electronic ambient, and post-rock music. I release music on Bandcamp, Spotify, and Apple Music via the Symphonia distributer..
-
-Write some longish bio about how I became interested in music, how this developed, and more information about what I'm interested in and where I see this work going as I continue to write more music. Say some about my troubles with writing the first album and what it took to overcome those limitations.
-
-Piano. Started with cinematic music. Guitar and violin.
-
-My musical influences include Olafur Arnalds, Max Richter, Tony Anderson, Jameson Nathan Jones, Explosions in the Sky, and Hans Zimmer.
 
 ## Albums
 
@@ -81,15 +69,22 @@ My musical influences include Olafur Arnalds, Max Richter, Tony Anderson, Jameso
     url="https://www.google.com/books/edition/C_Programming_Language/Yi5FI5QcdmYC?hl=en&gbpv=0"
 >}}
 
-## Live Streams
+<!--
+---
 
-Live stream information goes here.
+## Performances
 
-## Studio
+A paragraph about performance venue's, live streaming information, and more.
 
-Images of studio or video of studio tour goes here.
+{{< youtube KJu412f2yc0 >}}
+
+-->
+
+---
 
 ## Film Scores
+
+Occasionally I will write music to film.
 
 ### Westworld Scoring Competition
 
@@ -105,6 +100,6 @@ This is a score I wrote for a video produced by Southbrook Church. The version b
 
 ---
 
-## Piano
+## Studio
 
-{{< youtube KJu412f2yc0 >}}
+Pictures of the studio (like on Tony's website).
