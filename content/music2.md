@@ -3,15 +3,21 @@ title: Music
 draft: true
 ---
 
-I compose and produce original music that I release to YouTube, Spotify, Apple Music, and Bandcamp.
-My style blends elements of the [neo-classical](https://en.wikipedia.org/wiki/Neoclassicism_(music)), [electronic ambient](https://en.wikipedia.org/wiki/Ambient_music), and [post-rock](https://en.wikipedia.org/wiki/Post-rock) genres. The best way to support this work is to purchase one of my albums on Bandcamp and I'd be happy to hear your feedback over [email](/contact). My musical influences include Olafur Arnalds, Hania Rani, Tony Anderson, Max Richter, Jameson Nathan Jones, and Hans Zimmer.
+Sometimes I cause air molecule collisions that are pleasing to the ear. Their digital representation can be accessed on YouTube, Spotify, or Bandcamp. My style blends elements of the [neo-classical](https://en.wikipedia.org/wiki/Neoclassicism_(music)), [electronic ambient](https://en.wikipedia.org/wiki/Ambient_music), and [post-rock](https://en.wikipedia.org/wiki/Post-rock) genres. The best way to support this work is to purchase one of my albums on Bandcamp and I'd be happy to hear your feedback over [email](/contact). My influences include Olafur Arnalds, Hania Rani, Tony Anderson, Max Richter, Vaudlow, and Hans Zimmer.
 
 <!--
 **Biography**: My musical education began with classical piano lessons during primary school. My most formative experience was as a keyboardist at Southbrook Church as a teenager, where I learned to improvise, play by ear, and was introduced to production and sound design. In college, Terrapin Record Label, etc. 5 years of trial-and-error to find my "sound" and learn violin/guitar.
 -->
 
-
 ## Albums
+
+Albums below. 
+
+Modern music encourages shallow relationship to individual songs.
+
+Albums encode additional narrative structure.
+
+I'd encourage you to listen to them end-to-end.
 
 {{< album
     title="First Album"
@@ -32,6 +38,8 @@ My style blends elements of the [neo-classical](https://en.wikipedia.org/wiki/Ne
 >}}
 
 ## Singles 
+
+These stand on their own.
 
 {{< album
     title="Thrid Album"
@@ -82,6 +90,12 @@ A paragraph about performance venue's, live streaming information, and more.
 
 ---
 
+## Performances
+
+Occasionally I reproduce these pressure waves in real-time for an audience.
+
+---
+
 ## Film Scores
 
 Occasionally I will write music to film.
@@ -102,4 +116,6 @@ This is a score I wrote for a video produced by Southbrook Church. The version b
 
 ## Studio
 
-Pictures of the studio (like on Tony's website).
+I'm aided in perturbing the air by a variety of contraptions. These are documented or depicted below.
+
+Pictures of the studio (like on Tony's website or Rani interview).

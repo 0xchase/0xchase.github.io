@@ -6,7 +6,7 @@ hidden: true
 
 **Summary**: Graduate of the University of Maryland with experience in vulnerability research, reverse engineering, software development, digital signal processing, and more. I prefer research-oriented work that utilizes, analyzes, or contributes to emerging technologies.
 
-## Interests
+<!--## Interests
 
 - **Cybersecurity**: Reverse engineering, binary exploitation, cryptography, symbolic execution
 - **Computer Science**: Programming, compilers, machine learning, operating system internals
@@ -17,20 +17,20 @@ hidden: true
 - **Economics**: The great recession, monetary policy, trade imbalances
 - **Music**: Piano, acoustic guitar, electric guitar, desktop synthesizers, pedalboards
 - **VFX**: Unreal Engine 5, Blender 3D, Houdini
-
----
+-->
 
 ## Work Experience
 
 {{< timeline_begin >}}
 
 {{< job
-    title="Department of Defense"
+    title="Laboratory for Telecommunication Sciences"
     img="/logos/lts.jpg"
     subtitle=""
-    dates="January 2021 - February 2021"
+    dates="January 2021 - Present"
     url="https://www.google.com/books/edition/C_Programming_Language/Yi5FI5QcdmYC?hl=en&gbpv=0"
     description="Completed a masters in machine learning with a focus on machine learning and projects in machine learning."
+    label="Selected Responsibilities"
     list="Vulnerability Research * Reverse Engineering * Development * Other"
 >}}
 
@@ -38,13 +38,32 @@ hidden: true
     title="Procedural Audio"
     img="/logos/lts.jpg"
     subtitle=""
-    dates="January 2021 - February 2021"
+    dates="January 2021 - Present"
     url="https://www.google.com/books/edition/C_Programming_Language/Yi5FI5QcdmYC?hl=en&gbpv=0"
     description="Completed a masters in machine learning with a focus on machine learning and projects in machine learning."
+    label="Selected Responsibilities"
     list="Vulnerability Research * Reverse Engineering * Development * Other"
 >}}
 
 {{< timeline_end >}}
+
+## Internship Experience
+
+<!-- Ignore
+Margin Research
+Precision Alliance
+-->
+
+Mantech
+Correct Computation
+MPLEX VR
+
+<!-- Research
+Joint Quantum Institute
+Autonomous Unmanned Systems Lab
+-->
+
+<!--
 
 ---
 
@@ -117,21 +136,29 @@ hidden: true
 
 {{< timeline_end >}}
 
----
+-->
 
-## Skills
-- **Programming (Fluent)**: Rust, C++, C, Dart, Python, Java
-- **Programming (Proficient)**: x86 and ARM assembly, OCaml, Ruby, Racket, Javascript
-- **Static Analysis**: Radare2/Rizin, Ghidra, BinaryNinja, IDA Pro, Capstone
-- **Debugging**: x64dbg, WinDbg, GDB
+## Technical Skills
+
+- **Programming**: Rust, C++, C, Dart, Python, Java, x86/ARM assembly, Javascript
+- **Reverse Engineering**: Radare2, Ghidra, BinaryNinja, IDA Pro, x64dbg, GDB, Angr
 - **Penetration Testing**: Metasploit, Nmap, Wireshark, Burp Suite, etc
-- **Symbolic Execution**: Angr, BAP
-- **Fuzzing**: AFL
-- **Forensics**: Volatility, Binwalk
-- **VFX**: Unreal Engine 5, Blender 3D, GIMP, Substance Painter
-- **Version Control**: Git, Subversion
+- **App Frameworks**: Flutter, JUCE, NextJS
+- **Visual Effects**: Unreal Engine 5, Blender 3D, Lightroom, Substance Painter
 
----
+## Certifications
+
+{{< certs_begin >}}
+    {{< cert name="OSCP" icon="" link="" >}}
+    {{< cert name="MalDev" icon="" link="" >}}
+    {{< cert name="RingZer0" icon="" link="" >}}
+    {{< cert name="CryptoHack" icon="" link="" >}}
+    {{< cert name="CPTS" icon="" link="" >}}
+    {{< cert name="CBBH" icon="" link="" >}}
+    {{< cert name="CDSA" icon="" link="" >}}
+    {{< cert name="CWEE" icon="" link="" >}}
+    {{< cert name="CAPE" icon="" link="" >}}
+{{< certs_end >}}
 
 ## Presentations
 
@@ -147,7 +174,19 @@ hidden: true
 
 {{< youtube F35El30Jj80 >}}
 
----
+<!-- ### {{< icon name="book">}} MCWIC: Algorithmic Music Generation (2020)
+
+An introductory lecture to the Maryland Center for Women in Computing (MCWIC) on how techniques like markov models and recurrent neural networks can facilitate music generation.
+
+{{< button href="https://gohugo.io/" icon="download" >}}Course Website{{< /button >}}
+
+### {{< icon name="book">}} SEDS: Programming for Satellites (2020)
+
+Led the design and implementation of a "boot-camp" for people joining the software team of SEDS at the University of Maryland, to introduce them to the skills needed to develop software for satellites.
+
+{{< button href="https://gohugo.io/" icon="download" >}}Course Website{{< /button >}}
+
+-->
 
 ## Education
 
@@ -177,67 +216,16 @@ hidden: true
 
 {{< timeline_end >}}
 
----
-
-## Certifications
-
-#### {{< icon name="certificate">}} OSCP (Offensive Security Certified Professional)
-
-- Completed 3 months of penetration testing training in a lab with 50+ targets
-- Mastered tools like nmap, metasploit, wireshark, burp suite, john the ripper, etc
-- Completed a 24 hour practical exam that required the exploitation of 3 targets
-
-#### {{< icon name="certificate">}} HackTheBox Academy
-
-- Completed 3 months of penetration testing training in a lab with 50+ targets
-- Mastered tools like nmap, metasploit, wireshark, burp suite, john the ripper, etc
-- Completed a 24 hour practical exam that required the exploitation of 3 targets
-
-#### {{< icon name="certificate">}} MalDev Academy
-
-- Completed 3 months of penetration testing training in a lab with 50+ targets
-- Mastered tools like nmap, metasploit, wireshark, burp suite, john the ripper, etc
-- Completed a 24 hour practical exam that required the exploitation of 3 targets
-
-#### {{< icon name="certificate">}} RingZer0 Capture the Flag
-
-- Completed 3 months of penetration testing training in a lab with 50+ targets
-- Mastered tools like nmap, metasploit, wireshark, burp suite, john the ripper, etc
-- Completed a 24 hour practical exam that required the exploitation of 3 targets
-
-#### {{< icon name="certificate">}} CryptoHack
-
-- Completed 3 months of penetration testing training in a lab with 50+ targets
-- Mastered tools like nmap, metasploit, wireshark, burp suite, john the ripper, etc
-- Completed a 24 hour practical exam that required the exploitation of 3 targets
----
-
-## Conferences
-
-- **ADC**: Audio developer conference, Fall 2022
-- **r2con**: Radare2 Conference, Fall 2020
-- **NACTI**: North American Conference on Trapped Ions, Spring 2019
-- **MAVRIC**: Mixed/Augmented/Virtual Reality Innovation Center Conference, Spring 2019
-- **AIAA**: American Institute of Aeronautics and Astronautics, Winter 2019
-
----
-
 ## Teaching
+
+### {{< icon name="book">}} HACS408E: Applied Reverse Engineering (2024)
+
+An upper-level software reverse engineering course at the University of Maryland. Topics covered include assembly language, executable file formats, operating system internals, and the static/dynamic analysis of compiled binaries. Students apply these concepts to real-world scenarios like malware analysis and vulnerability analysis with interactive labs, at-home assignments, and a final project.
+
+
 
 ### {{< icon name="book">}} CMSC388Z: Programming in Rust (2021)
 
 A semester-long course at the University of Maryland on the Rust programming language. The course followed the rust book, and I was the primary lecturer for one of the sections, in addition to designing and grading the course assignments with another facilitator. The course syllabus can be found on the [course website](https://www.cs.umd.edu/class/fall2021/cmsc388Z/).
-
-{{< button href="https://gohugo.io/" icon="download" >}}Course Website{{< /button >}}
-
-### {{< icon name="book">}} MCWIC: Algorithmic Music Generation (2020)
-
-An introductory lecture to the Maryland Center for Women in Computing (MCWIC) on how techniques like markov models and recurrent neural networks can facilitate music generation.
-
-{{< button href="https://gohugo.io/" icon="download" >}}Course Website{{< /button >}}
-
-### {{< icon name="book">}} SEDS: Programming for Satellites (2020)
-
-Led the design and implementation of a "boot-camp" for people joining the software team of SEDS at the University of Maryland, to introduce them to the skills needed to develop software for satellites.
 
 {{< button href="https://gohugo.io/" icon="download" >}}Course Website{{< /button >}}
