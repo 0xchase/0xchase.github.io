@@ -13,9 +13,11 @@
 
         <article>
             <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
-            <div class="post-meta">
-                {{- partial "post_meta.html" . -}}
-            </div>
+            {{- if (.Param "ShowMeta") }}
+                <div class="post-meta">
+                    {{- partial "post_meta.html" . -}}
+                </div>
+            {{- end }}
 
             {{ if .Params.Cover }}
                 <figure class="post-cover">

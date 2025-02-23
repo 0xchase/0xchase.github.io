@@ -1,11 +1,8 @@
 baseURL: https://example.org/
 languageCode: en-us
 title: Chase Kanipe
-author:
-  name: Chase Kanipe
 theme: custom_2
 defaultContentLanguage: en
-# sectionPagesMenu: main
 disableSitemap: false
 description: Here is a desciption of something
 taxonomies:
@@ -34,6 +31,8 @@ menu:
       url: /blog/
       weight: 50
 params:
+  author:
+    name: Chase Kanipe
   homeSubtitle: Graduate Student | Security Researcher | Musician
   portrait:
     path: "/images/doors.jpg"
@@ -81,6 +80,8 @@ params:
       url: https://spotify.com
     - name: reddit
       url: https://www.reddit.com/user/chase1635321
+    - name: substack
+      url: https://www.chasekanipe.substack.com
   footer:
     author: true
     trademark: 2023

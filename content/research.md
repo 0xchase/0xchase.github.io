@@ -3,7 +3,9 @@ title: Research
 draft: false
 ---
 
-Coming soon :)
+I've recently started research under Dave Levin's group at the University of Maryland. 
+
+Hopefully publications will follow.
 
 <!--Hello 👋 Welcome to my projects page.
 

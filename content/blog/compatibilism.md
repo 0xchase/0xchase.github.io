@@ -6,6 +6,7 @@ draft: true
 # toc: true
 showReadingTime: true
 showWordCount: true
+showMeta: true
 tags: ["Philosophy", "Free Will"]
 cover: /images/doors.jpg
 ---

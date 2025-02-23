@@ -1,0 +1,5 @@
+{{ if .Get "active" }}
+    <div id='{{ .Get "name" }}' class="tabcontent active">
+{{ else }}
+    <div id='{{ .Get "name" }}' class="tabcontent">
+{{ end }}

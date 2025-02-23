@@ -4,6 +4,7 @@ date: 2022-07-05T00:00:02-04:00
 draft: false
 showToc: true
 showReadingTime: true
+showMeta: true
 tags: ["Philosophy"]
 ---
 

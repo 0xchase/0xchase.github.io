@@ -1,0 +1,31 @@
+{{ if .Get "list" }}
+    <script>
+        function openTab(evt, cityName) {
+            var i, tabcontent, tablinks;
+
+            cityName = cityName.trim();
+
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+
+    <div class="tab">
+        {{- $list := .Get "list" -}}
+        {{ range $item := split $list "* " }}
+            {{ if eq $item (index (split $list "* ") 0) }}
+                <button class="tablinks active" onclick="openTab(event, '{{ $item }}')">{{ $item }}</button>
+            {{ else }}
+                <button class="tablinks" onclick="openTab(event, '{{ $item }}')">{{ $item }}</button>
+            {{ end }}
+        {{ end }}
+    </div>
+{{ end }}

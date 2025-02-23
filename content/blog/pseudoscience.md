@@ -6,6 +6,7 @@ draft: false
 # toc: true
 showReadingTime: true
 showWordCount: true
+showMeta: true
 tags: ["Pseudoscience"]
 cover: /images/math-1.jpg
 ---
